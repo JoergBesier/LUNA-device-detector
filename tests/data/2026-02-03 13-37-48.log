@@ -1,0 +1,1864 @@
+�[5231.407] [SLEEP] Waked up from Deep-sleep S(5231404)-W(5231404)-R(5231407)
+[5231.415] Current time: 26/02/03 13:37:37
+[5231.420] watchdog_feed>>>
+
+[5231.424] thd_onwake_callback
+[5231.500] thd_detect_write_handler last_sample_time = 5231
+[5231.603] temp_humid_sample: 2026-2-3 13:37:37, temp: 25.2, humid: 79%
+[5232.000] Current time: 26/02/03 13:37:37
+��[5232.007] [SLEEP] Waked up from Deep-sleep S(5232004)-W(5232004)-R(5232007)
+[5232.015] Current time: 26/02/03 13:37:48
+[5232.020] watchdog_feed>>>
+
+[5232.024] thd_onwake_callback
+[5232.100] thd_detect_write_handler last_sample_time = 5232
+[5232.203] temp_humid_sample: 2026-2-3 13:37:48, temp: 25.6, humid: 81%
+[5232.600] Current time: 26/02/03 13:37:48
+��[5232.607] [SLEEP] Waked up from Deep-sleep S(5232604)-W(5232604)-R(5232607)
+[5232.615] Current time: 26/02/03 13:37:59
+[5232.620] watchdog_feed>>>
+
+[5232.624] thd_onwake_callback
+[5232.800] thd_detect_write_handler last_sample_time = 5232
+[5232.903] temp_humid_sample: 2026-2-3 13:37:59, temp: 26.0, humid: 81%
+[5232.910] current_event.valid = true avg_humid=433 [latest_idx].humidity=810 [prev1_idx].humidity=810 
+[5232.920] [prev2_idx].humidity=790 start=1770097057 end=1770097079 rtcTS=1770097079
+[5232.930] change_last_prev1=0 change_prev1_prev2=20 refer_humid_stable=20
+[5232.937] msg mask:0x04, type:2
+[5232.941] Net_Event_Notify
+[5232.944] event EVT_URINE notify ok
+[5233.001] get msg_type(2)
+[5233.004] cmd=0111
+[5233.006] config_get type:0, addr:P(60), len:28
+[5233.011] >>>>stable_temp(236)
+[5233.015] >>>>stable_humid(350)
+[5233.018] >>>>>start(1770097057), end(1770097079)
+[5233.024] mid(25), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 19 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 35 69 81 89 B7 08 10 11 01    
+0020: 01 10 01 02 00 0A 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 EC 10 05 02 01 5E 10 12 08 69    
+0040: 81 89 A1 69 81 89 B7 3B 54                         
+[5233.061] 
+List (size=1): 
+[5233.070] [T(0),L(73),F(25), 480049100119800111353132303235313132363030303835698189B70810110101100102000A100201621003010410080
+[5233.082] NULL
+
+[5234.000] SEND NEW >>>>T(0), FrameID(25), Len(73)
+[5236.240] Module Power On!(5234)
+[5236.243] [led_mask_set] mask(0001)
+[5236.580] cb(7), data(
+RDY
+), all recv(0)
+[5238.010] cb(11), data(
+APP RDY
+), all recv(7)
+[5238.015] Module Ready!
+[5238.030] atcmd_send(6), data(ATE0
+)
+[5238.090] cb(11), data(ATE0
+OK
+), all recv(7)
+[5238.150] atcmd_send(11), data(AT+CFUN=1
+)
+[5238.210] cb(6), data(
+OK
+), all recv(0)
+[5238.240] atcmd_send(11), data(AT+CFUN=1
+)
+[5238.300] cb(6), data(
+OK
+), all recv(0)
+[5238.330] atcmd_send(11), data(AT+CEREG?
+)
+[5238.390] cb(21), data(
++CEREG: 0,1
+
+OK
+), all recv(0)
+[5238.420] atcmd_send(12), data(AT+CGATT=1
+)
+[5238.480] cb(6), data(
+OK
+), all recv(0)
+[5238.510] atcmd_send(11), data(AT+CGATT?
+)
+[5238.570] cb(19), data(
++CGATT: 1
+
+OK
+), all recv(0)
+[5238.576] cgatt(1)
+[5238.600] atcmd_send(8), data(AT+CSQ
+)
+[5238.660] cb(21), data(
++CSQ: 99,99
+
+OK
+), all recv(0)
+[5238.666] +CSQ:99,99
+[5238.690] atcmd_send(10), data(AT+CCLK?
+)
+[5238.750] cb(39), data(
++CCLK: "26/02/03,12:38:10+04"
+
+OK
+), all recv(0)
+[5238.758] 26/2/3 12:38:10 tz(+4)
+[5238.762] 2026/2/3 13:38:10
+[5238.766] ** RTC time configuration success! **
+[5238.770] Current time: 26/02/03 13:38:10
+[5238.775] [led_mask_set] mask(0000)
+[5238.779] [led_mask_set] mask(0002)
+[5238.810] atcmd_send(12), data(AT+QIACT=1
+)
+[5238.870] cb(6), data(
+OK
+), all recv(0)
+[5238.875] 0
+[5238.900] (53) AT+QIOPEN=1,0,"TCP","socket.curaluna.top",28081,0,0
+
+[5238.907] atcmd_send(53), data(AT+QIOPEN=1,0,"TCP","socket.curaluna.top",28081,0,0
+)
+[5238.970] cb(6), data(
+OK
+), all recv(0)
+[5239.560] cb(16), data(
++QIOPEN: 0,0
+), all recv(6)
+[5239.565] +QIOPEN: 0,0 [connect_id=0]
+[5239.570] Login ok!
+[5239.625] atcmd_send(164), data(AT+QISENDEX=0,"480049100119800111353132303235313132363030303835698189B70810110101100102000A100
+[5239.710] cb(11), data(
+SEND OK
+), all recv(0)
+[5239.715] SEND ok!
+[5239.970] cb(20), data(
++QIURC: "recv",0
+), all recv(0)
+[5239.976] ncache(1)
+[5240.000] watchdog_feed>>>
+
+[5240.010] (15) AT+QIRD=0,500
+
+[5240.013] atcmd_send(15), data(AT+QIRD=0,500
+)
+[5240.080] cb(91), data(
++QIRD: 70
+4800231001190001113531323032353131323630303038356981ec3401105001000954
+
+OK
+), all recv(
+[5240.100] len(70)
+[5240.102] 140: data=4800231001190001113531323032353131323630303038356981ec3401105001000954
+
+OK
+
+[5240.112] Len(35), Mid(25), Ctrl(00), CMD(0111)
+[5240.117] TS(1770122292),
+[5240.121] Handle CMD(0111)
+[5240.124] [respond]:RspMid(-1), CTL(00), CMD(0111), TS(1770122292)
+[5240.131] respond result(0)
+[5240.134] Read ok!, n(0)
+[5240.500] WAIT0 delete ret=0
+[5242.100] thd_detect_write_handler last_sample_time = 5242
+[5242.203] temp_humid_sample: 2026-2-3 13:38:13, temp: 26.2, humid: 81%
+[5243.001] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5243.011] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5243.016] charger(4), level(98)
+[5250.000] watchdog_feed>>>
+
+[5252.100] thd_detect_write_handler last_sample_time = 5252
+[5252.203] temp_humid_sample: 2026-2-3 13:38:23, temp: 26.5, humid: 81%
+[5255.001] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5255.011] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5255.016] charger(4), level(98)
+[5260.000] watchdog_feed>>>
+
+[5262.100] thd_detect_write_handler last_sample_time = 5262
+[5262.203] temp_humid_sample: 2026-2-3 13:38:33, temp: 26.8, humid: 80%
+[5262.210] current_event.valid = true avg_humid=501 [latest_idx].humidity=800 [prev1_idx].humidity=810 
+[5262.220] [prev2_idx].humidity=810 start=1770097093 end=1770097113 rtcTS=1770097113
+[5262.230] change_last_prev1=-10 change_prev1_prev2=0 refer_humid_stable=20
+[5262.237] msg mask:0x04, type:2
+[5262.241] Net_Event_Notify
+[5262.244] event EVT_URINE notify ok
+[5262.249] get msg_type(2)
+[5262.252] cmd=0111
+[5262.255] config_get type:0, addr:P(60), len:28
+[5262.260] >>>>stable_temp(236)
+[5262.263] >>>>stable_humid(350)
+[5262.267] >>>>>start(1770097093), end(1770097113)
+[5262.273] mid(26), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 1A 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 35 69 81 89 D9 08 10 11 01    
+0020: 01 10 01 02 00 0A 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 EC 10 05 02 01 5E 10 12 08 69    
+0040: 81 89 C5 69 81 89 D9 A4 54                         
+[5262.310] 
+List (size=1): 
+[5262.318] [T(0),L(73),F(26), 48004910011A800111353132303235313132363030303835698189D90810110101100102000A100201621003010410080
+[5262.330] NULL
+
+[5263.001] SEND NEW >>>>T(0), FrameID(26), Len(73)
+[5263.055] atcmd_send(164), data(AT+QISENDEX=0,"48004910011A800111353132303235313132363030303835698189D90810110101100102000A100
+[5263.140] cb(11), data(
+SEND OK
+), all recv(0)
+[5263.145] SEND ok!
+[5263.630] cb(20), data(
++QIURC: "recv",0
+), all recv(0)
+[5263.636] ncache(1)
+[5263.680] (15) AT+QIRD=0,500
+
+[5263.683] atcmd_send(15), data(AT+QIRD=0,500
+)
+[5263.750] cb(91), data(
++QIRD: 70
+48002310011a0001113531323032353131323630303038356981ec4c01105001002254
+
+OK
+), all recv(
+[5263.770] len(70)
+[5263.772] 140: data=48002310011a0001113531323032353131323630303038356981ec4c01105001002254
+
+OK
+
+[5263.782] Len(35), Mid(26), Ctrl(00), CMD(0111)
+[5263.787] TS(1770122316),
+[5263.791] Handle CMD(0111)
+[5263.794] [respond]:RspMid(-1), CTL(00), CMD(0111), TS(1770122316)
+[5263.801] respond result(0)
+[5263.804] Read ok!, n(0)
+[5264.000] WAIT0 delete ret=0
+[5266.601] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5266.611] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5266.616] charger(4), level(98)
+[5270.000] watchdog_feed>>>
+
+[5272.100] thd_detect_write_handler last_sample_time = 5272
+[5272.203] temp_humid_sample: 2026-2-3 13:38:43, temp: 27.0, humid: 80%
+[5278.601] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5278.611] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5278.616] charger(4), level(98)
+[5280.000] watchdog_feed>>>
+
+[5282.100] thd_detect_write_handler last_sample_time = 5282
+[5282.203] temp_humid_sample: 2026-2-3 13:38:53, temp: 27.3, humid: 79%
+[5290.001] watchdog_feed>>>
+
+[5290.601] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5290.611] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5290.616] charger(4), level(98)
+[5292.100] thd_detect_write_handler last_sample_time = 5292
+[5292.203] temp_humid_sample: 2026-2-3 13:39:3, temp: 27.5, humid: 78%
+[5292.210] current_event.valid = true avg_humid=568 [latest_idx].humidity=780 [prev1_idx].humidity=790 
+[5292.220] [prev2_idx].humidity=800 start=1770097123 end=1770097143 rtcTS=1770097143
+[5292.230] change_last_prev1=-10 change_prev1_prev2=-10 refer_humid_stable=20
+[5292.238] msg mask:0x04, type:2
+[5292.241] Net_Event_Notify
+[5292.244] event EVT_URINE notify ok
+[5292.401] get msg_type(2)
+[5292.404] cmd=0111
+[5292.406] config_get type:0, addr:P(60), len:28
+[5292.412] >>>>stable_temp(236)
+[5292.415] >>>>stable_humid(350)
+[5292.419] >>>>>start(1770097123), end(1770097143)
+[5292.425] mid(27), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 1B 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 35 69 81 89 F7 08 10 11 01    
+0020: 01 10 01 02 00 0A 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 EC 10 05 02 01 5E 10 12 08 69    
+0040: 81 89 E3 69 81 89 F7 FF 54                         
+[5292.461] 
+List (size=1): 
+[5292.470] [T(0),L(73),F(27), 48004910011B800111353132303235313132363030303835698189F70810110101100102000A100201621003010410080
+[5292.482] NULL
+
+[5293.000] SEND NEW >>>>T(0), FrameID(27), Len(73)
+[5293.055] atcmd_send(164), data(AT+QISENDEX=0,"48004910011B800111353132303235313132363030303835698189F70810110101100102000A100
+[5293.140] cb(11), data(
+SEND OK
+), all recv(0)
+[5293.145] SEND ok!
+[5293.570] cb(20), data(
++QIURC: "recv",0
+), all recv(0)
+[5293.576] ncache(1)
+[5293.620] (15) AT+QIRD=0,500
+
+[5293.623] atcmd_send(15), data(AT+QIRD=0,500
+)
+[5293.690] cb(91), data(
++QIRD: 70
+48002310011b0001113531323032353131323630303038356981ec6a01105001004154
+
+OK
+), all recv(
+[5293.710] len(70)
+[5293.712] 140: data=48002310011b0001113531323032353131323630303038356981ec6a01105001004154
+
+OK
+
+[5293.722] Len(35), Mid(27), Ctrl(00), CMD(0111)
+[5293.727] TS(1770122346),
+[5293.731] Handle CMD(0111)
+[5293.734] [respond]:RspMid(-1), CTL(00), CMD(0111), TS(1770122346)
+[5293.741] respond result(0)
+[5293.744] Read ok!, n(0)
+[5294.000] WAIT0 delete ret=0
+[5300.000] watchdog_feed>>>
+
+[5302.100] thd_detect_write_handler last_sample_time = 5302
+[5302.203] temp_humid_sample: 2026-2-3 13:39:13, temp: 27.6, humid: 78%
+[5302.212] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5302.221] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5302.227] charger(4), level(98)
+[5310.001] watchdog_feed>>>
+
+[5312.100] thd_detect_write_handler last_sample_time = 5312
+[5312.203] temp_humid_sample: 2026-2-3 13:39:22, temp: 27.8, humid: 77%
+[5314.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5314.211] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5314.216] charger(4), level(98)
+[5320.000] watchdog_feed>>>
+
+[5322.100] thd_detect_write_handler last_sample_time = 5322
+[5322.203] temp_humid_sample: 2026-2-3 13:39:32, temp: 28.0, humid: 77%
+[5322.210] current_event.valid = true avg_humid=632 [latest_idx].humidity=770 [prev1_idx].humidity=770 
+[5322.220] [prev2_idx].humidity=780 start=1770097153 end=1770097172 rtcTS=1770097172
+[5322.230] change_last_prev1=0 change_prev1_prev2=-10 refer_humid_stable=20
+[5322.237] msg mask:0x04, type:2
+[5322.241] Net_Event_Notify
+[5322.244] event EVT_URINE notify ok
+[5322.601] get msg_type(2)
+[5322.604] cmd=0111
+[5322.607] config_get type:0, addr:P(60), len:28
+[5322.612] >>>>stable_temp(236)
+[5322.615] >>>>stable_humid(350)
+[5322.619] >>>>>start(1770097153), end(1770097172)
+[5322.625] mid(28), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 1C 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 35 69 81 8A 15 08 10 11 01    
+0020: 01 10 01 02 00 0A 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 EC 10 05 02 01 5E 10 12 08 69    
+0040: 81 8A 01 69 81 8A 14 5C 54                         
+[5322.662] 
+List (size=1): 
+[5322.670] [T(0),L(73),F(28), 48004910011C80011135313230323531313236303030383569818A150810110101100102000A100201621003010410080
+[5322.682] NULL
+
+[5323.050] (14) AT+QICLOSE=0
+
+[5323.053] atcmd_send(14), data(AT+QICLOSE=0
+)
+[5323.500] SEND NEW >>>>T(0), FrameID(28), Len(73)
+[5324.130] cb(6), data(
+OK
+), all recv(0)
+[5324.160] atcmd_send(14), data(AT+QIDEACT=1
+)
+[5324.220] cb(6), data(
+OK
+), all recv(0)
+[5324.250] atcmd_send(12), data(AT+QPOWD=0
+)
+[5324.310] cb(22), data(
+OK
+
+POWERED DOWN
+), all recv(0)
+[5324.316] Logout-> Lowpower
+[5325.801] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5325.811] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5325.816] charger(4), level(98)
+[5328.120] Module Power Off!
+[5328.123] [led_mask_set] mask(0002)
+[5328.126] [led_mask_set] mask(0000)
+[5328.580] Module Power On!(5328)
+[5328.583] [led_mask_set] mask(0001)
+[5328.589] cb(7), data(
+RDY
+), all recv(0)
+[5329.990] cb(11), data(
+APP RDY
+), all recv(7)
+[5329.995] Module Ready!
+[5330.000] watchdog_feed>>>
+
+[5330.010] atcmd_send(6), data(ATE0
+)
+[5330.070] cb(11), data(ATE0
+OK
+), all recv(7)
+[5330.100] atcmd_send(11), data(AT+CFUN=1
+)
+[5330.160] cb(6), data(
+OK
+), all recv(0)
+[5330.190] atcmd_send(11), data(AT+CFUN=1
+)
+[5330.250] cb(6), data(
+OK
+), all recv(0)
+[5330.280] atcmd_send(11), data(AT+CEREG?
+)
+[5330.340] cb(21), data(
++CEREG: 0,1
+
+OK
+), all recv(0)
+[5330.370] atcmd_send(12), data(AT+CGATT=1
+)
+[5330.430] cb(6), data(
+OK
+), all recv(0)
+[5330.460] atcmd_send(11), data(AT+CGATT?
+)
+[5330.520] cb(19), data(
++CGATT: 1
+
+OK
+), all recv(0)
+[5330.526] cgatt(1)
+[5330.550] atcmd_send(8), data(AT+CSQ
+)
+[5330.610] cb(21), data(
++CSQ: 99,99
+
+OK
+), all recv(0)
+[5330.640] +CSQ:99,99
+[5330.670] atcmd_send(10), data(AT+CCLK?
+)
+[5330.730] cb(39), data(
++CCLK: "26/02/03,12:39:42+04"
+
+OK
+), all recv(0)
+[5330.738] 26/2/3 12:39:42 tz(+4)
+[5330.742] 2026/2/3 13:39:42
+[5330.746] ** RTC time configuration success! **
+[5330.750] Current time: 26/02/03 13:39:42
+[5330.755] [led_mask_set] mask(0000)
+[5330.759] [led_mask_set] mask(0002)
+[5330.790] atcmd_send(12), data(AT+QIACT=1
+)
+[5330.850] cb(6), data(
+OK
+), all recv(0)
+[5330.855] 0
+[5330.880] (53) AT+QIOPEN=1,0,"TCP","socket.curaluna.top",28081,0,0
+
+[5330.887] atcmd_send(53), data(AT+QIOPEN=1,0,"TCP","socket.curaluna.top",28081,0,0
+)
+[5330.950] cb(6), data(
+OK
+), all recv(0)
+[5331.880] cb(16), data(
++QIOPEN: 0,0
+), all recv(6)
+[5331.900] +QIOPEN: 0,0 [connect_id=0]
+[5331.904] Login ok!
+[5331.965] atcmd_send(164), data(AT+QISENDEX=0,"48004910011C80011135313230323531313236303030383569818A150810110101100102000A100
+[5332.050] cb(11), data(
+SEND OK
+), all recv(0)
+[5332.055] SEND ok!
+[5332.100] thd_detect_write_handler last_sample_time = 5332
+[5332.203] temp_humid_sample: 2026-2-3 13:39:43, temp: 28.1, humid: 76%
+[5332.270] cb(20), data(
++QIURC: "recv",0
+), all recv(0)
+[5332.276] ncache(1)
+[5332.320] (15) AT+QIRD=0,500
+
+[5332.323] atcmd_send(15), data(AT+QIRD=0,500
+)
+[5332.390] cb(91), data(
++QIRD: 70
+48002310011c0001113531323032353131323630303038356981ec9001105001006854
+
+OK
+), all recv(
+[5332.410] len(70)
+[5332.412] 140: data=48002310011c0001113531323032353131323630303038356981ec9001105001006854
+
+OK
+
+[5332.422] Len(35), Mid(28), Ctrl(00), CMD(0111)
+[5332.427] TS(1770122384),
+[5332.431] Handle CMD(0111)
+[5332.434] [respond]:RspMid(-1), CTL(00), CMD(0111), TS(1770122384)
+[5332.441] respond result(0)
+[5332.444] Read ok!, n(0)
+[5332.500] WAIT0 delete ret=0
+[5339.801] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5339.811] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5339.816] charger(4), level(98)
+[5340.000] watchdog_feed>>>
+
+[5342.100] thd_detect_write_handler last_sample_time = 5342
+[5342.203] temp_humid_sample: 2026-2-3 13:39:53, temp: 28.2, humid: 76%
+[5350.000] watchdog_feed>>>
+
+[5351.801] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5351.811] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5351.816] charger(4), level(98)
+[5352.100] thd_detect_write_handler last_sample_time = 5352
+[5352.203] temp_humid_sample: 2026-2-3 13:40:3, temp: 28.3, humid: 75%
+[5352.210] current_event.valid = true avg_humid=695 [latest_idx].humidity=750 [prev1_idx].humidity=760 
+[5352.220] [prev2_idx].humidity=760 start=1770097183 end=1770097203 rtcTS=1770097203
+[5352.230] change_last_prev1=-10 change_prev1_prev2=0 refer_humid_stable=20
+[5352.237] msg mask:0x04, type:2
+[5352.241] Net_Event_Notify
+[5352.244] event EVT_URINE notify ok
+[5352.401] get msg_type(2)
+[5352.404] cmd=0111
+[5352.406] config_get type:0, addr:P(60), len:28
+[5352.412] >>>>stable_temp(236)
+[5352.415] >>>>stable_humid(350)
+[5352.419] >>>>>start(1770097183), end(1770097203)
+[5352.425] mid(29), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 1D 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 35 69 81 8A 33 08 10 11 01    
+0020: 01 10 01 02 00 0A 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 EC 10 05 02 01 5E 10 12 08 69    
+0040: 81 8A 1F 69 81 8A 33 B8 54                         
+[5352.461] 
+List (size=1): 
+[5352.470] [T(0),L(73),F(29), 48004910011D80011135313230323531313236303030383569818A330810110101100102000A100201621003010410080
+[5352.482] NULL
+
+[5353.000] SEND NEW >>>>T(0), FrameID(29), Len(73)
+[5353.055] atcmd_send(164), data(AT+QISENDEX=0,"48004910011D80011135313230323531313236303030383569818A330810110101100102000A100
+[5353.140] cb(11), data(
+SEND OK
+), all recv(0)
+[5353.145] SEND ok!
+[5353.630] cb(20), data(
++QIURC: "recv",0
+), all recv(0)
+[5353.636] ncache(1)
+[5353.680] (15) AT+QIRD=0,500
+
+[5353.683] atcmd_send(15), data(AT+QIRD=0,500
+)
+[5353.750] cb(91), data(
++QIRD: 70
+48002310011d0001113531323032353131323630303038356981eca601105001007f54
+
+OK
+), all recv(
+[5353.770] len(70)
+[5353.772] 140: data=48002310011d0001113531323032353131323630303038356981eca601105001007f54
+
+OK
+
+[5353.782] Len(35), Mid(29), Ctrl(00), CMD(0111)
+[5353.787] TS(1770122406),
+[5353.791] Handle CMD(0111)
+[5353.794] [respond]:RspMid(-1), CTL(00), CMD(0111), TS(1770122406)
+[5353.801] respond result(0)
+[5353.804] Read ok!, n(0)
+[5354.000] WAIT0 delete ret=0
+[5360.000] watchdog_feed>>>
+
+[5362.100] thd_detect_write_handler last_sample_time = 5362
+[5362.203] temp_humid_sample: 2026-2-3 13:40:13, temp: 28.4, humid: 75%
+[5363.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5363.411] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5363.417] charger(4), level(98)
+[5370.001] watchdog_feed>>>
+
+[5372.100] thd_detect_write_handler last_sample_time = 5372
+[5372.203] temp_humid_sample: 2026-2-3 13:40:23, temp: 28.5, humid: 74%
+[5375.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5375.411] [ADC]: voltage(4156),ntc_temper(26),online(1)
+[5375.417] charger(4), level(98)
+[5380.000] watchdog_feed>>>
+
+[5382.100] thd_detect_write_handler last_sample_time = 5382
+[5382.203] temp_humid_sample: 2026-2-3 13:40:33, temp: 28.6, humid: 74%
+[5383.050] (14) AT+QICLOSE=0
+
+[5383.053] atcmd_send(14), data(AT+QICLOSE=0
+)
+[5384.380] cb(6), data(
+OK
+), all recv(0)
+[5384.430] atcmd_send(14), data(AT+QIDEACT=1
+)
+[5384.490] cb(6), data(
+OK
+), all recv(0)
+[5384.520] atcmd_send(12), data(AT+QPOWD=0
+)
+[5384.580] cb(22), data(
+OK
+
+POWERED DOWN
+), all recv(0)
+[5384.586] Logout-> Lowpower
+[5388.120] Module Power Off!
+[5388.123] [led_mask_set] mask(0002)
+[5388.126] [led_mask_set] mask(0000)
+[5388.200] Current time: 26/02/03 13:40:39
+��[5388.207] [SLEEP] Waked up from Deep-sleep S(5388204)-W(5388204)-R(5388207)
+[5388.215] Current time: 26/02/03 13:40:49
+[5388.220] watchdog_feed>>>
+
+[5388.224] thd_onwake_callback
+[5388.400] thd_detect_write_handler last_sample_time = 5388
+[5388.503] temp_humid_sample: 2026-2-3 13:40:49, temp: 28.7, humid: 73%
+[5388.510] stable_humid reduce 15lear event_reported_humid_exceed
+[5388.517] event EVT_HUMID_EXCEED notify failed
+[5388.800] Current time: 26/02/03 13:40:49
+��[5388.807] [SLEEP] Waked up from Deep-sleep S(5388804)-W(5388804)-R(5388807)
+[5388.815] Current time: 26/02/03 13:41:00
+[5388.820] watchdog_feed>>>
+
+[5388.824] thd_onwake_callback
+[5389.000] thd_detect_write_handler last_sample_time = 5389
+[5389.103] temp_humid_sample: 2026-2-3 13:41:0, temp: 28.8, humid: 73%
+[5389.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5389.211] [ADC]: voltage(4158),ntc_temper(26),online(1)
+[5389.217] charger(4), level(98)
+[5389.400] Current time: 26/02/03 13:41:00
+��[5389.407] [SLEEP] Waked up from Deep-sleep S(5389404)-W(5389404)-R(5389407)
+[5389.415] Current time: 26/02/03 13:41:11
+[5389.420] watchdog_feed>>>
+
+[5389.424] thd_onwake_callback
+[5389.600] thd_detect_write_handler last_sample_time = 5389
+[5389.703] temp_humid_sample: 2026-2-3 13:41:11, temp: 28.9, humid: 73%
+[5390.000] Current time: 26/02/03 13:41:11
+��[5390.007] [SLEEP] Waked up from Deep-sleep S(5390004)-W(5390004)-R(5390007)
+[5390.015] Current time: 26/02/03 13:41:22
+[5390.020] watchdog_feed>>>
+
+[5390.024] thd_onwake_callback
+[5390.027] watchdog_feed>>>
+
+[5390.200] thd_detect_write_handler last_sample_time = 5390
+[5390.303] temp_humid_sample: 2026-2-3 13:41:22, temp: 28.9, humid: 73%
+[5390.600] Current time: 26/02/03 13:41:22
+��[5390.607] [SLEEP] Waked up from Deep-sleep S(5390604)-W(5390604)-R(5390607)
+[5390.615] Current time: 26/02/03 13:41:33
+[5390.620] watchdog_feed>>>
+
+[5390.624] thd_onwake_callback
+[5390.700] thd_detect_write_handler last_sample_time = 5390
+[5390.803] temp_humid_sample: 2026-2-3 13:41:33, temp: 29.0, humid: 72%
+[5391.200] Current time: 26/02/03 13:41:33
+��[5391.207] [SLEEP] Waked up from Deep-sleep S(5391204)-W(5391204)-R(5391207)
+[5391.215] Current time: 26/02/03 13:41:44
+[5391.220] watchdog_feed>>>
+
+[5391.224] thd_onwake_callback
+[5391.400] thd_detect_write_handler last_sample_time = 5391
+[5391.503] temp_humid_sample: 2026-2-3 13:41:44, temp: 29.0, humid: 72%
+[5391.800] Current time: 26/02/03 13:41:44
+��[5391.807] [SLEEP] Waked up from Deep-sleep S(5391804)-W(5391804)-R(5391807)
+[5391.815] Current time: 26/02/03 13:41:55
+[5391.820] watchdog_feed>>>
+
+[5391.824] thd_onwake_callback
+[5392.000] thd_detect_write_handler last_sample_time = 5392
+[5392.103] temp_humid_sample: 2026-2-3 13:41:55, temp: 29.0, humid: 72%
+[5392.400] Current time: 26/02/03 13:41:55
+��[5392.407] [SLEEP] Waked up from Deep-sleep S(5392404)-W(5392404)-R(5392407)
+[5392.415] Current time: 26/02/03 13:42:06
+[5392.420] watchdog_feed>>>
+
+[5392.424] thd_onwake_callback
+[5392.600] thd_detect_write_handler last_sample_time = 5392
+[5392.703] temp_humid_sample: 2026-2-3 13:42:6, temp: 29.0, humid: 71%
+[5393.000] Current time: 26/02/03 13:42:06
+��[5393.007] [SLEEP] Waked up from Deep-sleep S(5393004)-W(5393004)-R(5393007)
+[5393.015] Current time: 26/02/03 13:42:17
+[5393.020] watchdog_feed>>>
+
+[5393.024] thd_onwake_callback
+[5393.200] thd_detect_write_handler last_sample_time = 5393
+[5393.303] temp_humid_sample: 2026-2-3 13:42:17, temp: 29.1, humid: 71%
+[5393.600] Current time: 26/02/03 13:42:17
+��[5393.607] [SLEEP] Waked up from Deep-sleep S(5393604)-W(5393604)-R(5393607)
+[5393.615] Current time: 26/02/03 13:42:28
+[5393.620] watchdog_feed>>>
+
+[5393.624] thd_onwake_callback
+[5393.800] thd_detect_write_handler last_sample_time = 5393
+[5393.903] temp_humid_sample: 2026-2-3 13:42:28, temp: 29.1, humid: 71%
+[5394.200] Current time: 26/02/03 13:42:28
+��[5394.207] [SLEEP] Waked up from Deep-sleep S(5394204)-W(5394204)-R(5394207)
+[5394.215] Current time: 26/02/03 13:42:39
+[5394.220] watchdog_feed>>>
+
+[5394.224] thd_onwake_callback
+[5394.400] thd_detect_write_handler last_sample_time = 5394
+[5394.503] temp_humid_sample: 2026-2-3 13:42:39, temp: 29.1, humid: 71%
+[5394.800] Current time: 26/02/03 13:42:39
+��[5394.807] [SLEEP] Waked up from Deep-sleep S(5394804)-W(5394804)-R(5394807)
+[5394.815] Current time: 26/02/03 13:42:50
+[5394.820] watchdog_feed>>>
+
+[5394.824] thd_onwake_callback
+[5395.000] thd_detect_write_handler last_sample_time = 5395
+[5395.103] temp_humid_sample: 2026-2-3 13:42:50, temp: 29.1, humid: 71%
+[5395.400] Current time: 26/02/03 13:42:50
+��[5395.407] [SLEEP] Waked up from Deep-sleep S(5395404)-W(5395404)-R(5395407)
+[5395.415] Current time: 26/02/03 13:43:01
+[5395.420] watchdog_feed>>>
+
+[5395.424] thd_onwake_callback
+[5395.600] thd_detect_write_handler last_sample_time = 5395
+[5395.703] temp_humid_sample: 2026-2-3 13:43:1, temp: 29.1, humid: 70%
+[5396.000] Current time: 26/02/03 13:43:01
+��[5396.007] [SLEEP] Waked up from Deep-sleep S(5396004)-W(5396004)-R(5396007)
+[5396.015] Current time: 26/02/03 13:43:12
+[5396.020] watchdog_feed>>>
+
+[5396.024] thd_onwake_callback
+[5396.200] thd_detect_write_handler last_sample_time = 5396
+[5396.303] temp_humid_sample: 2026-2-3 13:43:12, temp: 29.1, humid: 70%
+[5396.600] Current time: 26/02/03 13:43:12
+��[5396.607] [SLEEP] Waked up from Deep-sleep S(5396604)-W(5396604)-R(5396607)
+[5396.615] Current time: 26/02/03 13:43:23
+[5396.620] watchdog_feed>>>
+
+[5396.624] thd_onwake_callback
+[5396.800] thd_detect_write_handler last_sample_time = 5396
+[5396.903] temp_humid_sample: 2026-2-3 13:43:23, temp: 29.0, humid: 70%
+[5397.200] Current time: 26/02/03 13:43:23
+��[5397.207] [SLEEP] Waked up from Deep-sleep S(5397204)-W(5397204)-R(5397207)
+[5397.215] Current time: 26/02/03 13:43:34
+[5397.220] watchdog_feed>>>
+
+[5397.224] thd_onwake_callback
+[5397.300] thd_detect_write_handler last_sample_time = 5397
+[5397.403] temp_humid_sample: 2026-2-3 13:43:34, temp: 29.0, humid: 69%
+[5397.800] Current time: 26/02/03 13:43:34
+��[5397.807] [SLEEP] Waked up from Deep-sleep S(5397804)-W(5397804)-R(5397807)
+[5397.815] Current time: 26/02/03 13:43:45
+[5397.820] watchdog_feed>>>
+
+[5397.824] thd_onwake_callback
+[5398.000] thd_detect_write_handler last_sample_time = 5398
+[5398.103] temp_humid_sample: 2026-2-3 13:43:45, temp: 29.0, humid: 69%
+[5398.400] Current time: 26/02/03 13:43:45
+��[5398.407] [SLEEP] Waked up from Deep-sleep S(5398404)-W(5398404)-R(5398407)
+[5398.415] Current time: 26/02/03 13:43:56
+[5398.420] watchdog_feed>>>
+
+[5398.424] thd_onwake_callback
+[5398.600] thd_detect_write_handler last_sample_time = 5398
+[5398.703] temp_humid_sample: 2026-2-3 13:43:56, temp: 28.9, humid: 69%
+[5399.000] Current time: 26/02/03 13:43:56
+��[5399.007] [SLEEP] Waked up from Deep-sleep S(5399004)-W(5399004)-R(5399007)
+[5399.015] Current time: 26/02/03 13:44:07
+[5399.020] watchdog_feed>>>
+
+[5399.024] thd_onwake_callback
+[5399.200] thd_detect_write_handler last_sample_time = 5399
+[5399.303] temp_humid_sample: 2026-2-3 13:44:7, temp: 28.8, humid: 69%
+[5399.600] Current time: 26/02/03 13:44:07
+��[5399.607] [SLEEP] Waked up from Deep-sleep S(5399604)-W(5399604)-R(5399607)
+[5399.615] Current time: 26/02/03 13:44:18
+[5399.620] watchdog_feed>>>
+
+[5399.624] thd_onwake_callback
+[5399.800] thd_detect_write_handler last_sample_time = 5399
+[5399.903] temp_humid_sample: 2026-2-3 13:44:18, temp: 28.8, humid: 69%
+[5400.001] watchdog_feed>>>
+
+[5400.200] Current time: 26/02/03 13:44:18
+��[5400.207] [SLEEP] Waked up from Deep-sleep S(5400204)-W(5400204)-R(5400207)
+[5400.215] Current time: 26/02/03 13:44:29
+[5400.220] watchdog_feed>>>
+
+[5400.224] thd_onwake_callback
+[5400.300] thd_detect_write_handler last_sample_time = 5400
+[5400.403] temp_humid_sample: 2026-2-3 13:44:29, temp: 28.8, humid: 69%
+[5400.800] Current time: 26/02/03 13:44:29
+��[5400.807] [SLEEP] Waked up from Deep-sleep S(5400804)-W(5400804)-R(5400807)
+[5400.815] Current time: 26/02/03 13:44:40
+[5400.820] watchdog_feed>>>
+
+[5400.824] thd_onwake_callback
+[5401.000] thd_detect_write_handler last_sample_time = 5401
+[5401.103] temp_humid_sample: 2026-2-3 13:44:40, temp: 28.7, humid: 69%
+[5401.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5401.211] [ADC]: voltage(4158),ntc_temper(26),online(1)
+[5401.217] charger(4), level(98)
+[5401.400] Current time: 26/02/03 13:44:40
+��[5401.407] [SLEEP] Waked up from Deep-sleep S(5401404)-W(5401404)-R(5401407)
+[5401.415] Current time: 26/02/03 13:44:51
+[5401.420] watchdog_feed>>>
+
+[5401.424] thd_onwake_callback
+[5401.600] thd_detect_write_handler last_sample_time = 5401
+[5401.703] temp_humid_sample: 2026-2-3 13:44:51, temp: 28.7, humid: 69%
+[5402.000] Current time: 26/02/03 13:44:51
+��[5402.007] [SLEEP] Waked up from Deep-sleep S(5402004)-W(5402004)-R(5402007)
+[5402.015] Current time: 26/02/03 13:45:02
+[5402.020] watchdog_feed>>>
+
+[5402.024] thd_onwake_callback
+[5402.200] thd_detect_write_handler last_sample_time = 5402
+[5402.303] temp_humid_sample: 2026-2-3 13:45:2, temp: 28.6, humid: 68%
+[5402.600] Current time: 26/02/03 13:45:02
+��[5402.607] [SLEEP] Waked up from Deep-sleep S(5402604)-W(5402604)-R(5402607)
+[5402.615] Current time: 26/02/03 13:45:13
+[5402.620] watchdog_feed>>>
+
+[5402.624] thd_onwake_callback
+[5402.800] thd_detect_write_handler last_sample_time = 5402
+[5402.903] temp_humid_sample: 2026-2-3 13:45:13, temp: 28.6, humid: 69%
+[5403.200] Current time: 26/02/03 13:45:13
+��[5403.207] [SLEEP] Waked up from Deep-sleep S(5403204)-W(5403204)-R(5403207)
+[5403.215] Current time: 26/02/03 13:45:24
+[5403.220] watchdog_feed>>>
+
+[5403.224] thd_onwake_callback
+[5403.400] thd_detect_write_handler last_sample_time = 5403
+[5403.503] temp_humid_sample: 2026-2-3 13:45:24, temp: 28.6, humid: 69%
+[5403.800] Current time: 26/02/03 13:45:24
+��[5403.807] [SLEEP] Waked up from Deep-sleep S(5403804)-W(5403804)-R(5403807)
+[5403.815] Current time: 26/02/03 13:45:35
+[5403.820] watchdog_feed>>>
+
+[5403.824] thd_onwake_callback
+[5404.000] thd_detect_write_handler last_sample_time = 5404
+[5404.103] temp_humid_sample: 2026-2-3 13:45:35, temp: 28.5, humid: 69%
+[5404.400] Current time: 26/02/03 13:45:35
+��[5404.407] [SLEEP] Waked up from Deep-sleep S(5404404)-W(5404404)-R(5404407)
+[5404.415] Current time: 26/02/03 13:45:46
+[5404.420] watchdog_feed>>>
+
+[5404.424] thd_onwake_callback
+[5404.600] thd_detect_write_handler last_sample_time = 5404
+[5404.703] temp_humid_sample: 2026-2-3 13:45:46, temp: 28.5, humid: 69%
+[5405.000] Current time: 26/02/03 13:45:46
+��[5405.007] [SLEEP] Waked up from Deep-sleep S(5405004)-W(5405004)-R(5405007)
+[5405.015] Current time: 26/02/03 13:45:57
+[5405.020] watchdog_feed>>>
+
+[5405.024] thd_onwake_callback
+[5405.200] thd_detect_write_handler last_sample_time = 5405
+[5405.303] temp_humid_sample: 2026-2-3 13:45:57, temp: 28.5, humid: 69%
+[5405.600] Current time: 26/02/03 13:45:57
+��[5405.607] [SLEEP] Waked up from Deep-sleep S(5405604)-W(5405604)-R(5405607)
+[5405.615] Current time: 26/02/03 13:46:08
+[5405.620] watchdog_feed>>>
+
+[5405.624] thd_onwake_callback
+[5405.800] thd_detect_write_handler last_sample_time = 5405
+[5405.903] temp_humid_sample: 2026-2-3 13:46:8, temp: 28.4, humid: 69%
+[5406.200] Current time: 26/02/03 13:46:08
+��[5406.207] [SLEEP] Waked up from Deep-sleep S(5406204)-W(5406204)-R(5406207)
+[5406.215] Current time: 26/02/03 13:46:19
+[5406.220] watchdog_feed>>>
+
+[5406.224] thd_onwake_callback
+[5406.400] thd_detect_write_handler last_sample_time = 5406
+[5406.503] temp_humid_sample: 2026-2-3 13:46:19, temp: 28.4, humid: 69%
+[5406.800] Current time: 26/02/03 13:46:19
+��[5406.807] [SLEEP] Waked up from Deep-sleep S(5406804)-W(5406804)-R(5406807)
+[5406.815] Current time: 26/02/03 13:46:30
+[5406.820] watchdog_feed>>>
+
+[5406.824] thd_onwake_callback
+[5407.000] thd_detect_write_handler last_sample_time = 5407
+[5407.103] temp_humid_sample: 2026-2-3 13:46:30, temp: 28.3, humid: 69%
+[5407.400] Current time: 26/02/03 13:46:30
+��[5407.407] [SLEEP] Waked up from Deep-sleep S(5407404)-W(5407404)-R(5407407)
+[5407.415] Current time: 26/02/03 13:46:41
+[5407.420] watchdog_feed>>>
+
+[5407.424] thd_onwake_callback
+[5407.600] thd_detect_write_handler last_sample_time = 5407
+[5407.703] temp_humid_sample: 2026-2-3 13:46:41, temp: 28.3, humid: 69%
+[5408.000] Current time: 26/02/03 13:46:41
+��[5408.007] [SLEEP] Waked up from Deep-sleep S(5408004)-W(5408004)-R(5408007)
+[5408.015] Current time: 26/02/03 13:46:52
+[5408.020] watchdog_feed>>>
+
+[5408.024] thd_onwake_callback
+[5408.200] thd_detect_write_handler last_sample_time = 5408
+[5408.303] temp_humid_sample: 2026-2-3 13:46:52, temp: 28.3, humid: 69%
+[5408.600] Current time: 26/02/03 13:46:52
+��[5408.607] [SLEEP] Waked up from Deep-sleep S(5408604)-W(5408604)-R(5408607)
+[5408.615] Current time: 26/02/03 13:47:03
+[5408.620] watchdog_feed>>>
+
+[5408.624] thd_onwake_callback
+[5408.800] thd_detect_write_handler last_sample_time = 5408
+[5408.903] temp_humid_sample: 2026-2-3 13:47:3, temp: 28.2, humid: 69%
+[5409.200] Current time: 26/02/03 13:47:03
+��[5409.207] [SLEEP] Waked up from Deep-sleep S(5409204)-W(5409204)-R(5409207)
+[5409.215] Current time: 26/02/03 13:47:14
+[5409.220] watchdog_feed>>>
+
+[5409.224] thd_onwake_callback
+[5409.400] thd_detect_write_handler last_sample_time = 5409
+[5409.503] temp_humid_sample: 2026-2-3 13:47:14, temp: 28.2, humid: 69%
+[5409.800] Current time: 26/02/03 13:47:14
+��[5409.807] [SLEEP] Waked up from Deep-sleep S(5409804)-W(5409804)-R(5409807)
+[5409.815] Current time: 26/02/03 13:47:25
+[5409.820] watchdog_feed>>>
+
+[5409.824] thd_onwake_callback
+[5410.000] watchdog_feed>>>
+
+[5410.004] thd_detect_write_handler last_sample_time = 5410
+[5410.103] temp_humid_sample: 2026-2-3 13:47:25, temp: 28.2, humid: 69%
+[5410.400] Current time: 26/02/03 13:47:25
+��[5410.407] [SLEEP] Waked up from Deep-sleep S(5410404)-W(5410404)-R(5410407)
+[5410.415] Current time: 26/02/03 13:47:36
+[5410.420] watchdog_feed>>>
+
+[5410.424] thd_onwake_callback
+[5410.600] thd_detect_write_handler last_sample_time = 5410
+[5410.703] temp_humid_sample: 2026-2-3 13:47:36, temp: 28.1, humid: 71%
+[5411.000] Current time: 26/02/03 13:47:36
+��[5411.007] [SLEEP] Waked up from Deep-sleep S(5411004)-W(5411004)-R(5411007)
+[5411.015] Current time: 26/02/03 13:47:47
+[5411.020] watchdog_feed>>>
+
+[5411.024] thd_onwake_callback
+[5411.200] thd_detect_write_handler last_sample_time = 5411
+[5411.303] temp_humid_sample: 2026-2-3 13:47:47, temp: 28.2, humid: 73%
+[5411.600] Current time: 26/02/03 13:47:47
+��[5411.607] [SLEEP] Waked up from Deep-sleep S(5411604)-W(5411604)-R(5411607)
+[5411.615] Current time: 26/02/03 13:47:58
+[5411.620] watchdog_feed>>>
+
+[5411.624] thd_onwake_callback
+[5411.700] thd_detect_write_handler last_sample_time = 5411
+[5411.803] temp_humid_sample: 2026-2-3 13:47:58, temp: 28.2, humid: 73%
+[5412.200] Current time: 26/02/03 13:47:58
+��[5412.207] [SLEEP] Waked up from Deep-sleep S(5412204)-W(5412204)-R(5412207)
+[5412.215] Current time: 26/02/03 13:48:09
+[5412.220] watchdog_feed>>>
+
+[5412.224] thd_onwake_callback
+[5412.400] thd_detect_write_handler last_sample_time = 5412
+[5412.503] temp_humid_sample: 2026-2-3 13:48:9, temp: 28.2, humid: 74%
+[5412.800] Current time: 26/02/03 13:48:09
+��[5412.807] [SLEEP] Waked up from Deep-sleep S(5412804)-W(5412804)-R(5412807)
+[5412.815] Current time: 26/02/03 13:48:20
+[5412.820] watchdog_feed>>>
+
+[5412.824] thd_onwake_callback
+[5413.000] thd_detect_write_handler last_sample_time = 5413
+[5413.103] temp_humid_sample: 2026-2-3 13:48:20, temp: 28.2, humid: 74%
+[5413.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5413.211] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5413.216] charger(4), level(98)
+[5413.400] Current time: 26/02/03 13:48:20
+��[5413.407] [SLEEP] Waked up from Deep-sleep S(5413404)-W(5413404)-R(5413407)
+[5413.415] Current time: 26/02/03 13:48:31
+[5413.420] watchdog_feed>>>
+
+[5413.424] thd_onwake_callback
+[5413.600] thd_detect_write_handler last_sample_time = 5413
+[5413.703] temp_humid_sample: 2026-2-3 13:48:31, temp: 28.2, humid: 74%
+[5414.000] Current time: 26/02/03 13:48:31
+��[5414.007] [SLEEP] Waked up from Deep-sleep S(5414004)-W(5414004)-R(5414007)
+[5414.015] Current time: 26/02/03 13:48:42
+[5414.020] watchdog_feed>>>
+
+[5414.024] thd_onwake_callback
+[5414.200] thd_detect_write_handler last_sample_time = 5414
+[5414.303] temp_humid_sample: 2026-2-3 13:48:42, temp: 28.3, humid: 75%
+[5414.600] Current time: 26/02/03 13:48:42
+��[5414.607] [SLEEP] Waked up from Deep-sleep S(5414604)-W(5414604)-R(5414607)
+[5414.615] Current time: 26/02/03 13:48:53
+[5414.620] watchdog_feed>>>
+
+[5414.624] thd_onwake_callback
+[5414.700] thd_detect_write_handler last_sample_time = 5414
+[5414.803] temp_humid_sample: 2026-2-3 13:48:53, temp: 28.3, humid: 75%
+[5415.200] Current time: 26/02/03 13:48:53
+��[5415.207] [SLEEP] Waked up from Deep-sleep S(5415204)-W(5415204)-R(5415207)
+[5415.215] Current time: 26/02/03 13:49:04
+[5415.220] watchdog_feed>>>
+
+[5415.224] thd_onwake_callback
+[5415.400] thd_detect_write_handler last_sample_time = 5415
+[5415.503] temp_humid_sample: 2026-2-3 13:49:4, temp: 28.3, humid: 75%
+[5415.800] Current time: 26/02/03 13:49:04
+��[5415.807] [SLEEP] Waked up from Deep-sleep S(5415804)-W(5415804)-R(5415807)
+[5415.815] Current time: 26/02/03 13:49:15
+[5415.820] watchdog_feed>>>
+
+[5415.824] thd_onwake_callback
+[5416.000] thd_detect_write_handler last_sample_time = 5416
+[5416.103] temp_humid_sample: 2026-2-3 13:49:15, temp: 28.4, humid: 75%
+[5416.400] Current time: 26/02/03 13:49:15
+��[5416.407] [SLEEP] Waked up from Deep-sleep S(5416404)-W(5416404)-R(5416407)
+[5416.415] Current time: 26/02/03 13:49:26
+[5416.420] watchdog_feed>>>
+
+[5416.424] thd_onwake_callback
+[5416.600] thd_detect_write_handler last_sample_time = 5416
+[5416.703] temp_humid_sample: 2026-2-3 13:49:26, temp: 28.4, humid: 75%
+[5417.000] Current time: 26/02/03 13:49:26
+��[5417.007] [SLEEP] Waked up from Deep-sleep S(5417004)-W(5417004)-R(5417007)
+[5417.015] Current time: 26/02/03 13:49:37
+[5417.020] watchdog_feed>>>
+
+[5417.024] thd_onwake_callback
+[5417.200] thd_detect_write_handler last_sample_time = 5417
+[5417.303] temp_humid_sample: 2026-2-3 13:49:37, temp: 28.5, humid: 75%
+[5417.600] Current time: 26/02/03 13:49:37
+��[5417.607] [SLEEP] Waked up from Deep-sleep S(5417604)-W(5417604)-R(5417607)
+[5417.615] Current time: 26/02/03 13:49:48
+[5417.620] watchdog_feed>>>
+
+[5417.624] thd_onwake_callback
+[5417.800] thd_detect_write_handler last_sample_time = 5417
+[5417.903] temp_humid_sample: 2026-2-3 13:49:48, temp: 28.5, humid: 75%
+[5418.200] Current time: 26/02/03 13:49:48
+��[5418.207] [SLEEP] Waked up from Deep-sleep S(5418204)-W(5418204)-R(5418207)
+[5418.215] Current time: 26/02/03 13:49:59
+[5418.220] watchdog_feed>>>
+
+[5418.224] thd_onwake_callback
+[5418.400] thd_detect_write_handler last_sample_time = 5418
+[5418.503] temp_humid_sample: 2026-2-3 13:49:59, temp: 28.5, humid: 75%
+[5418.800] Current time: 26/02/03 13:49:59
+��[5418.807] [SLEEP] Waked up from Deep-sleep S(5418804)-W(5418804)-R(5418807)
+[5418.815] Current time: 26/02/03 13:50:10
+[5418.820] watchdog_feed>>>
+
+[5418.824] thd_onwake_callback
+[5419.000] thd_detect_write_handler last_sample_time = 5419
+[5419.103] temp_humid_sample: 2026-2-3 13:50:10, temp: 28.5, humid: 75%
+[5419.400] Current time: 26/02/03 13:50:10
+��[5419.407] [SLEEP] Waked up from Deep-sleep S(5419404)-W(5419404)-R(5419407)
+[5419.415] Current time: 26/02/03 13:50:21
+[5419.420] watchdog_feed>>>
+
+[5419.424] thd_onwake_callback
+[5419.600] thd_detect_write_handler last_sample_time = 5419
+[5419.703] temp_humid_sample: 2026-2-3 13:50:21, temp: 28.5, humid: 75%
+[5420.000] Current time: 26/02/03 13:50:21
+��[5420.007] [SLEEP] Waked up from Deep-sleep S(5420004)-W(5420004)-R(5420007)
+[5420.015] Current time: 26/02/03 13:50:32
+[5420.020] watchdog_feed>>>
+
+[5420.024] thd_onwake_callback
+[5420.027] watchdog_feed>>>
+
+[5420.200] thd_detect_write_handler last_sample_time = 5420
+[5420.303] temp_humid_sample: 2026-2-3 13:50:32, temp: 28.6, humid: 75%
+[5420.600] Current time: 26/02/03 13:50:32
+��[5420.607] [SLEEP] Waked up from Deep-sleep S(5420604)-W(5420604)-R(5420607)
+[5420.615] Current time: 26/02/03 13:50:43
+[5420.620] watchdog_feed>>>
+
+[5420.624] thd_onwake_callback
+[5420.800] thd_detect_write_handler last_sample_time = 5420
+[5420.903] temp_humid_sample: 2026-2-3 13:50:43, temp: 28.6, humid: 75%
+[5421.200] Current time: 26/02/03 13:50:43
+��[5421.207] [SLEEP] Waked up from Deep-sleep S(5421204)-W(5421204)-R(5421207)
+[5421.215] Current time: 26/02/03 13:50:54
+[5421.220] watchdog_feed>>>
+
+[5421.224] thd_onwake_callback
+[5421.400] thd_detect_write_handler last_sample_time = 5421
+[5421.503] temp_humid_sample: 2026-2-3 13:50:54, temp: 28.6, humid: 75%
+[5421.800] Current time: 26/02/03 13:50:54
+��[5421.807] [SLEEP] Waked up from Deep-sleep S(5421804)-W(5421804)-R(5421807)
+[5421.815] Current time: 26/02/03 13:51:05
+[5421.820] watchdog_feed>>>
+
+[5421.824] thd_onwake_callback
+[5422.000] thd_detect_write_handler last_sample_time = 5422
+[5422.103] temp_humid_sample: 2026-2-3 13:51:5, temp: 28.6, humid: 75%
+[5422.400] Current time: 26/02/03 13:51:05
+��[5422.407] [SLEEP] Waked up from Deep-sleep S(5422404)-W(5422404)-R(5422407)
+[5422.415] Current time: 26/02/03 13:51:16
+[5422.420] watchdog_feed>>>
+
+[5422.424] thd_onwake_callback
+[5422.600] thd_detect_write_handler last_sample_time = 5422
+[5422.703] temp_humid_sample: 2026-2-3 13:51:16, temp: 28.6, humid: 75%
+[5423.000] Current time: 26/02/03 13:51:16
+��[5423.007] [SLEEP] Waked up from Deep-sleep S(5423004)-W(5423004)-R(5423007)
+[5423.015] Current time: 26/02/03 13:51:27
+[5423.020] watchdog_feed>>>
+
+[5423.024] thd_onwake_callback
+[5423.200] thd_detect_write_handler last_sample_time = 5423
+[5423.303] temp_humid_sample: 2026-2-3 13:51:27, temp: 28.6, humid: 75%
+[5423.600] Current time: 26/02/03 13:51:27
+��[5423.607] [SLEEP] Waked up from Deep-sleep S(5423604)-W(5423604)-R(5423607)
+[5423.615] Current time: 26/02/03 13:51:38
+[5423.620] watchdog_feed>>>
+
+[5423.624] thd_onwake_callback
+[5423.800] thd_detect_write_handler last_sample_time = 5423
+[5423.903] temp_humid_sample: 2026-2-3 13:51:38, temp: 28.7, humid: 75%
+[5424.200] Current time: 26/02/03 13:51:38
+��[5424.207] [SLEEP] Waked up from Deep-sleep S(5424204)-W(5424204)-R(5424207)
+[5424.215] Current time: 26/02/03 13:51:49
+[5424.220] watchdog_feed>>>
+
+[5424.224] thd_onwake_callback
+[5424.400] thd_detect_write_handler last_sample_time = 5424
+[5424.503] temp_humid_sample: 2026-2-3 13:51:49, temp: 28.7, humid: 75%
+[5424.800] Current time: 26/02/03 13:51:49
+��[5424.807] [SLEEP] Waked up from Deep-sleep S(5424804)-W(5424804)-R(5424807)
+[5424.815] Current time: 26/02/03 13:52:00
+[5424.820] watchdog_feed>>>
+
+[5424.824] thd_onwake_callback
+[5425.000] thd_detect_write_handler last_sample_time = 5425
+[5425.103] temp_humid_sample: 2026-2-3 13:52:0, temp: 28.7, humid: 75%
+[5425.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5425.211] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5425.217] charger(4), level(98)
+[5425.400] Current time: 26/02/03 13:52:00
+��[5425.407] [SLEEP] Waked up from Deep-sleep S(5425404)-W(5425404)-R(5425407)
+[5425.415] Current time: 26/02/03 13:52:11
+[5425.420] watchdog_feed>>>
+
+[5425.424] thd_onwake_callback
+[5425.600] thd_detect_write_handler last_sample_time = 5425
+[5425.703] temp_humid_sample: 2026-2-3 13:52:11, temp: 28.7, humid: 75%
+[5425.710] event EVT_HUMID_EXCEED notify failed
+[5426.000] Current time: 26/02/03 13:52:11
+��[5426.007] [SLEEP] Waked up from Deep-sleep S(5426004)-W(5426004)-R(5426007)
+[5426.015] Current time: 26/02/03 13:52:22
+[5426.020] watchdog_feed>>>
+
+[5426.024] thd_onwake_callback
+[5426.100] thd_detect_write_handler last_sample_time = 5426
+[5426.203] temp_humid_sample: 2026-2-3 13:52:22, temp: 28.7, humid: 75%
+[5426.600] Current time: 26/02/03 13:52:22
+��[5426.607] [SLEEP] Waked up from Deep-sleep S(5426604)-W(5426604)-R(5426607)
+[5426.615] Current time: 26/02/03 13:52:33
+[5426.620] watchdog_feed>>>
+
+[5426.624] thd_onwake_callback
+[5426.800] thd_detect_write_handler last_sample_time = 5426
+[5426.903] temp_humid_sample: 2026-2-3 13:52:33, temp: 28.7, humid: 75%
+[5427.200] Current time: 26/02/03 13:52:33
+��[5427.207] [SLEEP] Waked up from Deep-sleep S(5427204)-W(5427204)-R(5427207)
+[5427.215] Current time: 26/02/03 13:52:44
+[5427.220] watchdog_feed>>>
+
+[5427.224] thd_onwake_callback
+[5427.400] thd_detect_write_handler last_sample_time = 5427
+[5427.503] temp_humid_sample: 2026-2-3 13:52:44, temp: 28.7, humid: 75%
+[5427.800] Current time: 26/02/03 13:52:44
+��[5427.807] [SLEEP] Waked up from Deep-sleep S(5427804)-W(5427804)-R(5427807)
+[5427.815] Current time: 26/02/03 13:52:55
+[5427.820] watchdog_feed>>>
+
+[5427.824] thd_onwake_callback
+[5428.000] thd_detect_write_handler last_sample_time = 5428
+[5428.103] temp_humid_sample: 2026-2-3 13:52:55, temp: 28.7, humid: 75%
+[5428.400] Current time: 26/02/03 13:52:55
+��[5428.407] [SLEEP] Waked up from Deep-sleep S(5428404)-W(5428404)-R(5428407)
+[5428.415] Current time: 26/02/03 13:53:06
+[5428.420] watchdog_feed>>>
+
+[5428.424] thd_onwake_callback
+[5428.600] thd_detect_write_handler last_sample_time = 5428
+[5428.703] temp_humid_sample: 2026-2-3 13:53:6, temp: 28.7, humid: 75%
+[5429.000] Current time: 26/02/03 13:53:06
+��[5429.007] [SLEEP] Waked up from Deep-sleep S(5429004)-W(5429004)-R(5429007)
+[5429.015] Current time: 26/02/03 13:53:17
+[5429.020] watchdog_feed>>>
+
+[5429.024] thd_onwake_callback
+[5429.200] thd_detect_write_handler last_sample_time = 5429
+[5429.303] temp_humid_sample: 2026-2-3 13:53:17, temp: 28.7, humid: 75%
+[5429.600] Current time: 26/02/03 13:53:17
+��[5429.607] [SLEEP] Waked up from Deep-sleep S(5429604)-W(5429604)-R(5429607)
+[5429.615] Current time: 26/02/03 13:53:28
+[5429.620] watchdog_feed>>>
+
+[5429.624] thd_onwake_callback
+[5429.800] thd_detect_write_handler last_sample_time = 5429
+[5429.903] temp_humid_sample: 2026-2-3 13:53:28, temp: 28.7, humid: 75%
+[5430.001] watchdog_feed>>>
+
+[5430.200] Current time: 26/02/03 13:53:28
+��[5430.207] [SLEEP] Waked up from Deep-sleep S(5430204)-W(5430204)-R(5430207)
+[5430.215] Current time: 26/02/03 13:53:39
+[5430.220] watchdog_feed>>>
+
+[5430.224] thd_onwake_callback
+[5430.400] thd_detect_write_handler last_sample_time = 5430
+[5430.503] temp_humid_sample: 2026-2-3 13:53:39, temp: 28.7, humid: 75%
+[5430.800] Current time: 26/02/03 13:53:39
+��[5430.807] [SLEEP] Waked up from Deep-sleep S(5430804)-W(5430804)-R(5430807)
+[5430.815] Current time: 26/02/03 13:53:50
+[5430.820] watchdog_feed>>>
+
+[5430.824] thd_onwake_callback
+[5431.000] thd_detect_write_handler last_sample_time = 5431
+[5431.103] temp_humid_sample: 2026-2-3 13:53:50, temp: 28.7, humid: 75%
+[5431.400] Current time: 26/02/03 13:53:50
+��[5431.407] [SLEEP] Waked up from Deep-sleep S(5431404)-W(5431404)-R(5431407)
+[5431.415] Current time: 26/02/03 13:54:01
+[5431.420] watchdog_feed>>>
+
+[5431.424] thd_onwake_callback
+[5431.600] thd_detect_write_handler last_sample_time = 5431
+[5431.703] temp_humid_sample: 2026-2-3 13:54:1, temp: 28.7, humid: 75%
+[5432.000] Current time: 26/02/03 13:54:01
+��[5432.007] [SLEEP] Waked up from Deep-sleep S(5432004)-W(5432004)-R(5432007)
+[5432.015] Current time: 26/02/03 13:54:12
+[5432.020] watchdog_feed>>>
+
+[5432.024] thd_onwake_callback
+[5432.200] thd_detect_write_handler last_sample_time = 5432
+[5432.303] temp_humid_sample: 2026-2-3 13:54:12, temp: 28.7, humid: 75%
+[5432.600] Current time: 26/02/03 13:54:12
+��[5432.607] [SLEEP] Waked up from Deep-sleep S(5432604)-W(5432604)-R(5432607)
+[5432.615] Current time: 26/02/03 13:54:23
+[5432.620] watchdog_feed>>>
+
+[5432.624] thd_onwake_callback
+[5432.800] thd_detect_write_handler last_sample_time = 5432
+[5432.903] temp_humid_sample: 2026-2-3 13:54:23, temp: 28.7, humid: 75%
+[5433.200] Current time: 26/02/03 13:54:23
+��[5433.207] [SLEEP] Waked up from Deep-sleep S(5433204)-W(5433204)-R(5433207)
+[5433.215] Current time: 26/02/03 13:54:34
+[5433.220] watchdog_feed>>>
+
+[5433.224] thd_onwake_callback
+[5433.400] thd_detect_write_handler last_sample_time = 5433
+[5433.503] temp_humid_sample: 2026-2-3 13:54:34, temp: 28.7, humid: 75%
+[5433.800] Current time: 26/02/03 13:54:34
+��[5433.807] [SLEEP] Waked up from Deep-sleep S(5433804)-W(5433804)-R(5433807)
+[5433.815] Current time: 26/02/03 13:54:45
+[5433.820] watchdog_feed>>>
+
+[5433.824] thd_onwake_callback
+[5434.000] thd_detect_write_handler last_sample_time = 5434
+[5434.103] temp_humid_sample: 2026-2-3 13:54:45, temp: 28.7, humid: 75%
+[5434.400] Current time: 26/02/03 13:54:45
+��[5434.407] [SLEEP] Waked up from Deep-sleep S(5434404)-W(5434404)-R(5434407)
+[5434.415] Current time: 26/02/03 13:54:56
+[5434.420] watchdog_feed>>>
+
+[5434.424] thd_onwake_callback
+[5434.600] thd_detect_write_handler last_sample_time = 5434
+[5434.703] temp_humid_sample: 2026-2-3 13:54:56, temp: 28.7, humid: 75%
+[5435.000] Current time: 26/02/03 13:54:56
+��[5435.007] [SLEEP] Waked up from Deep-sleep S(5435004)-W(5435004)-R(5435007)
+[5435.015] Current time: 26/02/03 13:55:07
+[5435.020] watchdog_feed>>>
+
+[5435.024] thd_onwake_callback
+[5435.200] thd_detect_write_handler last_sample_time = 5435
+[5435.303] temp_humid_sample: 2026-2-3 13:55:7, temp: 28.7, humid: 75%
+[5435.600] Current time: 26/02/03 13:55:07
+��[5435.607] [SLEEP] Waked up from Deep-sleep S(5435604)-W(5435604)-R(5435607)
+[5435.615] Current time: 26/02/03 13:55:18
+[5435.620] watchdog_feed>>>
+
+[5435.624] thd_onwake_callback
+[5435.800] thd_detect_write_handler last_sample_time = 5435
+[5435.903] temp_humid_sample: 2026-2-3 13:55:18, temp: 28.7, humid: 75%
+[5436.200] Current time: 26/02/03 13:55:18
+��[5436.207] [SLEEP] Waked up from Deep-sleep S(5436204)-W(5436204)-R(5436207)
+[5436.215] Current time: 26/02/03 13:55:29
+[5436.220] watchdog_feed>>>
+
+[5436.224] thd_onwake_callback
+[5436.300] thd_detect_write_handler last_sample_time = 5436
+[5436.403] temp_humid_sample: 2026-2-3 13:55:29, temp: 28.6, humid: 75%
+[5436.800] Current time: 26/02/03 13:55:29
+��[5436.807] [SLEEP] Waked up from Deep-sleep S(5436804)-W(5436804)-R(5436807)
+[5436.815] Current time: 26/02/03 13:55:40
+[5436.820] watchdog_feed>>>
+
+[5436.824] thd_onwake_callback
+[5437.000] thd_detect_write_handler last_sample_time = 5437
+[5437.103] temp_humid_sample: 2026-2-3 13:55:40, temp: 28.6, humid: 75%
+[5437.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5437.211] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5437.216] charger(4), level(98)
+[5437.400] Current time: 26/02/03 13:55:40
+��[5437.407] [SLEEP] Waked up from Deep-sleep S(5437404)-W(5437404)-R(5437407)
+[5437.415] Current time: 26/02/03 13:55:51
+[5437.420] watchdog_feed>>>
+
+[5437.424] thd_onwake_callback
+[5437.500] thd_detect_write_handler last_sample_time = 5437
+[5437.603] temp_humid_sample: 2026-2-3 13:55:51, temp: 28.6, humid: 75%
+[5438.000] Current time: 26/02/03 13:55:51
+��[5438.007] [SLEEP] Waked up from Deep-sleep S(5438004)-W(5438004)-R(5438007)
+[5438.015] Current time: 26/02/03 13:56:02
+[5438.020] watchdog_feed>>>
+
+[5438.024] thd_onwake_callback
+[5438.200] thd_detect_write_handler last_sample_time = 5438
+[5438.303] temp_humid_sample: 2026-2-3 13:56:2, temp: 28.6, humid: 75%
+[5438.600] Current time: 26/02/03 13:56:02
+��[5438.607] [SLEEP] Waked up from Deep-sleep S(5438604)-W(5438604)-R(5438607)
+[5438.615] Current time: 26/02/03 13:56:13
+[5438.620] watchdog_feed>>>
+
+[5438.624] thd_onwake_callback
+[5438.800] thd_detect_write_handler last_sample_time = 5438
+[5438.903] temp_humid_sample: 2026-2-3 13:56:13, temp: 28.6, humid: 75%
+[5439.200] Current time: 26/02/03 13:56:13
+��[5439.207] [SLEEP] Waked up from Deep-sleep S(5439204)-W(5439204)-R(5439207)
+[5439.215] Current time: 26/02/03 13:56:24
+[5439.220] watchdog_feed>>>
+
+[5439.224] thd_onwake_callback
+[5439.300] thd_detect_write_handler last_sample_time = 5439
+[5439.403] temp_humid_sample: 2026-2-3 13:56:24, temp: 28.6, humid: 75%
+[5439.800] Current time: 26/02/03 13:56:24
+��[5439.807] [SLEEP] Waked up from Deep-sleep S(5439804)-W(5439804)-R(5439807)
+[5439.815] Current time: 26/02/03 13:56:35
+[5439.820] watchdog_feed>>>
+
+[5439.824] thd_onwake_callback
+[5440.000] thd_detect_write_handler last_sample_time = 5440
+[5440.006] watchdog_feed>>>
+
+[5440.103] temp_humid_sample: 2026-2-3 13:56:35, temp: 28.5, humid: 75%
+[5440.400] Current time: 26/02/03 13:56:35
+��[5440.407] [SLEEP] Waked up from Deep-sleep S(5440404)-W(5440404)-R(5440407)
+[5440.415] Current time: 26/02/03 13:56:46
+[5440.420] watchdog_feed>>>
+
+[5440.424] thd_onwake_callback
+[5440.600] thd_detect_write_handler last_sample_time = 5440
+[5440.703] temp_humid_sample: 2026-2-3 13:56:46, temp: 28.5, humid: 75%
+[5441.000] Current time: 26/02/03 13:56:46
+��[5441.007] [SLEEP] Waked up from Deep-sleep S(5441004)-W(5441004)-R(5441007)
+[5441.015] Current time: 26/02/03 13:56:57
+[5441.020] watchdog_feed>>>
+
+[5441.024] thd_onwake_callback
+[5441.200] thd_detect_write_handler last_sample_time = 5441
+[5441.303] temp_humid_sample: 2026-2-3 13:56:57, temp: 28.5, humid: 74%
+[5441.600] Current time: 26/02/03 13:56:57
+��[5441.607] [SLEEP] Waked up from Deep-sleep S(5441604)-W(5441604)-R(5441607)
+[5441.615] Current time: 26/02/03 13:57:08
+[5441.620] watchdog_feed>>>
+
+[5441.624] thd_onwake_callback
+[5441.800] thd_detect_write_handler last_sample_time = 5441
+[5441.903] temp_humid_sample: 2026-2-3 13:57:8, temp: 28.5, humid: 74%
+[5442.200] Current time: 26/02/03 13:57:08
+��[5442.207] [SLEEP] Waked up from Deep-sleep S(5442204)-W(5442204)-R(5442207)
+[5442.215] Current time: 26/02/03 13:57:19
+[5442.220] watchdog_feed>>>
+
+[5442.224] thd_onwake_callback
+[5442.400] thd_detect_write_handler last_sample_time = 5442
+[5442.503] temp_humid_sample: 2026-2-3 13:57:19, temp: 28.5, humid: 74%
+[5442.800] Current time: 26/02/03 13:57:19
+��[5442.807] [SLEEP] Waked up from Deep-sleep S(5442804)-W(5442804)-R(5442807)
+[5442.815] Current time: 26/02/03 13:57:30
+[5442.820] watchdog_feed>>>
+
+[5442.824] thd_onwake_callback
+[5443.000] thd_detect_write_handler last_sample_time = 5443
+[5443.103] temp_humid_sample: 2026-2-3 13:57:30, temp: 28.4, humid: 74%
+[5443.400] Current time: 26/02/03 13:57:30
+��[5443.407] [SLEEP] Waked up from Deep-sleep S(5443404)-W(5443404)-R(5443407)
+[5443.415] Current time: 26/02/03 13:57:41
+[5443.420] watchdog_feed>>>
+
+[5443.424] thd_onwake_callback
+[5443.600] thd_detect_write_handler last_sample_time = 5443
+[5443.703] temp_humid_sample: 2026-2-3 13:57:41, temp: 28.4, humid: 75%
+[5444.000] Current time: 26/02/03 13:57:41
+��[5444.007] [SLEEP] Waked up from Deep-sleep S(5444004)-W(5444004)-R(5444007)
+[5444.015] Current time: 26/02/03 13:57:52
+[5444.020] watchdog_feed>>>
+
+[5444.024] thd_onwake_callback
+[5444.200] thd_detect_write_handler last_sample_time = 5444
+[5444.303] temp_humid_sample: 2026-2-3 13:57:52, temp: 28.4, humid: 75%
+[5444.600] Current time: 26/02/03 13:57:52
+��[5444.607] [SLEEP] Waked up from Deep-sleep S(5444604)-W(5444604)-R(5444607)
+[5444.615] Current time: 26/02/03 13:58:03
+[5444.620] watchdog_feed>>>
+
+[5444.624] thd_onwake_callback
+[5444.800] thd_detect_write_handler last_sample_time = 5444
+[5444.903] temp_humid_sample: 2026-2-3 13:58:3, temp: 28.4, humid: 75%
+[5445.200] Current time: 26/02/03 13:58:03
+��[5445.207] [SLEEP] Waked up from Deep-sleep S(5445204)-W(5445204)-R(5445207)
+[5445.215] Current time: 26/02/03 13:58:14
+[5445.220] watchdog_feed>>>
+
+[5445.224] thd_onwake_callback
+[5445.400] thd_detect_write_handler last_sample_time = 5445
+[5445.503] temp_humid_sample: 2026-2-3 13:58:14, temp: 28.4, humid: 75%
+[5445.800] Current time: 26/02/03 13:58:14
+��[5445.807] [SLEEP] Waked up from Deep-sleep S(5445804)-W(5445804)-R(5445807)
+[5445.815] Current time: 26/02/03 13:58:25
+[5445.820] watchdog_feed>>>
+
+[5445.824] thd_onwake_callback
+[5446.000] thd_detect_write_handler last_sample_time = 5446
+[5446.103] temp_humid_sample: 2026-2-3 13:58:25, temp: 28.4, humid: 75%
+[5446.400] Current time: 26/02/03 13:58:25
+��[5446.407] [SLEEP] Waked up from Deep-sleep S(5446404)-W(5446404)-R(5446407)
+[5446.415] Current time: 26/02/03 13:58:36
+[5446.420] watchdog_feed>>>
+
+[5446.424] thd_onwake_callback
+[5446.600] thd_detect_write_handler last_sample_time = 5446
+[5446.703] temp_humid_sample: 2026-2-3 13:58:36, temp: 28.4, humid: 75%
+[5447.000] Current time: 26/02/03 13:58:36
+��[5447.007] [SLEEP] Waked up from Deep-sleep S(5447004)-W(5447004)-R(5447007)
+[5447.015] Current time: 26/02/03 13:58:47
+[5447.020] watchdog_feed>>>
+
+[5447.024] thd_onwake_callback
+[5447.200] thd_detect_write_handler last_sample_time = 5447
+[5447.303] temp_humid_sample: 2026-2-3 13:58:47, temp: 28.4, humid: 75%
+[5447.600] Current time: 26/02/03 13:58:47
+��[5447.607] [SLEEP] Waked up from Deep-sleep S(5447604)-W(5447604)-R(5447607)
+[5447.615] Current time: 26/02/03 13:58:58
+[5447.620] watchdog_feed>>>
+
+[5447.624] thd_onwake_callback
+[5447.800] thd_detect_write_handler last_sample_time = 5447
+[5447.903] temp_humid_sample: 2026-2-3 13:58:58, temp: 28.4, humid: 76%
+[5448.200] Current time: 26/02/03 13:58:58
+��[5448.207] [SLEEP] Waked up from Deep-sleep S(5448204)-W(5448204)-R(5448207)
+[5448.215] Current time: 26/02/03 13:59:09
+[5448.220] watchdog_feed>>>
+
+[5448.224] thd_onwake_callback
+[5448.400] thd_detect_write_handler last_sample_time = 5448
+[5448.503] temp_humid_sample: 2026-2-3 13:59:9, temp: 28.4, humid: 76%
+[5448.800] Current time: 26/02/03 13:59:09
+��[5448.807] [SLEEP] Waked up from Deep-sleep S(5448804)-W(5448804)-R(5448807)
+[5448.815] Current time: 26/02/03 13:59:20
+[5448.820] watchdog_feed>>>
+
+[5448.824] thd_onwake_callback
+[5449.000] thd_detect_write_handler last_sample_time = 5449
+[5449.103] temp_humid_sample: 2026-2-3 13:59:20, temp: 28.4, humid: 76%
+[5449.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5449.211] [ADC]: voltage(4158),ntc_temper(25),online(1)
+[5449.217] charger(4), level(98)
+[5449.400] Current time: 26/02/03 13:59:20
+��[5449.407] [SLEEP] Waked up from Deep-sleep S(5449404)-W(5449404)-R(5449407)
+[5449.415] Current time: 26/02/03 13:59:31
+[5449.420] watchdog_feed>>>
+
+[5449.424] thd_onwake_callback
+[5449.600] thd_detect_write_handler last_sample_time = 5449
+[5449.703] temp_humid_sample: 2026-2-3 13:59:31, temp: 28.3, humid: 76%
+[5450.000] Current time: 26/02/03 13:59:31
+��[5450.007] [SLEEP] Waked up from Deep-sleep S(5450004)-W(5450004)-R(5450007)
+[5450.015] Current time: 26/02/03 13:59:42
+[5450.020] watchdog_feed>>>
+
+[5450.024] thd_onwake_callback
+[5450.027] watchdog_feed>>>
+
+[5450.200] thd_detect_write_handler last_sample_time = 5450
+[5450.303] temp_humid_sample: 2026-2-3 13:59:42, temp: 28.3, humid: 76%
+[5450.600] Current time: 26/02/03 13:59:42
+��[5450.607] [SLEEP] Waked up from Deep-sleep S(5450604)-W(5450604)-R(5450607)
+[5450.615] Current time: 26/02/03 13:59:53
+[5450.620] watchdog_feed>>>
+
+[5450.624] thd_onwake_callback
+[5450.800] thd_detect_write_handler last_sample_time = 5450
+[5450.903] temp_humid_sample: 2026-2-3 13:59:53, temp: 28.3, humid: 76%
+[5451.200] Current time: 26/02/03 13:59:53
+��[5451.207] [SLEEP] Waked up from Deep-sleep S(5451204)-W(5451204)-R(5451207)
+[5451.215] Current time: 26/02/03 14:00:04
+[5451.220] watchdog_feed>>>
+
+[5451.224] thd_onwake_callback
+[5451.400] thd_detect_write_handler last_sample_time = 5451
+[5451.503] temp_humid_sample: 2026-2-3 14:0:4, temp: 28.3, humid: 76%
+[5451.800] Current time: 26/02/03 14:00:04
+��[5451.807] [SLEEP] Waked up from Deep-sleep S(5451804)-W(5451804)-R(5451807)
+[5451.815] Current time: 26/02/03 14:00:15
+[5451.820] watchdog_feed>>>
+
+[5451.824] thd_onwake_callback
+[5452.000] thd_detect_write_handler last_sample_time = 5452
+[5452.103] temp_humid_sample: 2026-2-3 14:0:15, temp: 28.3, humid: 76%
+[5452.400] Current time: 26/02/03 14:00:15
+��[5452.407] [SLEEP] Waked up from Deep-sleep S(5452404)-W(5452404)-R(5452407)
+[5452.415] Current time: 26/02/03 14:00:26
+[5452.420] watchdog_feed>>>
+
+[5452.424] thd_onwake_callback
+[5452.600] thd_detect_write_handler last_sample_time = 5452
+[5452.703] temp_humid_sample: 2026-2-3 14:0:26, temp: 28.3, humid: 76%
+[5453.000] Current time: 26/02/03 14:00:26
+��[5453.007] [SLEEP] Waked up from Deep-sleep S(5453004)-W(5453004)-R(5453006)
+[5453.015] Current time: 26/02/03 14:00:37
+[5453.019] watchdog_feed>>>
+
+[5453.024] thd_onwake_callback
+[5453.200] thd_detect_write_handler last_sample_time = 5453
+[5453.303] temp_humid_sample: 2026-2-3 14:0:37, temp: 28.3, humid: 76%
+[5453.600] Current time: 26/02/03 14:00:37
+��[5453.607] [SLEEP] Waked up from Deep-sleep S(5453604)-W(5453604)-R(5453607)
+[5453.615] Current time: 26/02/03 14:00:48
+[5453.620] watchdog_feed>>>
+
+[5453.624] thd_onwake_callback
+[5453.800] thd_detect_write_handler last_sample_time = 5453
+[5453.903] temp_humid_sample: 2026-2-3 14:0:48, temp: 28.3, humid: 76%
+[5454.200] Current time: 26/02/03 14:00:48
+��[5454.207] [SLEEP] Waked up from Deep-sleep S(5454204)-W(5454204)-R(5454207)
+[5454.215] Current time: 26/02/03 14:00:59
+[5454.220] watchdog_feed>>>
+
+[5454.224] thd_onwake_callback
+[5454.400] thd_detect_write_handler last_sample_time = 5454
+[5454.503] temp_humid_sample: 2026-2-3 14:0:59, temp: 28.3, humid: 76%
+[5454.800] Current time: 26/02/03 14:00:59
+��[5454.807] [SLEEP] Waked up from Deep-sleep S(5454804)-W(5454804)-R(5454807)
+[5454.815] Current time: 26/02/03 14:01:10
+[5454.820] watchdog_feed>>>
+
+[5454.824] thd_onwake_callback
+[5455.000] thd_detect_write_handler last_sample_time = 5455
+[5455.103] temp_humid_sample: 2026-2-3 14:1:10, temp: 28.2, humid: 76%
+[5455.110] event EVT_HUMID_EXCEED notify failed
+[5455.400] Current time: 26/02/03 14:01:10
+��[5455.407] [SLEEP] Waked up from Deep-sleep S(5455404)-W(5455404)-R(5455407)
+[5455.415] Current time: 26/02/03 14:01:21
+[5455.420] watchdog_feed>>>
+
+[5455.424] thd_onwake_callback
+[5455.500] thd_detect_write_handler last_sample_time = 5455
+[5455.603] temp_humid_sample: 2026-2-3 14:1:21, temp: 28.2, humid: 76%
+[5456.000] Current time: 26/02/03 14:01:21
+��[5456.006] [SLEEP] Waked up from Deep-sleep S(5456004)-W(5456004)-R(5456006)
+[5456.015] Current time: 26/02/03 14:01:32
+[5456.019] watchdog_feed>>>
+
+[5456.024] thd_onwake_callback
+[5456.100] thd_detect_write_handler last_sample_time = 5456
+[5456.203] temp_humid_sample: 2026-2-3 14:1:32, temp: 28.2, humid: 76%
+[5456.600] Current time: 26/02/03 14:01:32
+��[5456.607] [SLEEP] Waked up from Deep-sleep S(5456604)-W(5456604)-R(5456607)
+[5456.615] Current time: 26/02/03 14:01:43
+[5456.620] watchdog_feed>>>
+
+[5456.624] thd_onwake_callback
+[5456.800] thd_detect_write_handler last_sample_time = 5456
+[5456.903] temp_humid_sample: 2026-2-3 14:1:43, temp: 28.2, humid: 76%
+[5457.200] Current time: 26/02/03 14:01:43
+��[5457.207] [SLEEP] Waked up from Deep-sleep S(5457204)-W(5457204)-R(5457207)
+[5457.215] Current time: 26/02/03 14:01:54
+[5457.220] watchdog_feed>>>
+
+[5457.224] thd_onwake_callback
+[5457.400] thd_detect_write_handler last_sample_time = 5457
+[5457.503] temp_humid_sample: 2026-2-3 14:1:54, temp: 28.2, humid: 76%
+[5457.800] Current time: 26/02/03 14:01:54
+��[5457.807] [SLEEP] Waked up from Deep-sleep S(5457804)-W(5457804)-R(5457807)
+[5457.815] Current time: 26/02/03 14:02:05
+[5457.820] watchdog_feed>>>
+
+[5457.824] thd_onwake_callback
+[5458.000] thd_detect_write_handler last_sample_time = 5458
+[5458.103] temp_humid_sample: 2026-2-3 14:2:5, temp: 28.2, humid: 76%
+[5458.400] Current time: 26/02/03 14:02:05
+��[5458.407] [SLEEP] Waked up from Deep-sleep S(5458404)-W(5458404)-R(5458407)
+[5458.415] Current time: 26/02/03 14:02:16
+[5458.420] watchdog_feed>>>
+
+[5458.424] thd_onwake_callback
+[5458.600] thd_detect_write_handler last_sample_time = 5458
+[5458.703] temp_humid_sample: 2026-2-3 14:2:16, temp: 28.2, humid: 76%
+[5459.000] Current time: 26/02/03 14:02:16
+��[5459.007] [SLEEP] Waked up from Deep-sleep S(5459004)-W(5459004)-R(5459007)
+[5459.015] Current time: 26/02/03 14:02:27
+[5459.019] watchdog_feed>>>
+
+[5459.024] thd_onwake_callback
+[5459.200] thd_detect_write_handler last_sample_time = 5459
+[5459.303] temp_humid_sample: 2026-2-3 14:2:27, temp: 28.2, humid: 76%
+[5459.310] event EVT_HUMID_EXCEED notify failed
+[5459.600] Current time: 26/02/03 14:02:27
+��[5459.607] [SLEEP] Waked up from Deep-sleep S(5459604)-W(5459604)-R(5459607)
+[5459.615] Current time: 26/02/03 14:02:38
+[5459.620] watchdog_feed>>>
+
+[5459.624] thd_onwake_callback
+[5459.800] thd_detect_write_handler last_sample_time = 5459
+[5459.903] temp_humid_sample: 2026-2-3 14:2:38, temp: 28.1, humid: 76%
+[5460.001] watchdog_feed>>>
+
+[5460.200] Current time: 26/02/03 14:02:38
+��[5460.207] [SLEEP] Waked up from Deep-sleep S(5460204)-W(5460204)-R(5460207)
+[5460.215] Current time: 26/02/03 14:02:49
+[5460.220] watchdog_feed>>>
+
+[5460.224] thd_onwake_callback
+[5460.400] thd_detect_write_handler last_sample_time = 5460
+[5460.503] temp_humid_sample: 2026-2-3 14:2:49, temp: 28.2, humid: 77%
+[5460.800] Current time: 26/02/03 14:02:49
+��[5460.807] [SLEEP] Waked up from Deep-sleep S(5460804)-W(5460804)-R(5460807)
+[5460.815] Current time: 26/02/03 14:03:00
+[5460.820] watchdog_feed>>>
+
+[5460.824] thd_onwake_callback
+[5461.000] thd_detect_write_handler last_sample_time = 5461
+[5461.103] temp_humid_sample: 2026-2-3 14:3:0, temp: 28.1, humid: 77%
+[5461.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5461.211] [ADC]: voltage(4158),ntc_temper(24),online(1)
+[5461.216] charger(4), level(98)
+[5461.400] Current time: 26/02/03 14:03:00
+��[5461.407] [SLEEP] Waked up from Deep-sleep S(5461404)-W(5461404)-R(5461407)
+[5461.415] Current time: 26/02/03 14:03:11
+[5461.420] watchdog_feed>>>
+
+[5461.424] thd_onwake_callback
+[5461.600] thd_detect_write_handler last_sample_time = 5461
+[5461.703] temp_humid_sample: 2026-2-3 14:3:11, temp: 28.1, humid: 77%
+[5462.000] Current time: 26/02/03 14:03:11
+��[5462.007] [SLEEP] Waked up from Deep-sleep S(5462004)-W(5462004)-R(5462007)
+[5462.015] Current time: 26/02/03 14:03:22
+[5462.019] watchdog_feed>>>
+
+[5462.024] thd_onwake_callback
+[5462.200] thd_detect_write_handler last_sample_time = 5462
+[5462.303] temp_humid_sample: 2026-2-3 14:3:22, temp: 28.1, humid: 77%
+[5462.600] Current time: 26/02/03 14:03:22
+��[5462.607] [SLEEP] Waked up from Deep-sleep S(5462604)-W(5462604)-R(5462607)
+[5462.615] Current time: 26/02/03 14:03:33
+[5462.620] watchdog_feed>>>
+
+[5462.624] thd_onwake_callback
+[5462.800] thd_detect_write_handler last_sample_time = 5462
+[5462.903] temp_humid_sample: 2026-2-3 14:3:33, temp: 28.1, humid: 77%
+[5463.200] Current time: 26/02/03 14:03:33
+��[5463.207] [SLEEP] Waked up from Deep-sleep S(5463204)-W(5463204)-R(5463207)
+[5463.215] Current time: 26/02/03 14:03:44
+[5463.220] watchdog_feed>>>
+
+[5463.224] thd_onwake_callback
+[5463.400] thd_detect_write_handler last_sample_time = 5463
+[5463.503] temp_humid_sample: 2026-2-3 14:3:44, temp: 28.1, humid: 77%
+[5463.800] Current time: 26/02/03 14:03:44
+��[5463.807] [SLEEP] Waked up from Deep-sleep S(5463804)-W(5463804)-R(5463807)
+[5463.815] Current time: 26/02/03 14:03:55
+[5463.820] watchdog_feed>>>
+
+[5463.824] thd_onwake_callback
+[5464.000] thd_detect_write_handler last_sample_time = 5464
+[5464.103] temp_humid_sample: 2026-2-3 14:3:55, temp: 28.1, humid: 77%
+[5464.400] Current time: 26/02/03 14:03:55
+��[5464.407] [SLEEP] Waked up from Deep-sleep S(5464404)-W(5464404)-R(5464407)
+[5464.415] Current time: 26/02/03 14:04:06
+[5464.420] watchdog_feed>>>
+
+[5464.424] thd_onwake_callback
+[5464.600] thd_detect_write_handler last_sample_time = 5464
+[5464.703] temp_humid_sample: 2026-2-3 14:4:6, temp: 28.1, humid: 77%
+[5465.000] Current time: 26/02/03 14:04:06
+��[5465.006] [SLEEP] Waked up from Deep-sleep S(5465004)-W(5465004)-R(5465006)
+[5465.015] Current time: 26/02/03 14:04:17
+[5465.019] watchdog_feed>>>
+
+[5465.024] thd_onwake_callback
+[5465.200] thd_detect_write_handler last_sample_time = 5465
+[5465.303] temp_humid_sample: 2026-2-3 14:4:17, temp: 28.1, humid: 77%
+[5465.600] Current time: 26/02/03 14:04:17
+��[5465.607] [SLEEP] Waked up from Deep-sleep S(5465604)-W(5465604)-R(5465607)
+[5465.615] Current time: 26/02/03 14:04:28
+[5465.620] watchdog_feed>>>
+
+[5465.624] thd_onwake_callback
+[5465.800] thd_detect_write_handler last_sample_time = 5465
+[5465.903] temp_humid_sample: 2026-2-3 14:4:28, temp: 28.0, humid: 77%
+[5466.200] Current time: 26/02/03 14:04:28
+��[5466.207] [SLEEP] Waked up from Deep-sleep S(5466204)-W(5466204)-R(5466207)
+[5466.215] Current time: 26/02/03 14:04:39
+[5466.220] watchdog_feed>>>
+
+[5466.224] thd_onwake_callback
+[5466.400] thd_detect_write_handler last_sample_time = 5466
+[5466.503] temp_humid_sample: 2026-2-3 14:4:39, temp: 28.0, humid: 77%
+[5466.800] Current time: 26/02/03 14:04:39
+��[5466.807] [SLEEP] Waked up from Deep-sleep S(5466804)-W(5466804)-R(5466807)
+[5466.815] Current time: 26/02/03 14:04:50
+[5466.820] watchdog_feed>>>
+
+[5466.824] thd_onwake_callback
+[5467.000] thd_detect_write_handler last_sample_time = 5467
+[5467.103] temp_humid_sample: 2026-2-3 14:4:50, temp: 28.0, humid: 77%
+[5467.400] Current time: 26/02/03 14:04:50
+��[5467.407] [SLEEP] Waked up from Deep-sleep S(5467404)-W(5467404)-R(5467407)
+[5467.415] Current time: 26/02/03 14:05:01
+[5467.420] watchdog_feed>>>
+
+[5467.424] thd_onwake_callback
+[5467.500] thd_detect_write_handler last_sample_time = 5467
+[5467.603] temp_humid_sample: 2026-2-3 14:5:1, temp: 28.0, humid: 77%
+[5468.000] Current time: 26/02/03 14:05:01
+��[5468.006] [SLEEP] Waked up from Deep-sleep S(5468004)-W(5468004)-R(5468006)
+[5468.015] Current time: 26/02/03 14:05:12
+[5468.019] watchdog_feed>>>
+
+[5468.024] thd_onwake_callback
+[5468.200] thd_detect_write_handler last_sample_time = 5468
+[5468.303] temp_humid_sample: 2026-2-3 14:5:12, temp: 28.0, humid: 77%
+[5468.600] Current time: 26/02/03 14:05:12
+��[5468.607] [SLEEP] Waked up from Deep-sleep S(5468604)-W(5468604)-R(5468607)
+[5468.615] Current time: 26/02/03 14:05:23
+[5468.620] watchdog_feed>>>
+
+[5468.624] thd_onwake_callback
+[5468.800] thd_detect_write_handler last_sample_time = 5468
+[5468.903] temp_humid_sample: 2026-2-3 14:5:23, temp: 28.0, humid: 77%
+[5469.200] Current time: 26/02/03 14:05:23
+��[5469.207] [SLEEP] Waked up from Deep-sleep S(5469204)-W(5469204)-R(5469207)
+[5469.215] Current time: 26/02/03 14:05:34
+[5469.220] watchdog_feed>>>
+
+[5469.224] thd_onwake_callback
+[5469.400] thd_detect_write_handler last_sample_time = 5469
+[5469.503] temp_humid_sample: 2026-2-3 14:5:34, temp: 28.0, humid: 77%
+[5469.800] Current time: 26/02/03 14:05:34
+��[5469.807] [SLEEP] Waked up from Deep-sleep S(5469804)-W(5469804)-R(5469807)
+[5469.815] Current time: 26/02/03 14:05:45
+[5469.820] watchdog_feed>>>
+
+[5469.824] thd_onwake_callback
+[5470.000] thd_detect_write_handler last_sample_time = 5470
+[5470.006] watchdog_feed>>>
+
+[5470.103] temp_humid_sample: 2026-2-3 14:5:45, temp: 27.9, humid: 77%
+[5470.400] Current time: 26/02/03 14:05:45
+��[5470.407] [SLEEP] Waked up from Deep-sleep S(5470404)-W(5470404)-R(5470407)
+[5470.415] Current time: 26/02/03 14:05:56
+[5470.420] watchdog_feed>>>
+
+[5470.424] thd_onwake_callback
+[5470.600] thd_detect_write_handler last_sample_time = 5470
+[5470.703] temp_humid_sample: 2026-2-3 14:5:56, temp: 27.9, humid: 77%
+[5471.000] Current time: 26/02/03 14:05:56
+��[5471.007] [SLEEP] Waked up from Deep-sleep S(5471004)-W(5471004)-R(5471007)
+[5471.015] Current time: 26/02/03 14:06:07
+[5471.019] watchdog_feed>>>
+
+[5471.024] thd_onwake_callback
+[5471.200] thd_detect_write_handler last_sample_time = 5471
+[5471.303] temp_humid_sample: 2026-2-3 14:6:7, temp: 27.9, humid: 77%
+[5471.600] Current time: 26/02/03 14:06:07
+��[5471.607] [SLEEP] Waked up from Deep-sleep S(5471604)-W(5471604)-R(5471607)
+[5471.615] Current time: 26/02/03 14:06:18
+[5471.620] watchdog_feed>>>
+
+[5471.624] thd_onwake_callback
+[5471.800] thd_detect_write_handler last_sample_time = 5471
+[5471.903] temp_humid_sample: 2026-2-3 14:6:18, temp: 27.9, humid: 77%
+[5471.910] event EVT_HUMID_EXCEED notify failed
+[5472.200] Current time: 26/02/03 14:06:18
+��[5472.207] [SLEEP] Waked up from Deep-sleep S(5472204)-W(5472204)-R(5472207)
+[5472.215] Current time: 26/02/03 14:06:29
+[5472.220] watchdog_feed>>>
+
+[5472.224] thd_onwake_callback
+[5472.400] thd_detect_write_handler last_sample_time = 5472
+[5472.503] temp_humid_sample: 2026-2-3 14:6:29, temp: 27.9, humid: 77%
+[5472.800] Current time: 26/02/03 14:06:29
+��[5472.807] [SLEEP] Waked up from Deep-sleep S(5472804)-W(5472804)-R(5472807)
+[5472.815] Current time: 26/02/03 14:06:40
+[5472.820] watchdog_feed>>>
+
+[5472.824] thd_onwake_callback
+[5473.000] thd_detect_write_handler last_sample_time = 5473
+[5473.103] temp_humid_sample: 2026-2-3 14:6:40, temp: 27.9, humid: 77%
+[5473.201] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[5473.211] [ADC]: voltage(4158),ntc_temper(24),online(1)
+[5473.216] charger(4), level(98)
+[5473.400] Current time: 26/02/03 14:06:40
+��[5473.407] [SLEEP] Waked up from Deep-sleep S(5473404)-W(5473404)-R(5473407)
+[5473.415] Current time: 26/02/03 14:06:51
+[5473.420] watchdog_feed>>>
+
+[5473.424] thd_onwake_callback
+[5473.600] thd_detect_write_handler last_sample_time = 5473
+[5473.703] temp_humid_sample: 2026-2-3 14:6:51, temp: 27.9, humid: 77%
+[5474.000] Current time: 26/02/03 14:06:51
+��[5474.007] [SLEEP] Waked up from Deep-sleep S(5474004)-W(5474004)-R(5474007)
+[5474.015] Current time: 26/02/03 14:07:02
+[5474.019] watchdog_feed>>>
+
+[5474.024] thd_onwake_callback
+[5474.200] thd_detect_write_handler last_sample_time = 5474
+[5474.303] temp_humid_sample: 2026-2-3 14:7:2, temp: 27.8, humid: 77%
+[5474.600] Current time: 26/02/03 14:07:02
+��[5474.607] [SLEEP] Waked up from Deep-sleep S(5474604)-W(5474604)-R(5474607)
+[5474.615] Current time: 26/02/03 14:07:13
+[5474.620] watchdog_feed>>>
+
+[5474.624] thd_onwake_callback
+[5474.800] thd_detect_write_handler last_sample_time = 5474
+[5474.903] temp_humid_sample: 2026-2-3 14:7:13, temp: 27.8, humid: 77%
+[5475.200] Current time: 26/02/03 14:07:13
+��[5475.207] [SLEEP] Waked up from Deep-sleep S(5475204)-W(5475204)-R(5475207)
+[5475.215] Current time: 26/02/03 14:07:24
+[5475.220] watchdog_feed>>>
+
+[5475.224] thd_onwake_callback
+[5475.400] thd_detect_write_handler last_sample_time = 5475
+[5475.503] temp_humid_sample: 2026-2-3 14:7:24, temp: 27.8, humid: 77%
+[5475.800] Current time: 26/02/03 14:07:24
+��[5475.807] [SLEEP] Waked up from Deep-sleep S(5475804)-W(5475804)-R(5475807)
+[5475.815] Current time: 26/02/03 14:07:35
+[5475.820] watchdog_feed>>>
+
+[5475.824] thd_onwake_callback
+[5475.900] thd_detect_write_handler last_sample_time = 5475
+[5476.003] temp_humid_sample: 2026-2-3 14:7:35, temp: 27.8, humid: 77%
+[5476.400] Current time: 26/02/03 14:07:35
+��[5476.407] [SLEEP] Waked up from Deep-sleep S(5476404)-W(5476404)-R(5476407)
+[5476.415] Current time: 26/02/03 14:07:46
+[5476.420] watchdog_feed>>>
+
+[5476.424] thd_onwake_callback
+[5476.600] thd_detect_write_handler last_sample_time = 5476
+[5476.703] temp_humid_sample: 2026-2-3 14:7:46, temp: 27.8, humid: 77%
+[5477.000] Current time: 26/02/03 14:07:46
+��[5477.007] [SLEEP] Waked up from Deep-sleep S(5477004)-W(5477004)-R(5477007)
+[5477.015] Current time: 26/02/03 14:07:57
+[5477.020] watchdog_feed>>>
+
+[5477.024] thd_onwake_callback
+[5477.200] thd_detect_write_handler last_sample_time = 5477
+[5477.303] temp_humid_sample: 2026-2-3 14:7:57, temp: 27.8, humid: 77%
+[5477.600] Current time: 26/02/03 14:07:57
+��[5477.607] [SLEEP] Waked up from Deep-sleep S(5477604)-W(5477604)-R(5477607)
+[5477.615] Current time: 26/02/03 14:08:08
+[5477.620] watchdog_feed>>>
+
+[5477.624] thd_onwake_callback
+[5477.800] thd_detect_write_handler last_sample_time = 5477
+[5477.903] temp_humid_sample: 2026-2-3 14:8:8, temp: 27.7, humid: 77%
+[5478.200] Current time: 26/02/03 14:08:08
+��[5478.207] [SLEEP] Waked up from Deep-sleep S(5478204)-W(5478204)-R(5478207)
+[5478.215] Current time: 26/02/03 14:08:19
+[5478.220] watchdog_feed>>>
+
+[5478.224] thd_onwake_callback
+[5478.400] thd_detect_write_handler last_sample_time = 5478
+[5478.503] temp_humid_sample: 2026-2-3 14:8:19, temp: 27.7, humid: 77%
+[5478.800] Current time: 26/02/03 14:08:19
+�

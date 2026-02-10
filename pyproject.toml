@@ -1,0 +1,40 @@
+[project]
+name = "luna-testbench"
+version = "0.1.0"
+description = "LUNA Algorithm Testbench"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
+authors = [
+  {name = "Curaluna / LUNA team"}
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7.4",
+  "pytest-html>=4.1",
+]
+notebook = [
+  "matplotlib>=3.8",
+  "ipykernel>=6.29",
+]
+
+[tool.pytest.ini_options]
+markers = [
+  "ingest: ingestion-related tests",
+  "labels: label import tests",
+  "registry: run-registry import and linkage tests",
+]
+
+[project.scripts]
+luna-testbench = "luna_tb.cli.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["luna_tb*"]

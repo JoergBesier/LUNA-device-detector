@@ -1,0 +1,3608 @@
+
+---------- 2026-02-02 11:04:31 +0100: Logging Started ----------
+
+[409327.001] [led_mask_set] mask(0010)
+[409327.005] Mask changed:(0000)-> (0010)
+[409328.100] thd_detect_write_handler last_sample_time = 409328
+[409328.203] temp_humid_sample: 2025-10-7 13:37:41, temp: 24.4, humid: 42%
+[409330.001] watchdog_feed>>>
+
+[409330.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409330.611] [ADC]: voltage(3852),ntc_temper(32),online(1)
+[409330.617] charger(1), level(52)
+[409338.100] thd_detect_write_handler last_sample_time = 409338
+[409338.203] temp_humid_sample: 2025-10-7 13:37:52, temp: 24.4, humid: 42%
+[409340.000] watchdog_feed>>>
+
+[409342.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409342.611] [ADC]: voltage(3854),ntc_temper(32),online(1)
+[409342.617] charger(1), level(52)
+[409348.100] thd_detect_write_handler last_sample_time = 409348
+[409348.203] temp_humid_sample: 2025-10-7 13:38:2, temp: 24.4, humid: 42%
+[409350.000] watchdog_feed>>>
+
+[409354.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409354.611] [ADC]: voltage(3854),ntc_temper(32),online(1)
+[409354.617] charger(1), level(52)
+[409358.100] thd_detect_write_handler last_sample_time = 409358
+[409358.203] temp_humid_sample: 2025-10-7 13:38:13, temp: 24.4, humid: 42%
+[409360.000] watchdog_feed>>>
+
+[409366.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409366.611] [ADC]: voltage(3854),ntc_temper(32),online(1)
+[409366.617] charger(1), level(52)
+[409368.100] thd_detect_write_handler last_sample_time = 409368
+[409368.203] temp_humid_sample: 2025-10-7 13:38:23, temp: 24.4, humid: 41%
+[409370.000] watchdog_feed>>>
+
+[409378.100] thd_detect_write_handler last_sample_time = 409378
+[409378.203] temp_humid_sample: 2025-10-7 13:38:34, temp: 24.4, humid: 41%
+[409378.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409378.611] [ADC]: voltage(3857),ntc_temper(32),online(1)
+[409378.617] charger(1), level(53)
+[409380.000] watchdog_feed>>>
+
+[409388.100] thd_detect_write_handler last_sample_time = 409388
+[409388.203] temp_humid_sample: 2025-10-7 13:38:45, temp: 24.4, humid: 41%
+[409390.001] watchdog_feed>>>
+
+[409390.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409390.611] [ADC]: voltage(3857),ntc_temper(32),online(1)
+[409390.617] charger(1), level(53)
+[409398.100] thd_detect_write_handler last_sample_time = 409398
+[409398.203] temp_humid_sample: 2025-10-7 13:38:55, temp: 24.4, humid: 41%
+[409400.000] watchdog_feed>>>
+
+[409402.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409402.611] [ADC]: voltage(3857),ntc_temper(32),online(1)
+[409402.617] charger(1), level(53)
+[409408.100] thd_detect_write_handler last_sample_time = 409408
+[409408.203] temp_humid_sample: 2025-10-7 13:39:6, temp: 24.4, humid: 41%
+[409410.000] watchdog_feed>>>
+
+[409414.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409414.611] [ADC]: voltage(3857),ntc_temper(32),online(1)
+[409414.617] charger(1), level(53)
+[409418.100] thd_detect_write_handler last_sample_time = 409418
+[409418.203] temp_humid_sample: 2025-10-7 13:39:16, temp: 24.4, humid: 41%
+[409420.001] watchdog_feed>>>
+
+[409426.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409426.611] [ADC]: voltage(3857),ntc_temper(33),online(1)
+[409426.617] charger(1), level(53)
+[409428.100] thd_detect_write_handler last_sample_time = 409428
+[409428.203] temp_humid_sample: 2025-10-7 13:39:27, temp: 24.4, humid: 41%
+[409430.000] watchdog_feed>>>
+
+[409438.100] thd_detect_write_handler last_sample_time = 409438
+[409438.203] temp_humid_sample: 2025-10-7 13:39:38, temp: 24.4, humid: 41%
+[409438.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409438.611] [ADC]: voltage(3857),ntc_temper(33),online(1)
+[409438.617] charger(1), level(53)
+[409440.000] watchdog_feed>>>
+
+[409448.100] thd_detect_write_handler last_sample_time = 409448
+[409448.203] temp_humid_sample: 2025-10-7 13:39:48, temp: 24.4, humid: 41%
+[409450.001] watchdog_feed>>>
+
+[409450.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409450.611] [ADC]: voltage(3859),ntc_temper(33),online(1)
+[409450.617] charger(1), level(53)
+[409458.100] thd_detect_write_handler last_sample_time = 409458
+[409458.203] temp_humid_sample: 2025-10-7 13:39:59, temp: 24.4, humid: 41%
+[409460.000] watchdog_feed>>>
+
+[409462.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409462.611] [ADC]: voltage(3859),ntc_temper(33),online(1)
+[409462.617] charger(1), level(53)
+[409468.100] thd_detect_write_handler last_sample_time = 409468
+[409468.203] temp_humid_sample: 2025-10-7 13:40:9, temp: 24.4, humid: 41%
+[409470.000] watchdog_feed>>>
+
+[409474.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409474.611] [ADC]: voltage(3859),ntc_temper(33),online(1)
+[409474.617] charger(1), level(53)
+[409478.100] thd_detect_write_handler last_sample_time = 409478
+[409478.203] temp_humid_sample: 2025-10-7 13:40:20, temp: 24.3, humid: 41%
+[409480.001] watchdog_feed>>>
+
+[409486.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409486.611] [ADC]: voltage(3859),ntc_temper(33),online(1)
+[409486.617] charger(1), level(53)
+[409488.100] thd_detect_write_handler last_sample_time = 409488
+[409488.203] temp_humid_sample: 2025-10-7 13:40:31, temp: 24.3, humid: 41%
+[409490.000] watchdog_feed>>>
+
+[409498.100] thd_detect_write_handler last_sample_time = 409498
+[409498.203] temp_humid_sample: 2025-10-7 13:40:41, temp: 24.3, humid: 41%
+[409498.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409498.611] [ADC]: voltage(3859),ntc_temper(33),online(1)
+[409498.617] charger(1), level(53)
+[409500.000] watchdog_feed>>>
+
+[409508.100] thd_detect_write_handler last_sample_time = 409508
+[409508.203] temp_humid_sample: 2025-10-7 13:40:52, temp: 24.3, humid: 41%
+[409510.000] watchdog_feed>>>
+
+[409510.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409510.611] [ADC]: voltage(3861),ntc_temper(33),online(1)
+[409510.617] charger(1), level(54)
+[409518.100] thd_detect_write_handler last_sample_time = 409518
+[409518.203] temp_humid_sample: 2025-10-7 13:41:2, temp: 24.3, humid: 41%
+[409520.000] watchdog_feed>>>
+
+[409522.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409522.611] [ADC]: voltage(3861),ntc_temper(33),online(1)
+[409522.617] charger(1), level(54)
+[409528.100] thd_detect_write_handler last_sample_time = 409528
+[409528.203] temp_humid_sample: 2025-10-7 13:41:13, temp: 24.3, humid: 41%
+[409530.000] watchdog_feed>>>
+
+[409534.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409534.611] [ADC]: voltage(3861),ntc_temper(33),online(1)
+[409534.617] charger(1), level(54)
+[409538.100] thd_detect_write_handler last_sample_time = 409538
+[409538.203] temp_humid_sample: 2025-10-7 13:41:24, temp: 24.3, humid: 41%
+[409540.001] watchdog_feed>>>
+
+[409546.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409546.611] [ADC]: voltage(3861),ntc_temper(33),online(1)
+[409546.617] charger(1), level(54)
+[409548.100] thd_detect_write_handler last_sample_time = 409548
+[409548.203] temp_humid_sample: 2025-10-7 13:41:34, temp: 24.3, humid: 41%
+[409550.000] watchdog_feed>>>
+
+[409558.100] thd_detect_write_handler last_sample_time = 409558
+[409558.203] temp_humid_sample: 2025-10-7 13:41:45, temp: 24.3, humid: 41%
+[409558.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409558.611] [ADC]: voltage(3863),ntc_temper(33),online(1)
+[409558.617] charger(1), level(54)
+[409560.000] watchdog_feed>>>
+
+[409568.100] thd_detect_write_handler last_sample_time = 409568
+[409568.203] temp_humid_sample: 2025-10-7 13:41:55, temp: 24.3, humid: 41%
+[409570.001] watchdog_feed>>>
+
+[409570.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409570.611] [ADC]: voltage(3863),ntc_temper(34),online(1)
+[409570.617] charger(1), level(54)
+[409578.100] thd_detect_write_handler last_sample_time = 409578
+[409578.203] temp_humid_sample: 2025-10-7 13:42:6, temp: 24.3, humid: 41%
+[409580.000] watchdog_feed>>>
+
+[409582.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409582.611] [ADC]: voltage(3863),ntc_temper(34),online(1)
+[409582.617] charger(1), level(54)
+[409588.100] thd_detect_write_handler last_sample_time = 409588
+[409588.203] temp_humid_sample: 2025-10-7 13:42:17, temp: 24.3, humid: 41%
+[409590.000] watchdog_feed>>>
+
+[409594.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409594.611] [ADC]: voltage(3863),ntc_temper(34),online(1)
+[409594.617] charger(1), level(54)
+[409598.100] thd_detect_write_handler last_sample_time = 409598
+[409598.204] temp_humid_sample: 2025-10-7 13:42:27, temp: 24.3, humid: 41%
+[409600.001] watchdog_feed>>>
+
+[409606.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409606.611] [ADC]: voltage(3865),ntc_temper(34),online(1)
+[409606.617] charger(1), level(54)
+[409608.100] thd_detect_write_handler last_sample_time = 409608
+[409608.203] temp_humid_sample: 2025-10-7 13:42:38, temp: 24.2, humid: 41%
+[409610.000] watchdog_feed>>>
+
+[409618.100] thd_detect_write_handler last_sample_time = 409618
+[409618.203] temp_humid_sample: 2025-10-7 13:42:48, temp: 24.2, humid: 41%
+[409618.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409618.611] [ADC]: voltage(3865),ntc_temper(34),online(1)
+[409618.617] charger(1), level(54)
+[409620.000] watchdog_feed>>>
+
+[409628.100] thd_detect_write_handler last_sample_time = 409628
+[409628.203] temp_humid_sample: 2025-10-7 13:42:59, temp: 24.2, humid: 41%
+[409630.001] watchdog_feed>>>
+
+[409630.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409630.611] [ADC]: voltage(3865),ntc_temper(34),online(1)
+[409630.617] charger(1), level(54)
+[409638.100] thd_detect_write_handler last_sample_time = 409638
+[409638.203] temp_humid_sample: 2025-10-7 13:43:10, temp: 24.2, humid: 41%
+[409640.000] watchdog_feed>>>
+
+[409642.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409642.611] [ADC]: voltage(3865),ntc_temper(34),online(1)
+[409642.617] charger(1), level(54)
+[409648.100] thd_detect_write_handler last_sample_time = 409648
+[409648.203] temp_humid_sample: 2025-10-7 13:43:20, temp: 24.2, humid: 41%
+[409650.000] watchdog_feed>>>
+
+[409654.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409654.611] [ADC]: voltage(3868),ntc_temper(34),online(1)
+[409654.617] charger(1), level(54)
+[409658.100] thd_detect_write_handler last_sample_time = 409658
+[409658.203] temp_humid_sample: 2025-10-7 13:43:31, temp: 24.2, humid: 41%
+[409660.001] watchdog_feed>>>
+
+[409666.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409666.611] [ADC]: voltage(3868),ntc_temper(34),online(1)
+[409666.617] charger(1), level(55)
+[409668.100] thd_detect_write_handler last_sample_time = 409668
+[409668.203] temp_humid_sample: 2025-10-7 13:43:41, temp: 24.2, humid: 41%
+[409670.000] watchdog_feed>>>
+
+[409678.100] thd_detect_write_handler last_sample_time = 409678
+[409678.203] temp_humid_sample: 2025-10-7 13:43:52, temp: 24.2, humid: 41%
+[409678.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409678.611] [ADC]: voltage(3868),ntc_temper(34),online(1)
+[409678.617] charger(1), level(55)
+[409680.000] watchdog_feed>>>
+
+[409688.100] thd_detect_write_handler last_sample_time = 409688
+[409688.203] temp_humid_sample: 2025-10-7 13:44:3, temp: 24.2, humid: 41%
+[409690.000] watchdog_feed>>>
+
+[409690.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409690.611] [ADC]: voltage(3868),ntc_temper(34),online(1)
+[409690.617] charger(1), level(55)
+[409698.100] thd_detect_write_handler last_sample_time = 409698
+[409698.203] temp_humid_sample: 2025-10-7 13:44:13, temp: 24.2, humid: 41%
+[409700.000] watchdog_feed>>>
+
+[409702.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409702.611] [ADC]: voltage(3870),ntc_temper(34),online(1)
+[409702.617] charger(1), level(55)
+[409708.100] thd_detect_write_handler last_sample_time = 409708
+[409708.203] temp_humid_sample: 2025-10-7 13:44:24, temp: 24.2, humid: 41%
+[409710.000] watchdog_feed>>>
+
+[409714.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409714.611] [ADC]: voltage(3870),ntc_temper(34),online(1)
+[409714.617] charger(1), level(55)
+[409718.100] thd_detect_write_handler last_sample_time = 409718
+[409718.203] temp_humid_sample: 2025-10-7 13:44:34, temp: 24.2, humid: 41%
+[409720.001] watchdog_feed>>>
+
+[409726.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409726.611] [ADC]: voltage(3870),ntc_temper(34),online(1)
+[409726.617] charger(1), level(55)
+[409728.100] thd_detect_write_handler last_sample_time = 409728
+[409728.203] temp_humid_sample: 2025-10-7 13:44:45, temp: 24.2, humid: 41%
+[409730.000] watchdog_feed>>>
+
+[409738.100] thd_detect_write_handler last_sample_time = 409738
+[409738.203] temp_humid_sample: 2025-10-7 13:44:56, temp: 24.2, humid: 41%
+[409738.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409738.611] [ADC]: voltage(3872),ntc_temper(34),online(1)
+[409738.617] charger(1), level(55)
+[409740.000] watchdog_feed>>>
+
+[409748.100] thd_detect_write_handler last_sample_time = 409748
+[409748.203] temp_humid_sample: 2025-10-7 13:45:6, temp: 24.2, humid: 41%
+[409750.000] watchdog_feed>>>
+
+[409750.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409750.611] [ADC]: voltage(3872),ntc_temper(35),online(1)
+[409750.617] charger(1), level(55)
+[409758.100] thd_detect_write_handler last_sample_time = 409758
+[409758.203] temp_humid_sample: 2025-10-7 13:45:17, temp: 24.2, humid: 41%
+[409760.000] watchdog_feed>>>
+
+[409762.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409762.611] [ADC]: voltage(3872),ntc_temper(35),online(1)
+[409762.617] charger(1), level(55)
+[409768.100] thd_detect_write_handler last_sample_time = 409768
+[409768.203] temp_humid_sample: 2025-10-7 13:45:27, temp: 24.2, humid: 41%
+[409770.000] watchdog_feed>>>
+
+[409774.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409774.611] [ADC]: voltage(3874),ntc_temper(35),online(1)
+[409774.617] charger(1), level(55)
+[409778.100] thd_detect_write_handler last_sample_time = 409778
+[409778.203] temp_humid_sample: 2025-10-7 13:45:38, temp: 24.2, humid: 41%
+[409780.001] watchdog_feed>>>
+
+[409786.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409786.611] [ADC]: voltage(3874),ntc_temper(35),online(1)
+[409786.617] charger(1), level(56)
+[409788.100] thd_detect_write_handler last_sample_time = 409788
+[409788.203] temp_humid_sample: 2025-10-7 13:45:49, temp: 24.2, humid: 41%
+[409790.000] watchdog_feed>>>
+
+[409798.100] thd_detect_write_handler last_sample_time = 409798
+[409798.203] temp_humid_sample: 2025-10-7 13:45:59, temp: 24.2, humid: 41%
+[409798.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409798.611] [ADC]: voltage(3874),ntc_temper(35),online(1)
+[409798.617] charger(1), level(56)
+[409800.000] watchdog_feed>>>
+
+[409808.100] thd_detect_write_handler last_sample_time = 409808
+[409808.203] temp_humid_sample: 2025-10-7 13:46:10, temp: 24.2, humid: 41%
+[409810.001] watchdog_feed>>>
+
+[409810.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409810.611] [ADC]: voltage(3874),ntc_temper(35),online(1)
+[409810.617] charger(1), level(56)
+[409818.100] thd_detect_write_handler last_sample_time = 409818
+[409818.203] temp_humid_sample: 2025-10-7 13:46:20, temp: 24.2, humid: 41%
+[409820.000] watchdog_feed>>>
+
+[409822.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409822.611] [ADC]: voltage(3876),ntc_temper(35),online(1)
+[409822.617] charger(1), level(56)
+[409828.100] thd_detect_write_handler last_sample_time = 409828
+[409828.203] temp_humid_sample: 2025-10-7 13:46:31, temp: 24.2, humid: 41%
+[409830.000] watchdog_feed>>>
+
+[409834.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409834.611] [ADC]: voltage(3876),ntc_temper(35),online(1)
+[409834.617] charger(1), level(56)
+[409838.100] thd_detect_write_handler last_sample_time = 409838
+[409838.203] temp_humid_sample: 2025-10-7 13:46:42, temp: 24.2, humid: 41%
+[409840.001] watchdog_feed>>>
+
+[409846.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409846.611] [ADC]: voltage(3876),ntc_temper(35),online(1)
+[409846.617] charger(1), level(56)
+[409848.100] thd_detect_write_handler last_sample_time = 409848
+[409848.203] temp_humid_sample: 2025-10-7 13:46:52, temp: 24.2, humid: 41%
+[409850.000] watchdog_feed>>>
+
+[409858.100] thd_detect_write_handler last_sample_time = 409858
+[409858.203] temp_humid_sample: 2025-10-7 13:47:3, temp: 24.2, humid: 41%
+[409858.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409858.611] [ADC]: voltage(3879),ntc_temper(35),online(1)
+[409858.617] charger(1), level(57)
+[409860.000] watchdog_feed>>>
+
+[409868.100] thd_detect_write_handler last_sample_time = 409868
+[409868.203] temp_humid_sample: 2025-10-7 13:47:13, temp: 24.2, humid: 41%
+[409870.001] watchdog_feed>>>
+
+[409870.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409870.611] [ADC]: voltage(3879),ntc_temper(35),online(1)
+[409870.617] charger(1), level(57)
+[409878.100] thd_detect_write_handler last_sample_time = 409878
+[409878.203] temp_humid_sample: 2025-10-7 13:47:24, temp: 24.2, humid: 41%
+[409880.000] watchdog_feed>>>
+
+[409882.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409882.611] [ADC]: voltage(3881),ntc_temper(35),online(1)
+[409882.617] charger(1), level(57)
+[409888.100] thd_detect_write_handler last_sample_time = 409888
+[409888.203] temp_humid_sample: 2025-10-7 13:47:35, temp: 24.2, humid: 41%
+[409890.000] watchdog_feed>>>
+
+[409894.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409894.611] [ADC]: voltage(3881),ntc_temper(35),online(1)
+[409894.617] charger(1), level(57)
+[409898.100] thd_detect_write_handler last_sample_time = 409898
+[409898.203] temp_humid_sample: 2025-10-7 13:47:45, temp: 24.2, humid: 41%
+[409900.001] watchdog_feed>>>
+
+[409906.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409906.611] [ADC]: voltage(3881),ntc_temper(35),online(1)
+[409906.617] charger(1), level(57)
+[409908.100] thd_detect_write_handler last_sample_time = 409908
+[409908.203] temp_humid_sample: 2025-10-7 13:47:56, temp: 24.2, humid: 41%
+[409910.000] watchdog_feed>>>
+
+[409918.100] thd_detect_write_handler last_sample_time = 409918
+[409918.203] temp_humid_sample: 2025-10-7 13:48:6, temp: 24.2, humid: 41%
+[409918.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409918.611] [ADC]: voltage(3883),ntc_temper(35),online(1)
+[409918.617] charger(1), level(57)
+[409920.000] watchdog_feed>>>
+
+[409928.100] thd_detect_write_handler last_sample_time = 409928
+[409928.203] temp_humid_sample: 2025-10-7 13:48:17, temp: 24.2, humid: 41%
+[409930.001] watchdog_feed>>>
+
+[409930.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409930.611] [ADC]: voltage(3883),ntc_temper(35),online(1)
+[409930.617] charger(1), level(57)
+[409938.100] thd_detect_write_handler last_sample_time = 409938
+[409938.203] temp_humid_sample: 2025-10-7 13:48:28, temp: 24.2, humid: 41%
+[409940.000] watchdog_feed>>>
+
+[409942.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409942.611] [ADC]: voltage(3883),ntc_temper(35),online(1)
+[409942.617] charger(1), level(57)
+[409948.100] thd_detect_write_handler last_sample_time = 409948
+[409948.203] temp_humid_sample: 2025-10-7 13:48:38, temp: 24.2, humid: 41%
+[409950.000] watchdog_feed>>>
+
+[409954.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409954.611] [ADC]: voltage(3885),ntc_temper(35),online(1)
+[409954.617] charger(1), level(57)
+[409958.100] thd_detect_write_handler last_sample_time = 409958
+[409958.203] temp_humid_sample: 2025-10-7 13:48:49, temp: 24.2, humid: 41%
+[409960.001] watchdog_feed>>>
+
+[409966.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409966.611] [ADC]: voltage(3885),ntc_temper(35),online(1)
+[409966.617] charger(1), level(58)
+[409968.100] thd_detect_write_handler last_sample_time = 409968
+[409968.203] temp_humid_sample: 2025-10-7 13:48:59, temp: 24.2, humid: 41%
+[409970.000] watchdog_feed>>>
+
+[409978.100] thd_detect_write_handler last_sample_time = 409978
+[409978.203] temp_humid_sample: 2025-10-7 13:49:10, temp: 24.2, humid: 41%
+[409978.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409978.611] [ADC]: voltage(3885),ntc_temper(35),online(1)
+[409978.617] charger(1), level(58)
+[409980.000] watchdog_feed>>>
+
+[409988.100] thd_detect_write_handler last_sample_time = 409988
+[409988.203] temp_humid_sample: 2025-10-7 13:49:21, temp: 24.2, humid: 41%
+[409990.000] watchdog_feed>>>
+
+[409990.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[409990.611] [ADC]: voltage(3887),ntc_temper(36),online(1)
+[409990.617] charger(1), level(58)
+[409998.100] thd_detect_write_handler last_sample_time = 409998
+[409998.203] temp_humid_sample: 2025-10-7 13:49:31, temp: 24.2, humid: 50%
+[410000.000] watchdog_feed>>>
+
+[410002.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410002.611] [ADC]: voltage(3887),ntc_temper(36),online(1)
+[410002.617] charger(1), level(58)
+[410008.100] thd_detect_write_handler last_sample_time = 410008
+[410008.203] temp_humid_sample: 2025-10-7 13:49:42, temp: 24.4, humid: 69%
+[410010.000] watchdog_feed>>>
+
+[410014.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410014.611] [ADC]: voltage(3887),ntc_temper(36),online(1)
+[410014.617] charger(1), level(58)
+[410018.100] thd_detect_write_handler last_sample_time = 410018
+[410018.203] temp_humid_sample: 2025-10-7 13:49:52, temp: 24.7, humid: 79%
+[410020.001] watchdog_feed>>>
+
+[410026.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410026.611] [ADC]: voltage(3890),ntc_temper(36),online(1)
+[410026.617] charger(1), level(58)
+[410028.100] thd_detect_write_handler last_sample_time = 410028
+[410028.203] temp_humid_sample: 2025-10-7 13:50:3, temp: 25.0, humid: 84%
+[410030.000] watchdog_feed>>>
+
+[410038.100] thd_detect_write_handler last_sample_time = 410038
+[410038.203] temp_humid_sample: 2025-10-7 13:50:14, temp: 25.3, humid: 87%
+[410038.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410038.611] [ADC]: voltage(3890),ntc_temper(36),online(1)
+[410038.617] charger(1), level(58)
+[410040.000] watchdog_feed>>>
+
+[410048.100] thd_detect_write_handler last_sample_time = 410048
+[410048.203] temp_humid_sample: 2025-10-7 13:50:24, temp: 25.6, humid: 88%
+[410050.001] watchdog_feed>>>
+
+[410050.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410050.611] [ADC]: voltage(3892),ntc_temper(36),online(1)
+[410050.617] charger(1), level(59)
+[410058.100] thd_detect_write_handler last_sample_time = 410058
+[410058.203] temp_humid_sample: 2025-10-7 13:50:35, temp: 25.9, humid: 89%
+[410058.211] current_event.valid = true avg_humid=515 [latest_idx].humidity=890 [prev1_idx].humidity=880 
+[410058.221] [prev2_idx].humidity=870 start=1759816214 end=1759816235 rtcTS=1759816235
+[410058.231] change_last_prev1=10 change_prev1_prev2=10 refer_humid_stable=20
+[410058.239] msg mask:0x04, type:2
+[410058.243] Net_Event_Notify
+[410058.246] event EVT_URINE notify ok
+[410058.401] get msg_type(2)
+[410058.404] cmd=0111
+[410058.407] config_get type:0, addr:P(60), len:28
+[410058.412] >>>>stable_temp(244)
+[410058.416] >>>>stable_humid(410)
+[410058.420] >>>>>start(1759816214), end(1759816235)
+[410058.426] mid(15), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 0F 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 AA 2B 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 3B 10 03 01 01 10 08    
+0030: 01 00 10 04 02 00 F4 10 05 02 01 9A 10 12 08 68    
+0040: E4 AA 16 68 E4 AA 2B 24 54                         
+[410058.463] 
+List (size=5): 
+[410058.471] [T(0),L(58),F(11), 48003A10010B80011035313230323531313236303030383268E0ACFF0610010200001002015A1003010110080101100
+[410058.489] [T(0),L(73),F(12), 48004910010C80011135313230323531313236303030383268E0C3D7081011010110010200001002016110030102100
+[410058.506] [T(0),L(73),F(13), 48004910010D80011135313230323531313236303030383268E0C3F7081011010110010200001002016110030102100
+[410058.524] [T(0),L(73),F(14), 48004910010E80011135313230323531313236303030383268E0C416081011010110010200001002016110030102100
+[410058.541] [T(0),L(73),F(15), 48004910010F80011135313230323531313236303030383268E4AA2B081011010110010200001002013B10030101100
+[410058.554] NULL
+
+[410060.000] watchdog_feed>>>
+
+[410062.201] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410062.211] [ADC]: voltage(3892),ntc_temper(36),online(1)
+[410062.217] charger(1), level(59)
+[410068.100] thd_detect_write_handler last_sample_time = 410068
+[410068.203] temp_humid_sample: 2025-10-7 13:50:45, temp: 26.1, humid: 90%
+[410070.001] watchdog_feed>>>
+
+[410074.201] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410074.211] [ADC]: voltage(3892),ntc_temper(36),online(1)
+[410074.217] charger(1), level(59)
+[410078.100] thd_detect_write_handler last_sample_time = 410078
+[410078.203] temp_humid_sample: 2025-10-7 13:50:56, temp: 26.3, humid: 90%
+[410080.000] watchdog_feed>>>
+
+[410086.201] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410086.211] [ADC]: voltage(3894),ntc_temper(36),online(1)
+[410086.217] charger(1), level(59)
+[410088.100] thd_detect_write_handler last_sample_time = 410088
+[410088.203] temp_humid_sample: 2025-10-7 13:51:7, temp: 26.5, humid: 90%
+[410088.211] current_event.valid = true avg_humid=588 [latest_idx].humidity=900 [prev1_idx].humidity=900 
+[410088.221] [prev2_idx].humidity=900 start=1759816245 end=1759816267 rtcTS=1759816267
+[410088.231] change_last_prev1=0 change_prev1_prev2=0 refer_humid_stable=20
+[410088.238] msg mask:0x04, type:2
+[410088.242] Net_Event_Notify
+[410088.245] event EVT_URINE notify ok
+[410088.601] get msg_type(2)
+[410088.604] cmd=0111
+[410088.607] config_get type:0, addr:P(60), len:28
+[410088.612] >>>>stable_temp(244)
+[410088.616] >>>>stable_humid(410)
+[410088.620] >>>>>start(1759816245), end(1759816267)
+[410088.626] mid(16), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 10 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 AA 4B 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 3B 10 03 01 01 10 08    
+0030: 01 00 10 04 02 00 F4 10 05 02 01 9A 10 12 08 68    
+0040: E4 AA 35 68 E4 AA 4B 84 54                         
+[410088.663] 
+List (size=5): 
+[410088.672] [T(0),L(73),F(12), 48004910010C80011135313230323531313236303030383268E0C3D7081011010110010200001002016110030102100
+[410088.690] [T(0),L(73),F(13), 48004910010D80011135313230323531313236303030383268E0C3F7081011010110010200001002016110030102100
+[410088.707] [T(0),L(73),F(14), 48004910010E80011135313230323531313236303030383268E0C416081011010110010200001002016110030102100
+[410088.725] [T(0),L(73),F(15), 48004910010F80011135313230323531313236303030383268E4AA2B081011010110010200001002013B10030101100
+[410088.743] [T(0),L(73),F(16), 48004910011080011135313230323531313236303030383268E4AA4B081011010110010200001002013B10030101100
+[410088.755] NULL
+
+[410090.000] watchdog_feed>>>
+
+[410097.801] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410097.811] [ADC]: voltage(3894),ntc_temper(36),online(1)
+[410097.817] charger(1), level(59)
+[410098.100] thd_detect_write_handler last_sample_time = 410098
+[410098.203] temp_humid_sample: 2025-10-7 13:51:17, temp: 26.7, humid: 90%
+[410100.000] watchdog_feed>>>
+
+[410108.100] thd_detect_write_handler last_sample_time = 410108
+[410108.203] temp_humid_sample: 2025-10-7 13:51:28, temp: 26.9, humid: 89%
+[410109.801] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410109.811] [ADC]: voltage(3896),ntc_temper(36),online(1)
+[410109.817] charger(1), level(59)
+[410110.000] watchdog_feed>>>
+
+[410118.100] thd_detect_write_handler last_sample_time = 410118
+[410118.203] temp_humid_sample: 2025-10-7 13:51:38, temp: 27.0, humid: 89%
+[410118.211] current_event.valid = true avg_humid=661 [latest_idx].humidity=890 [prev1_idx].humidity=890 
+[410118.221] [prev2_idx].humidity=900 start=1759816277 end=1759816298 rtcTS=1759816298
+[410118.231] change_last_prev1=0 change_prev1_prev2=-10 refer_humid_stable=20
+[410118.239] msg mask:0x04, type:2
+[410118.242] Net_Event_Notify
+[410118.246] event EVT_URINE notify ok
+[410118.251] get msg_type(2)
+[410118.254] cmd=0111
+[410118.257] config_get type:0, addr:P(60), len:28
+[410118.262] >>>>stable_temp(244)
+[410118.266] >>>>stable_humid(410)
+[410118.270] >>>>>start(1759816277), end(1759816298)
+[410118.276] mid(17), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 11 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 AA 6B 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 3B 10 03 01 01 10 08    
+0030: 01 00 10 04 02 00 F4 10 05 02 01 9A 10 12 08 68    
+0040: E4 AA 55 68 E4 AA 6A E4 54                         
+[410118.313] 
+List (size=5): 
+[410118.322] [T(0),L(73),F(13), 48004910010D80011135313230323531313236303030383268E0C3F7081011010110010200001002016110030102100
+[410118.340] [T(0),L(73),F(14), 48004910010E80011135313230323531313236303030383268E0C416081011010110010200001002016110030102100
+[410118.358] [T(0),L(73),F(15), 48004910010F80011135313230323531313236303030383268E4AA2B081011010110010200001002013B10030101100
+[410118.375] [T(0),L(73),F(16), 48004910011080011135313230323531313236303030383268E4AA4B081011010110010200001002013B10030101100
+[410118.393] [T(0),L(73),F(17), 48004910011180011135313230323531313236303030383268E4AA6B081011010110010200001002013B10030101100
+[410118.405] NULL
+
+[410120.000] watchdog_feed>>>
+
+[410121.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410121.611] [ADC]: voltage(3896),ntc_temper(36),online(1)
+[410121.617] charger(1), level(59)
+[410128.100] thd_detect_write_handler last_sample_time = 410128
+[410128.203] temp_humid_sample: 2025-10-7 13:51:49, temp: 27.2, humid: 89%
+[410130.001] watchdog_feed>>>
+
+[410133.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410133.611] [ADC]: voltage(3898),ntc_temper(36),online(1)
+[410133.617] charger(1), level(60)
+[410138.100] thd_detect_write_handler last_sample_time = 410138
+[410138.203] temp_humid_sample: 2025-10-7 13:52:0, temp: 27.3, humid: 89%
+[410140.000] watchdog_feed>>>
+
+[410145.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410145.611] [ADC]: voltage(3898),ntc_temper(36),online(1)
+[410145.617] charger(1), level(60)
+[410148.100] thd_detect_write_handler last_sample_time = 410148
+[410148.203] temp_humid_sample: 2025-10-7 13:52:10, temp: 27.4, humid: 89%
+[410148.211] current_event.valid = true avg_humid=733 [latest_idx].humidity=890 [prev1_idx].humidity=890 
+[410148.221] [prev2_idx].humidity=890 start=1759816309 end=1759816330 rtcTS=1759816330
+[410148.231] change_last_prev1=0 change_prev1_prev2=0 refer_humid_stable=20
+[410148.238] msg mask:0x04, type:2
+[410148.242] Net_Event_Notify
+[410148.245] event EVT_URINE notify ok
+[410148.601] get msg_type(2)
+[410148.604] cmd=0111
+[410148.607] config_get type:0, addr:P(60), len:28
+[410148.612] >>>>stable_temp(244)
+[410148.616] >>>>stable_humid(410)
+[410148.620] >>>>>start(1759816309), end(1759816330)
+[410148.626] mid(18), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 12 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 AA 8B 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 3C 10 03 01 01 10 08    
+0030: 01 00 10 04 02 00 F4 10 05 02 01 9A 10 12 08 68    
+0040: E4 AA 75 68 E4 AA 8A 46 54                         
+[410148.663] 
+List (size=5): 
+[410148.672] [T(0),L(73),F(14), 48004910010E80011135313230323531313236303030383268E0C416081011010110010200001002016110030102100
+[410148.690] [T(0),L(73),F(15), 48004910010F80011135313230323531313236303030383268E4AA2B081011010110010200001002013B10030101100
+[410148.708] [T(0),L(73),F(16), 48004910011080011135313230323531313236303030383268E4AA4B081011010110010200001002013B10030101100
+[410148.725] [T(0),L(73),F(17), 48004910011180011135313230323531313236303030383268E4AA6B081011010110010200001002013B10030101100
+[410148.743] [T(0),L(73),F(18), 48004910011280011135313230323531313236303030383268E4AA8B081011010110010200001002013C10030101100
+[410148.755] NULL
+
+[410150.001] watchdog_feed>>>
+
+[410157.201] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410157.211] [ADC]: voltage(3898),ntc_temper(36),online(1)
+[410157.217] charger(1), level(60)
+[410158.100] thd_detect_write_handler last_sample_time = 410158
+[410158.203] temp_humid_sample: 2025-10-7 13:52:21, temp: 27.5, humid: 89%
+[410160.000] watchdog_feed>>>
+
+[410168.100] thd_detect_write_handler last_sample_time = 410168
+[410168.203] temp_humid_sample: 2025-10-7 13:52:31, temp: 27.6, humid: 88%
+[410169.201] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410169.211] [ADC]: voltage(3898),ntc_temper(36),online(1)
+[410169.217] charger(1), level(60)
+[410170.000] watchdog_feed>>>
+
+[410178.100] thd_detect_write_handler last_sample_time = 410178
+[410178.203] temp_humid_sample: 2025-10-7 13:52:42, temp: 27.7, humid: 88%
+[410178.211] current_event.valid = true avg_humid=805 [latest_idx].humidity=880 [prev1_idx].humidity=880 
+[410178.221] [prev2_idx].humidity=890 start=1759816341 end=1759816362 rtcTS=1759816362
+[410178.231] change_last_prev1=0 change_prev1_prev2=-10 refer_humid_stable=20
+[410178.239] msg mask:0x04, type:2
+[410178.242] Net_Event_Notify
+[410178.246] event EVT_URINE notify ok
+[410178.251] get msg_type(2)
+[410178.254] cmd=0111
+[410178.257] config_get type:0, addr:P(60), len:28
+[410178.262] >>>>stable_temp(244)
+[410178.266] >>>>stable_humid(410)
+[410178.270] >>>>>start(1759816341), end(1759816362)
+[410178.276] mid(19), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 13 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 AA AA 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 3C 10 03 01 01 10 08    
+0030: 01 00 10 04 02 00 F4 10 05 02 01 9A 10 12 08 68    
+0040: E4 AA 95 68 E4 AA AA A6 54                         
+[410178.313] 
+List (size=5): 
+[410178.323] [T(0),L(73),F(15), 48004910010F80011135313230323531313236303030383268E4AA2B081011010110010200001002013B10030101100
+[410178.340] [T(0),L(73),F(16), 48004910011080011135313230323531313236303030383268E4AA4B081011010110010200001002013B10030101100
+[410178.358] [T(0),L(73),F(17), 48004910011180011135313230323531313236303030383268E4AA6B081011010110010200001002013B10030101100
+[410178.376] [T(0),L(73),F(18), 48004910011280011135313230323531313236303030383268E4AA8B081011010110010200001002013C10030101100
+[410178.394] [T(0),L(73),F(19), 48004910011380011135313230323531313236303030383268E4AAAA081011010110010200001002013C10030101100
+[410178.406] NULL
+
+[410180.000] watchdog_feed>>>
+
+[410181.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410181.011] [ADC]: voltage(3901),ntc_temper(36),online(1)
+[410181.017] charger(1), level(60)
+[410188.100] thd_detect_write_handler last_sample_time = 410188
+[410188.203] temp_humid_sample: 2025-10-7 13:52:53, temp: 27.7, humid: 88%
+[410190.000] watchdog_feed>>>
+
+[410193.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410193.011] [ADC]: voltage(3901),ntc_temper(36),online(1)
+[410193.017] charger(1), level(60)
+[410198.100] thd_detect_write_handler last_sample_time = 410198
+[410198.203] temp_humid_sample: 2025-10-7 13:53:3, temp: 27.8, humid: 88%
+[410200.000] watchdog_feed>>>
+
+[410205.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410205.011] [ADC]: voltage(3903),ntc_temper(36),online(1)
+[410205.017] charger(1), level(61)
+[410208.100] thd_detect_write_handler last_sample_time = 410208
+[410208.203] temp_humid_sample: 2025-10-7 13:53:14, temp: 27.8, humid: 88%
+[410210.000] watchdog_feed>>>
+
+[410217.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410217.011] [ADC]: voltage(3903),ntc_temper(36),online(1)
+[410217.017] charger(1), level(61)
+[410218.100] thd_detect_write_handler last_sample_time = 410218
+[410218.203] temp_humid_sample: 2025-10-7 13:53:24, temp: 27.9, humid: 87%
+[410220.000] watchdog_feed>>>
+
+[410228.100] thd_detect_write_handler last_sample_time = 410228
+[410228.203] temp_humid_sample: 2025-10-7 13:53:35, temp: 27.9, humid: 87%
+[410228.211] stable_humid reduce 15lear event_reported_humid_exceed
+[410228.217] event EVT_HUMID_EXCEED notify failed
+[410229.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410229.011] [ADC]: voltage(3905),ntc_temper(36),online(1)
+[410229.017] charger(1), level(61)
+[410230.000] watchdog_feed>>>
+
+[410238.100] thd_detect_write_handler last_sample_time = 410238
+[410238.203] temp_humid_sample: 2025-10-7 13:53:46, temp: 27.9, humid: 87%
+[410238.211] event EVT_HUMID_EXCEED notify failed
+[410240.000] watchdog_feed>>>
+
+[410241.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410241.011] [ADC]: voltage(3905),ntc_temper(36),online(1)
+[410241.017] charger(1), level(61)
+[410248.100] thd_detect_write_handler last_sample_time = 410248
+[410248.203] temp_humid_sample: 2025-10-7 13:53:56, temp: 28.0, humid: 87%
+[410248.211] event EVT_HUMID_EXCEED notify failed
+[410250.001] watchdog_feed>>>
+
+[410253.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410253.011] [ADC]: voltage(3905),ntc_temper(36),online(1)
+[410253.017] charger(1), level(61)
+[410258.100] thd_detect_write_handler last_sample_time = 410258
+[410258.203] temp_humid_sample: 2025-10-7 13:54:7, temp: 28.0, humid: 87%
+[410260.000] watchdog_feed>>>
+
+[410265.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410265.011] [ADC]: voltage(3907),ntc_temper(36),online(1)
+[410265.017] charger(1), level(61)
+[410268.100] thd_detect_write_handler last_sample_time = 410268
+[410268.203] temp_humid_sample: 2025-10-7 13:54:18, temp: 28.0, humid: 86%
+[410270.000] watchdog_feed>>>
+
+[410277.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410277.011] [ADC]: voltage(3907),ntc_temper(36),online(1)
+[410277.017] charger(1), level(61)
+[410278.100] thd_detect_write_handler last_sample_time = 410278
+[410278.203] temp_humid_sample: 2025-10-7 13:54:28, temp: 28.0, humid: 86%
+[410280.000] watchdog_feed>>>
+
+[410288.100] thd_detect_write_handler last_sample_time = 410288
+[410288.203] temp_humid_sample: 2025-10-7 13:54:39, temp: 28.0, humid: 86%
+[410289.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410289.011] [ADC]: voltage(3909),ntc_temper(36),online(1)
+[410289.017] charger(1), level(62)
+[410290.000] watchdog_feed>>>
+
+[410298.100] thd_detect_write_handler last_sample_time = 410298
+[410298.203] temp_humid_sample: 2025-10-7 13:54:49, temp: 28.1, humid: 86%
+[410300.000] watchdog_feed>>>
+
+[410301.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410301.011] [ADC]: voltage(3909),ntc_temper(36),online(1)
+[410301.017] charger(1), level(62)
+[410308.100] thd_detect_write_handler last_sample_time = 410308
+[410308.203] temp_humid_sample: 2025-10-7 13:55:0, temp: 28.0, humid: 85%
+[410310.001] watchdog_feed>>>
+
+[410313.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410313.011] [ADC]: voltage(3912),ntc_temper(36),online(1)
+[410313.017] charger(1), level(62)
+[410318.100] thd_detect_write_handler last_sample_time = 410318
+[410318.203] temp_humid_sample: 2025-10-7 13:55:11, temp: 28.0, humid: 85%
+[410320.000] watchdog_feed>>>
+
+[410325.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410325.011] [ADC]: voltage(3912),ntc_temper(36),online(1)
+[410325.017] charger(1), level(62)
+[410328.100] thd_detect_write_handler last_sample_time = 410328
+[410328.203] temp_humid_sample: 2025-10-7 13:55:21, temp: 28.0, humid: 85%
+[410330.000] watchdog_feed>>>
+
+[410337.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410337.011] [ADC]: voltage(3912),ntc_temper(36),online(1)
+[410337.017] charger(1), level(62)
+[410338.100] thd_detect_write_handler last_sample_time = 410338
+[410338.203] temp_humid_sample: 2025-10-7 13:55:32, temp: 28.0, humid: 85%
+[410340.001] watchdog_feed>>>
+
+[410348.100] thd_detect_write_handler last_sample_time = 410348
+[410348.203] temp_humid_sample: 2025-10-7 13:55:42, temp: 28.0, humid: 85%
+[410349.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410349.011] [ADC]: voltage(3914),ntc_temper(36),online(1)
+[410349.017] charger(1), level(62)
+[410350.000] watchdog_feed>>>
+
+[410358.100] thd_detect_write_handler last_sample_time = 410358
+[410358.203] temp_humid_sample: 2025-10-7 13:55:53, temp: 28.0, humid: 85%
+[410360.000] watchdog_feed>>>
+
+[410361.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410361.011] [ADC]: voltage(3914),ntc_temper(36),online(1)
+[410361.017] charger(1), level(62)
+[410368.100] thd_detect_write_handler last_sample_time = 410368
+[410368.204] temp_humid_sample: 2025-10-7 13:56:4, temp: 28.0, humid: 85%
+[410370.000] watchdog_feed>>>
+
+[410373.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410373.011] [ADC]: voltage(3916),ntc_temper(37),online(1)
+[410373.017] charger(1), level(63)
+[410378.100] thd_detect_write_handler last_sample_time = 410378
+[410378.203] temp_humid_sample: 2025-10-7 13:56:14, temp: 28.0, humid: 84%
+[410380.000] watchdog_feed>>>
+
+[410385.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410385.011] [ADC]: voltage(3916),ntc_temper(37),online(1)
+[410385.017] charger(1), level(63)
+[410388.100] thd_detect_write_handler last_sample_time = 410388
+[410388.203] temp_humid_sample: 2025-10-7 13:56:25, temp: 28.0, humid: 84%
+[410390.000] watchdog_feed>>>
+
+[410397.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410397.011] [ADC]: voltage(3918),ntc_temper(37),online(1)
+[410397.017] charger(1), level(63)
+[410398.100] thd_detect_write_handler last_sample_time = 410398
+[410398.203] temp_humid_sample: 2025-10-7 13:56:35, temp: 28.0, humid: 84%
+[410400.001] watchdog_feed>>>
+
+[410408.100] thd_detect_write_handler last_sample_time = 410408
+[410408.203] temp_humid_sample: 2025-10-7 13:56:46, temp: 27.9, humid: 84%
+[410409.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410409.011] [ADC]: voltage(3918),ntc_temper(37),online(1)
+[410409.017] charger(1), level(63)
+[410410.000] watchdog_feed>>>
+
+[410418.100] thd_detect_write_handler last_sample_time = 410418
+[410418.203] temp_humid_sample: 2025-10-7 13:56:57, temp: 27.9, humid: 84%
+[410420.000] watchdog_feed>>>
+
+[410421.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410421.011] [ADC]: voltage(3920),ntc_temper(37),online(1)
+[410421.017] charger(1), level(63)
+[410428.100] thd_detect_write_handler last_sample_time = 410428
+[410428.203] temp_humid_sample: 2025-10-7 13:57:7, temp: 27.9, humid: 84%
+[410430.000] watchdog_feed>>>
+
+[410433.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410433.011] [ADC]: voltage(3920),ntc_temper(37),online(1)
+[410433.017] charger(1), level(63)
+[410438.100] thd_detect_write_handler last_sample_time = 410438
+[410438.203] temp_humid_sample: 2025-10-7 13:57:18, temp: 27.9, humid: 84%
+[410440.000] watchdog_feed>>>
+
+[410445.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410445.011] [ADC]: voltage(3923),ntc_temper(37),online(1)
+[410445.017] charger(1), level(64)
+[410448.100] thd_detect_write_handler last_sample_time = 410448
+[410448.203] temp_humid_sample: 2025-10-7 13:57:28, temp: 27.9, humid: 84%
+[410450.000] watchdog_feed>>>
+
+[410457.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410457.011] [ADC]: voltage(3923),ntc_temper(37),online(1)
+[410457.017] charger(1), level(64)
+[410458.100] thd_detect_write_handler last_sample_time = 410458
+[410458.203] temp_humid_sample: 2025-10-7 13:57:39, temp: 27.8, humid: 84%
+[410458.211] event EVT_HUMID_EXCEED notify failed
+[410460.001] watchdog_feed>>>
+
+[410468.100] thd_detect_write_handler last_sample_time = 410468
+[410468.203] temp_humid_sample: 2025-10-7 13:57:50, temp: 27.8, humid: 84%
+[410469.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410469.011] [ADC]: voltage(3925),ntc_temper(37),online(1)
+[410469.017] charger(1), level(64)
+[410470.000] watchdog_feed>>>
+
+[410478.100] thd_detect_write_handler last_sample_time = 410478
+[410478.203] temp_humid_sample: 2025-10-7 13:58:0, temp: 27.8, humid: 83%
+[410480.000] watchdog_feed>>>
+
+[410481.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410481.011] [ADC]: voltage(3925),ntc_temper(37),online(1)
+[410481.017] charger(1), level(64)
+[410488.100] thd_detect_write_handler last_sample_time = 410488
+[410488.203] temp_humid_sample: 2025-10-7 13:58:11, temp: 27.7, humid: 83%
+[410490.000] watchdog_feed>>>
+
+[410493.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410493.011] [ADC]: voltage(3927),ntc_temper(37),online(1)
+[410493.017] charger(1), level(64)
+[410498.100] thd_detect_write_handler last_sample_time = 410498
+[410498.203] temp_humid_sample: 2025-10-7 13:58:21, temp: 27.7, humid: 83%
+[410498.211] event EVT_HUMID_EXCEED notify failed
+[410500.000] watchdog_feed>>>
+
+[410505.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410505.011] [ADC]: voltage(3927),ntc_temper(37),online(1)
+[410505.017] charger(1), level(65)
+[410508.100] thd_detect_write_handler last_sample_time = 410508
+[410508.203] temp_humid_sample: 2025-10-7 13:58:32, temp: 27.7, humid: 83%
+[410510.000] watchdog_feed>>>
+
+[410517.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410517.011] [ADC]: voltage(3929),ntc_temper(37),online(1)
+[410517.017] charger(1), level(65)
+[410518.100] thd_detect_write_handler last_sample_time = 410518
+[410518.203] temp_humid_sample: 2025-10-7 13:58:43, temp: 27.7, humid: 83%
+[410520.001] watchdog_feed>>>
+
+[410528.100] thd_detect_write_handler last_sample_time = 410528
+[410528.203] temp_humid_sample: 2025-10-7 13:58:53, temp: 27.6, humid: 83%
+[410529.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410529.011] [ADC]: voltage(3929),ntc_temper(37),online(1)
+[410529.017] charger(1), level(65)
+[410530.000] watchdog_feed>>>
+
+[410538.100] thd_detect_write_handler last_sample_time = 410538
+[410538.203] temp_humid_sample: 2025-10-7 13:59:4, temp: 27.6, humid: 83%
+[410540.000] watchdog_feed>>>
+
+[410541.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410541.011] [ADC]: voltage(3929),ntc_temper(37),online(1)
+[410541.017] charger(1), level(65)
+[410548.100] thd_detect_write_handler last_sample_time = 410548
+[410548.203] temp_humid_sample: 2025-10-7 13:59:14, temp: 27.6, humid: 83%
+[410550.000] watchdog_feed>>>
+
+[410553.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410553.011] [ADC]: voltage(3931),ntc_temper(37),online(1)
+[410553.017] charger(1), level(65)
+[410558.100] thd_detect_write_handler last_sample_time = 410558
+[410558.203] temp_humid_sample: 2025-10-7 13:59:25, temp: 27.5, humid: 83%
+[410560.000] watchdog_feed>>>
+
+[410565.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410565.011] [ADC]: voltage(3931),ntc_temper(37),online(1)
+[410565.017] charger(1), level(65)
+[410568.100] thd_detect_write_handler last_sample_time = 410568
+[410568.203] temp_humid_sample: 2025-10-7 13:59:36, temp: 27.5, humid: 83%
+[410568.211] event EVT_HUMID_EXCEED notify failed
+[410570.000] watchdog_feed>>>
+
+[410577.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410577.011] [ADC]: voltage(3934),ntc_temper(37),online(1)
+[410577.017] charger(1), level(66)
+[410578.100] thd_detect_write_handler last_sample_time = 410578
+[410578.203] temp_humid_sample: 2025-10-7 13:59:46, temp: 27.5, humid: 83%
+[410580.001] watchdog_feed>>>
+
+[410588.100] thd_detect_write_handler last_sample_time = 410588
+[410588.203] temp_humid_sample: 2025-10-7 13:59:57, temp: 27.5, humid: 83%
+[410589.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410589.011] [ADC]: voltage(3936),ntc_temper(37),online(1)
+[410589.017] charger(1), level(66)
+[410590.000] watchdog_feed>>>
+
+[410598.100] thd_detect_write_handler last_sample_time = 410598
+[410598.203] temp_humid_sample: 2025-10-7 14:0:7, temp: 27.4, humid: 83%
+[410600.000] watchdog_feed>>>
+
+[410601.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410601.011] [ADC]: voltage(3936),ntc_temper(37),online(1)
+[410601.017] charger(1), level(66)
+[410608.100] thd_detect_write_handler last_sample_time = 410608
+[410608.203] temp_humid_sample: 2025-10-7 14:0:18, temp: 27.4, humid: 83%
+[410610.001] watchdog_feed>>>
+
+[410613.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410613.011] [ADC]: voltage(3938),ntc_temper(37),online(1)
+[410613.017] charger(1), level(66)
+[410618.100] thd_detect_write_handler last_sample_time = 410618
+[410618.203] temp_humid_sample: 2025-10-7 14:0:29, temp: 27.4, humid: 83%
+[410620.000] watchdog_feed>>>
+
+[410625.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410625.011] [ADC]: voltage(3938),ntc_temper(37),online(1)
+[410625.017] charger(1), level(66)
+[410628.100] thd_detect_write_handler last_sample_time = 410628
+[410628.203] temp_humid_sample: 2025-10-7 14:0:39, temp: 27.3, humid: 83%
+[410630.000] watchdog_feed>>>
+
+[410637.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410637.011] [ADC]: voltage(3940),ntc_temper(37),online(1)
+[410637.017] charger(1), level(67)
+[410638.100] thd_detect_write_handler last_sample_time = 410638
+[410638.203] temp_humid_sample: 2025-10-7 14:0:50, temp: 27.4, humid: 85%
+[410640.001] watchdog_feed>>>
+
+[410648.100] thd_detect_write_handler last_sample_time = 410648
+[410648.203] temp_humid_sample: 2025-10-7 14:1:0, temp: 27.4, humid: 88%
+[410649.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410649.011] [ADC]: voltage(3940),ntc_temper(37),online(1)
+[410649.017] charger(1), level(67)
+[410650.000] watchdog_feed>>>
+
+[410658.100] thd_detect_write_handler last_sample_time = 410658
+[410658.203] temp_humid_sample: 2025-10-7 14:1:11, temp: 27.5, humid: 89%
+[410660.000] watchdog_feed>>>
+
+[410661.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410661.011] [ADC]: voltage(3942),ntc_temper(37),online(1)
+[410661.017] charger(1), level(67)
+[410668.100] thd_detect_write_handler last_sample_time = 410668
+[410668.203] temp_humid_sample: 2025-10-7 14:1:22, temp: 27.6, humid: 90%
+[410670.001] watchdog_feed>>>
+
+[410673.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410673.011] [ADC]: voltage(3942),ntc_temper(37),online(1)
+[410673.017] charger(1), level(67)
+[410678.100] thd_detect_write_handler last_sample_time = 410678
+[410678.203] temp_humid_sample: 2025-10-7 14:1:32, temp: 27.7, humid: 91%
+[410680.000] watchdog_feed>>>
+
+[410685.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410685.011] [ADC]: voltage(3945),ntc_temper(37),online(1)
+[410685.017] charger(1), level(68)
+[410688.100] thd_detect_write_handler last_sample_time = 410688
+[410688.203] temp_humid_sample: 2025-10-7 14:1:43, temp: 27.7, humid: 91%
+[410690.000] watchdog_feed>>>
+
+[410697.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410697.011] [ADC]: voltage(3945),ntc_temper(37),online(1)
+[410697.017] charger(1), level(68)
+[410698.100] thd_detect_write_handler last_sample_time = 410698
+[410698.203] temp_humid_sample: 2025-10-7 14:1:53, temp: 27.8, humid: 91%
+[410700.001] watchdog_feed>>>
+
+[410708.100] thd_detect_write_handler last_sample_time = 410708
+[410708.203] temp_humid_sample: 2025-10-7 14:2:4, temp: 27.8, humid: 91%
+[410709.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410709.011] [ADC]: voltage(3947),ntc_temper(37),online(1)
+[410709.017] charger(1), level(68)
+[410710.000] watchdog_feed>>>
+
+[410718.100] thd_detect_write_handler last_sample_time = 410718
+[410718.203] temp_humid_sample: 2025-10-7 14:2:15, temp: 27.9, humid: 91%
+[410720.000] watchdog_feed>>>
+
+[410721.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410721.011] [ADC]: voltage(3947),ntc_temper(37),online(1)
+[410721.017] charger(1), level(68)
+[410728.100] thd_detect_write_handler last_sample_time = 410728
+[410728.203] temp_humid_sample: 2025-10-7 14:2:25, temp: 27.9, humid: 91%
+[410730.001] watchdog_feed>>>
+
+[410733.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410733.011] [ADC]: voltage(3949),ntc_temper(37),online(1)
+[410733.017] charger(1), level(68)
+[410738.100] thd_detect_write_handler last_sample_time = 410738
+[410738.203] temp_humid_sample: 2025-10-7 14:2:36, temp: 28.0, humid: 91%
+[410740.000] watchdog_feed>>>
+
+[410745.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410745.011] [ADC]: voltage(3949),ntc_temper(37),online(1)
+[410745.017] charger(1), level(68)
+[410748.100] thd_detect_write_handler last_sample_time = 410748
+[410748.203] temp_humid_sample: 2025-10-7 14:2:46, temp: 28.0, humid: 91%
+[410750.000] watchdog_feed>>>
+
+[410757.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410757.011] [ADC]: voltage(3951),ntc_temper(37),online(1)
+[410757.017] charger(1), level(69)
+[410758.100] thd_detect_write_handler last_sample_time = 410758
+[410758.204] temp_humid_sample: 2025-10-7 14:2:57, temp: 28.1, humid: 91%
+[410760.001] watchdog_feed>>>
+
+[410768.100] thd_detect_write_handler last_sample_time = 410768
+[410768.203] temp_humid_sample: 2025-10-7 14:3:8, temp: 28.1, humid: 91%
+[410769.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410769.011] [ADC]: voltage(3953),ntc_temper(37),online(1)
+[410769.017] charger(1), level(69)
+[410770.000] watchdog_feed>>>
+
+[410778.100] thd_detect_write_handler last_sample_time = 410778
+[410778.203] temp_humid_sample: 2025-10-7 14:3:18, temp: 28.1, humid: 91%
+[410780.000] watchdog_feed>>>
+
+[410781.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410781.011] [ADC]: voltage(3953),ntc_temper(37),online(1)
+[410781.017] charger(1), level(69)
+[410788.100] thd_detect_write_handler last_sample_time = 410788
+[410788.203] temp_humid_sample: 2025-10-7 14:3:29, temp: 28.1, humid: 91%
+[410790.001] watchdog_feed>>>
+
+[410793.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410793.011] [ADC]: voltage(3956),ntc_temper(37),online(1)
+[410793.017] charger(1), level(69)
+[410798.100] thd_detect_write_handler last_sample_time = 410798
+[410798.203] temp_humid_sample: 2025-10-7 14:3:39, temp: 28.1, humid: 91%
+[410800.000] watchdog_feed>>>
+
+[410805.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410805.011] [ADC]: voltage(3956),ntc_temper(37),online(1)
+[410805.017] charger(1), level(69)
+[410808.100] thd_detect_write_handler last_sample_time = 410808
+[410808.203] temp_humid_sample: 2025-10-7 14:3:50, temp: 28.1, humid: 90%
+[410810.000] watchdog_feed>>>
+
+[410817.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410817.011] [ADC]: voltage(3958),ntc_temper(37),online(1)
+[410817.017] charger(1), level(70)
+[410818.100] thd_detect_write_handler last_sample_time = 410818
+[410818.203] temp_humid_sample: 2025-10-7 14:4:1, temp: 28.2, humid: 89%
+[410820.001] watchdog_feed>>>
+
+[410828.100] thd_detect_write_handler last_sample_time = 410828
+[410828.203] temp_humid_sample: 2025-10-7 14:4:11, temp: 28.2, humid: 89%
+[410829.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410829.011] [ADC]: voltage(3958),ntc_temper(37),online(1)
+[410829.017] charger(1), level(70)
+[410830.000] watchdog_feed>>>
+
+[410838.100] thd_detect_write_handler last_sample_time = 410838
+[410838.203] temp_humid_sample: 2025-10-7 14:4:22, temp: 28.2, humid: 89%
+[410838.211] event EVT_HUMID_EXCEED notify failed
+[410840.000] watchdog_feed>>>
+
+[410841.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410841.011] [ADC]: voltage(3960),ntc_temper(37),online(1)
+[410841.017] charger(1), level(70)
+[410848.100] thd_detect_write_handler last_sample_time = 410848
+[410848.203] temp_humid_sample: 2025-10-7 14:4:33, temp: 28.2, humid: 89%
+[410848.211] event EVT_HUMID_EXCEED notify failed
+[410850.000] watchdog_feed>>>
+
+[410853.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410853.011] [ADC]: voltage(3960),ntc_temper(37),online(1)
+[410853.017] charger(1), level(70)
+[410858.100] thd_detect_write_handler last_sample_time = 410858
+[410858.203] temp_humid_sample: 2025-10-7 14:4:43, temp: 28.2, humid: 89%
+[410858.211] event EVT_HUMID_EXCEED notify failed
+[410860.000] watchdog_feed>>>
+
+[410865.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410865.011] [ADC]: voltage(3962),ntc_temper(37),online(1)
+[410865.017] charger(1), level(70)
+[410868.100] thd_detect_write_handler last_sample_time = 410868
+[410868.203] temp_humid_sample: 2025-10-7 14:4:54, temp: 28.2, humid: 89%
+[410868.211] event EVT_HUMID_EXCEED notify failed
+[410870.000] watchdog_feed>>>
+
+[410877.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410877.011] [ADC]: voltage(3962),ntc_temper(37),online(1)
+[410877.017] charger(1), level(70)
+[410878.100] thd_detect_write_handler last_sample_time = 410878
+[410878.203] temp_humid_sample: 2025-10-7 14:5:4, temp: 28.2, humid: 89%
+[410880.001] watchdog_feed>>>
+
+[410888.100] thd_detect_write_handler last_sample_time = 410888
+[410888.203] temp_humid_sample: 2025-10-7 14:5:15, temp: 28.2, humid: 89%
+[410889.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410889.011] [ADC]: voltage(3964),ntc_temper(37),online(1)
+[410889.017] charger(1), level(71)
+[410890.000] watchdog_feed>>>
+
+[410898.100] thd_detect_write_handler last_sample_time = 410898
+[410898.203] temp_humid_sample: 2025-10-7 14:5:26, temp: 28.2, humid: 89%
+[410900.000] watchdog_feed>>>
+
+[410901.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410901.011] [ADC]: voltage(3964),ntc_temper(37),online(1)
+[410901.017] charger(1), level(71)
+[410908.100] thd_detect_write_handler last_sample_time = 410908
+[410908.203] temp_humid_sample: 2025-10-7 14:5:36, temp: 28.2, humid: 89%
+[410910.000] watchdog_feed>>>
+
+[410913.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410913.011] [ADC]: voltage(3967),ntc_temper(37),online(1)
+[410913.017] charger(1), level(71)
+[410918.100] thd_detect_write_handler last_sample_time = 410918
+[410918.203] temp_humid_sample: 2025-10-7 14:5:47, temp: 28.2, humid: 89%
+[410920.000] watchdog_feed>>>
+
+[410925.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410925.011] [ADC]: voltage(3969),ntc_temper(37),online(1)
+[410925.017] charger(1), level(71)
+[410928.100] thd_detect_write_handler last_sample_time = 410928
+[410928.203] temp_humid_sample: 2025-10-7 14:5:57, temp: 28.2, humid: 89%
+[410930.000] watchdog_feed>>>
+
+[410937.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410937.011] [ADC]: voltage(3969),ntc_temper(37),online(1)
+[410937.017] charger(1), level(72)
+[410938.100] thd_detect_write_handler last_sample_time = 410938
+[410938.203] temp_humid_sample: 2025-10-7 14:6:8, temp: 28.2, humid: 89%
+[410940.001] watchdog_feed>>>
+
+[410948.100] thd_detect_write_handler last_sample_time = 410948
+[410948.203] temp_humid_sample: 2025-10-7 14:6:19, temp: 28.2, humid: 89%
+[410949.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410949.011] [ADC]: voltage(3971),ntc_temper(37),online(1)
+[410949.017] charger(1), level(72)
+[410950.000] watchdog_feed>>>
+
+[410958.100] thd_detect_write_handler last_sample_time = 410958
+[410958.203] temp_humid_sample: 2025-10-7 14:6:29, temp: 28.2, humid: 89%
+[410960.000] watchdog_feed>>>
+
+[410961.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410961.011] [ADC]: voltage(3971),ntc_temper(37),online(1)
+[410961.017] charger(1), level(72)
+[410968.100] thd_detect_write_handler last_sample_time = 410968
+[410968.203] temp_humid_sample: 2025-10-7 14:6:40, temp: 28.2, humid: 89%
+[410970.001] watchdog_feed>>>
+
+[410973.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410973.011] [ADC]: voltage(3973),ntc_temper(37),online(1)
+[410973.017] charger(1), level(72)
+[410978.100] thd_detect_write_handler last_sample_time = 410978
+[410978.203] temp_humid_sample: 2025-10-7 14:6:50, temp: 28.2, humid: 89%
+[410980.000] watchdog_feed>>>
+
+[410985.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410985.011] [ADC]: voltage(3973),ntc_temper(37),online(1)
+[410985.017] charger(1), level(72)
+[410988.100] thd_detect_write_handler last_sample_time = 410988
+[410988.203] temp_humid_sample: 2025-10-7 14:7:1, temp: 28.2, humid: 88%
+[410990.000] watchdog_feed>>>
+
+[410997.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[410997.011] [ADC]: voltage(3975),ntc_temper(37),online(1)
+[410997.017] charger(1), level(73)
+[410998.100] thd_detect_write_handler last_sample_time = 410998
+[410998.204] temp_humid_sample: 2025-10-7 14:7:12, temp: 28.2, humid: 89%
+[410998.212] event EVT_HUMID_EXCEED notify failed
+[411000.000] watchdog_feed>>>
+
+[411008.100] thd_detect_write_handler last_sample_time = 411008
+[411008.203] temp_humid_sample: 2025-10-7 14:7:22, temp: 28.2, humid: 88%
+[411008.211] event EVT_HUMID_EXCEED notify failed
+[411009.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411009.011] [ADC]: voltage(3978),ntc_temper(37),online(1)
+[411009.017] charger(1), level(73)
+[411010.000] watchdog_feed>>>
+
+[411018.100] thd_detect_write_handler last_sample_time = 411018
+[411018.203] temp_humid_sample: 2025-10-7 14:7:33, temp: 28.1, humid: 88%
+[411020.000] watchdog_feed>>>
+
+[411021.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411021.011] [ADC]: voltage(3978),ntc_temper(37),online(1)
+[411021.017] charger(1), level(73)
+[411028.100] thd_detect_write_handler last_sample_time = 411028
+[411028.203] temp_humid_sample: 2025-10-7 14:7:43, temp: 28.1, humid: 88%
+[411030.000] watchdog_feed>>>
+
+[411033.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411033.011] [ADC]: voltage(3980),ntc_temper(37),online(1)
+[411033.017] charger(1), level(73)
+[411038.100] thd_detect_write_handler last_sample_time = 411038
+[411038.203] temp_humid_sample: 2025-10-7 14:7:54, temp: 28.1, humid: 88%
+[411040.000] watchdog_feed>>>
+
+[411045.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411045.011] [ADC]: voltage(3980),ntc_temper(37),online(1)
+[411045.017] charger(1), level(73)
+[411048.100] thd_detect_write_handler last_sample_time = 411048
+[411048.203] temp_humid_sample: 2025-10-7 14:8:5, temp: 28.1, humid: 88%
+[411050.000] watchdog_feed>>>
+
+[411057.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411057.011] [ADC]: voltage(3982),ntc_temper(37),online(1)
+[411057.017] charger(1), level(74)
+[411058.100] thd_detect_write_handler last_sample_time = 411058
+[411058.203] temp_humid_sample: 2025-10-7 14:8:15, temp: 28.1, humid: 88%
+[411060.001] watchdog_feed>>>
+
+[411068.100] thd_detect_write_handler last_sample_time = 411068
+[411068.203] temp_humid_sample: 2025-10-7 14:8:26, temp: 28.1, humid: 88%
+[411069.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411069.011] [ADC]: voltage(3984),ntc_temper(37),online(1)
+[411069.017] charger(1), level(74)
+[411070.000] watchdog_feed>>>
+
+[411078.100] thd_detect_write_handler last_sample_time = 411078
+[411078.203] temp_humid_sample: 2025-10-7 14:8:36, temp: 28.1, humid: 88%
+[411080.000] watchdog_feed>>>
+
+[411081.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411081.011] [ADC]: voltage(3984),ntc_temper(37),online(1)
+[411081.017] charger(1), level(74)
+[411088.100] thd_detect_write_handler last_sample_time = 411088
+[411088.203] temp_humid_sample: 2025-10-7 14:8:47, temp: 28.1, humid: 88%
+[411090.000] watchdog_feed>>>
+
+[411093.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411093.011] [ADC]: voltage(3986),ntc_temper(37),online(1)
+[411093.017] charger(1), level(74)
+[411098.100] thd_detect_write_handler last_sample_time = 411098
+[411098.203] temp_humid_sample: 2025-10-7 14:8:58, temp: 28.1, humid: 88%
+[411100.000] watchdog_feed>>>
+
+[411105.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411105.011] [ADC]: voltage(3986),ntc_temper(37),online(1)
+[411105.017] charger(1), level(74)
+[411108.100] thd_detect_write_handler last_sample_time = 411108
+[411108.203] temp_humid_sample: 2025-10-7 14:9:8, temp: 28.1, humid: 88%
+[411110.000] watchdog_feed>>>
+
+[411117.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411117.011] [ADC]: voltage(3989),ntc_temper(37),online(1)
+[411117.017] charger(1), level(75)
+[411118.100] thd_detect_write_handler last_sample_time = 411118
+[411118.203] temp_humid_sample: 2025-10-7 14:9:19, temp: 28.1, humid: 88%
+[411120.001] watchdog_feed>>>
+
+[411128.100] thd_detect_write_handler last_sample_time = 411128
+[411128.203] temp_humid_sample: 2025-10-7 14:9:29, temp: 28.1, humid: 88%
+[411129.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411129.011] [ADC]: voltage(3989),ntc_temper(37),online(1)
+[411129.017] charger(1), level(75)
+[411130.000] watchdog_feed>>>
+
+[411138.100] thd_detect_write_handler last_sample_time = 411138
+[411138.203] temp_humid_sample: 2025-10-7 14:9:40, temp: 28.0, humid: 87%
+[411140.000] watchdog_feed>>>
+
+[411141.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411141.011] [ADC]: voltage(3991),ntc_temper(37),online(1)
+[411141.017] charger(1), level(75)
+[411148.100] thd_detect_write_handler last_sample_time = 411148
+[411148.203] temp_humid_sample: 2025-10-7 14:9:51, temp: 28.0, humid: 87%
+[411150.001] watchdog_feed>>>
+
+[411153.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411153.011] [ADC]: voltage(3993),ntc_temper(37),online(1)
+[411153.017] charger(1), level(76)
+[411158.100] thd_detect_write_handler last_sample_time = 411158
+[411158.203] temp_humid_sample: 2025-10-7 14:10:1, temp: 28.0, humid: 87%
+[411160.000] watchdog_feed>>>
+
+[411165.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411165.011] [ADC]: voltage(3993),ntc_temper(37),online(1)
+[411165.017] charger(1), level(76)
+[411168.100] thd_detect_write_handler last_sample_time = 411168
+[411168.203] temp_humid_sample: 2025-10-7 14:10:12, temp: 28.0, humid: 87%
+[411170.000] watchdog_feed>>>
+
+[411177.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411177.011] [ADC]: voltage(3995),ntc_temper(37),online(1)
+[411177.017] charger(1), level(76)
+[411178.100] thd_detect_write_handler last_sample_time = 411178
+[411178.204] temp_humid_sample: 2025-10-7 14:10:22, temp: 27.9, humid: 87%
+[411178.212] event EVT_HUMID_EXCEED notify failed
+[411180.001] watchdog_feed>>>
+
+[411188.100] thd_detect_write_handler last_sample_time = 411188
+[411188.203] temp_humid_sample: 2025-10-7 14:10:33, temp: 27.9, humid: 87%
+[411188.211] event EVT_HUMID_EXCEED notify failed
+[411189.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411189.011] [ADC]: voltage(3997),ntc_temper(37),online(1)
+[411189.017] charger(1), level(76)
+[411190.000] watchdog_feed>>>
+
+[411198.100] thd_detect_write_handler last_sample_time = 411198
+[411198.203] temp_humid_sample: 2025-10-7 14:10:44, temp: 27.9, humid: 87%
+[411198.211] event EVT_HUMID_EXCEED notify failed
+[411200.000] watchdog_feed>>>
+
+[411201.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411201.011] [ADC]: voltage(3997),ntc_temper(37),online(1)
+[411201.017] charger(1), level(76)
+[411208.100] thd_detect_write_handler last_sample_time = 411208
+[411208.203] temp_humid_sample: 2025-10-7 14:10:54, temp: 27.9, humid: 88%
+[411210.000] watchdog_feed>>>
+
+[411213.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411213.011] [ADC]: voltage(4000),ntc_temper(37),online(1)
+[411213.017] charger(1), level(77)
+[411218.100] thd_detect_write_handler last_sample_time = 411218
+[411218.203] temp_humid_sample: 2025-10-7 14:11:5, temp: 27.9, humid: 89%
+[411220.000] watchdog_feed>>>
+
+[411225.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411225.011] [ADC]: voltage(4002),ntc_temper(37),online(1)
+[411225.017] charger(1), level(77)
+[411228.100] thd_detect_write_handler last_sample_time = 411228
+[411228.203] temp_humid_sample: 2025-10-7 14:11:15, temp: 27.9, humid: 89%
+[411230.000] watchdog_feed>>>
+
+[411237.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411237.011] [ADC]: voltage(4002),ntc_temper(37),online(1)
+[411237.017] charger(1), level(77)
+[411238.100] thd_detect_write_handler last_sample_time = 411238
+[411238.203] temp_humid_sample: 2025-10-7 14:11:26, temp: 28.0, humid: 89%
+[411240.000] watchdog_feed>>>
+
+[411248.100] thd_detect_write_handler last_sample_time = 411248
+[411248.203] temp_humid_sample: 2025-10-7 14:11:37, temp: 28.0, humid: 90%
+[411249.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411249.011] [ADC]: voltage(4004),ntc_temper(37),online(1)
+[411249.017] charger(1), level(77)
+[411250.000] watchdog_feed>>>
+
+[411258.100] thd_detect_write_handler last_sample_time = 411258
+[411258.203] temp_humid_sample: 2025-10-7 14:11:47, temp: 28.0, humid: 90%
+[411260.000] watchdog_feed>>>
+
+[411261.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411261.011] [ADC]: voltage(4004),ntc_temper(37),online(1)
+[411261.017] charger(1), level(77)
+[411268.100] thd_detect_write_handler last_sample_time = 411268
+[411268.203] temp_humid_sample: 2025-10-7 14:11:58, temp: 28.1, humid: 90%
+[411270.001] watchdog_feed>>>
+
+[411273.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411273.011] [ADC]: voltage(4006),ntc_temper(37),online(1)
+[411273.017] charger(1), level(78)
+[411278.100] thd_detect_write_handler last_sample_time = 411278
+[411278.203] temp_humid_sample: 2025-10-7 14:12:8, temp: 28.1, humid: 90%
+[411280.000] watchdog_feed>>>
+
+[411285.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411285.011] [ADC]: voltage(4008),ntc_temper(37),online(1)
+[411285.017] charger(1), level(78)
+[411288.100] thd_detect_write_handler last_sample_time = 411288
+[411288.203] temp_humid_sample: 2025-10-7 14:12:19, temp: 28.1, humid: 90%
+[411290.000] watchdog_feed>>>
+
+[411297.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411297.011] [ADC]: voltage(4008),ntc_temper(37),online(1)
+[411297.017] charger(1), level(78)
+[411298.100] thd_detect_write_handler last_sample_time = 411298
+[411298.203] temp_humid_sample: 2025-10-7 14:12:30, temp: 28.1, humid: 90%
+[411300.000] watchdog_feed>>>
+
+[411308.100] thd_detect_write_handler last_sample_time = 411308
+[411308.203] temp_humid_sample: 2025-10-7 14:12:40, temp: 28.1, humid: 90%
+[411309.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411309.011] [ADC]: voltage(4010),ntc_temper(37),online(1)
+[411309.017] charger(1), level(78)
+[411310.000] watchdog_feed>>>
+
+[411318.100] thd_detect_write_handler last_sample_time = 411318
+[411318.203] temp_humid_sample: 2025-10-7 14:12:51, temp: 28.1, humid: 90%
+[411320.000] watchdog_feed>>>
+
+[411321.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411321.011] [ADC]: voltage(4013),ntc_temper(37),online(1)
+[411321.017] charger(1), level(79)
+[411328.100] thd_detect_write_handler last_sample_time = 411328
+[411328.203] temp_humid_sample: 2025-10-7 14:13:2, temp: 28.2, humid: 90%
+[411330.001] watchdog_feed>>>
+
+[411333.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411333.011] [ADC]: voltage(4013),ntc_temper(37),online(1)
+[411333.017] charger(1), level(79)
+[411338.100] thd_detect_write_handler last_sample_time = 411338
+[411338.203] temp_humid_sample: 2025-10-7 14:13:12, temp: 28.2, humid: 90%
+[411340.000] watchdog_feed>>>
+
+[411345.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411345.011] [ADC]: voltage(4015),ntc_temper(37),online(1)
+[411345.017] charger(1), level(79)
+[411348.100] thd_detect_write_handler last_sample_time = 411348
+[411348.203] temp_humid_sample: 2025-10-7 14:13:23, temp: 28.2, humid: 90%
+[411350.000] watchdog_feed>>>
+
+[411357.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411357.011] [ADC]: voltage(4017),ntc_temper(37),online(1)
+[411357.017] charger(1), level(80)
+[411358.100] thd_detect_write_handler last_sample_time = 411358
+[411358.203] temp_humid_sample: 2025-10-7 14:13:33, temp: 28.2, humid: 90%
+[411360.001] watchdog_feed>>>
+
+[411368.100] thd_detect_write_handler last_sample_time = 411368
+[411368.203] temp_humid_sample: 2025-10-7 14:13:44, temp: 28.2, humid: 90%
+[411369.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411369.011] [ADC]: voltage(4017),ntc_temper(37),online(1)
+[411369.017] charger(1), level(80)
+[411370.000] watchdog_feed>>>
+
+[411378.100] thd_detect_write_handler last_sample_time = 411378
+[411378.203] temp_humid_sample: 2025-10-7 14:13:55, temp: 28.2, humid: 90%
+[411380.000] watchdog_feed>>>
+
+[411381.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411381.011] [ADC]: voltage(4019),ntc_temper(37),online(1)
+[411381.017] charger(1), level(80)
+[411388.100] thd_detect_write_handler last_sample_time = 411388
+[411388.203] temp_humid_sample: 2025-10-7 14:14:5, temp: 28.2, humid: 90%
+[411390.001] watchdog_feed>>>
+
+[411393.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411393.011] [ADC]: voltage(4021),ntc_temper(37),online(1)
+[411393.017] charger(1), level(80)
+[411398.100] thd_detect_write_handler last_sample_time = 411398
+[411398.203] temp_humid_sample: 2025-10-7 14:14:16, temp: 28.2, humid: 90%
+[411400.000] watchdog_feed>>>
+
+[411405.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411405.011] [ADC]: voltage(4024),ntc_temper(37),online(1)
+[411405.017] charger(1), level(80)
+[411408.100] thd_detect_write_handler last_sample_time = 411408
+[411408.203] temp_humid_sample: 2025-10-7 14:14:26, temp: 28.2, humid: 91%
+[411408.211] event EVT_HUMID_EXCEED notify failed
+[411410.000] watchdog_feed>>>
+
+[411417.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411417.011] [ADC]: voltage(4024),ntc_temper(37),online(1)
+[411417.017] charger(1), level(81)
+[411418.100] thd_detect_write_handler last_sample_time = 411418
+[411418.203] temp_humid_sample: 2025-10-7 14:14:37, temp: 28.2, humid: 91%
+[411420.001] watchdog_feed>>>
+
+[411428.100] thd_detect_write_handler last_sample_time = 411428
+[411428.203] temp_humid_sample: 2025-10-7 14:14:48, temp: 28.2, humid: 91%
+[411429.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411429.011] [ADC]: voltage(4026),ntc_temper(37),online(1)
+[411429.017] charger(1), level(81)
+[411430.000] watchdog_feed>>>
+
+[411438.100] thd_detect_write_handler last_sample_time = 411438
+[411438.203] temp_humid_sample: 2025-10-7 14:14:58, temp: 28.2, humid: 91%
+[411438.211] event EVT_HUMID_EXCEED notify failed
+[411440.000] watchdog_feed>>>
+
+[411441.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411441.011] [ADC]: voltage(4028),ntc_temper(37),online(1)
+[411441.017] charger(1), level(81)
+[411448.100] thd_detect_write_handler last_sample_time = 411448
+[411448.203] temp_humid_sample: 2025-10-7 14:15:9, temp: 28.2, humid: 90%
+[411450.001] watchdog_feed>>>
+
+[411453.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411453.011] [ADC]: voltage(4028),ntc_temper(37),online(1)
+[411453.017] charger(1), level(81)
+[411458.100] thd_detect_write_handler last_sample_time = 411458
+[411458.203] temp_humid_sample: 2025-10-7 14:15:19, temp: 28.2, humid: 90%
+[411460.000] watchdog_feed>>>
+
+[411465.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411465.011] [ADC]: voltage(4030),ntc_temper(37),online(1)
+[411465.017] charger(1), level(82)
+[411468.100] thd_detect_write_handler last_sample_time = 411468
+[411468.203] temp_humid_sample: 2025-10-7 14:15:30, temp: 28.2, humid: 90%
+[411470.000] watchdog_feed>>>
+
+[411477.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411477.011] [ADC]: voltage(4032),ntc_temper(37),online(1)
+[411477.017] charger(1), level(82)
+[411478.100] thd_detect_write_handler last_sample_time = 411478
+[411478.203] temp_humid_sample: 2025-10-7 14:15:41, temp: 28.2, humid: 91%
+[411480.001] watchdog_feed>>>
+
+[411488.100] thd_detect_write_handler last_sample_time = 411488
+[411488.203] temp_humid_sample: 2025-10-7 14:15:51, temp: 28.2, humid: 91%
+[411489.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411489.011] [ADC]: voltage(4035),ntc_temper(37),online(1)
+[411489.017] charger(1), level(83)
+[411490.000] watchdog_feed>>>
+
+[411498.100] thd_detect_write_handler last_sample_time = 411498
+[411498.203] temp_humid_sample: 2025-10-7 14:16:2, temp: 28.2, humid: 91%
+[411500.000] watchdog_feed>>>
+
+[411501.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411501.011] [ADC]: voltage(4035),ntc_temper(37),online(1)
+[411501.017] charger(1), level(83)
+[411508.100] thd_detect_write_handler last_sample_time = 411508
+[411508.203] temp_humid_sample: 2025-10-7 14:16:12, temp: 28.2, humid: 91%
+[411510.001] watchdog_feed>>>
+
+[411513.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411513.011] [ADC]: voltage(4037),ntc_temper(37),online(1)
+[411513.017] charger(1), level(83)
+[411518.100] thd_detect_write_handler last_sample_time = 411518
+[411518.203] temp_humid_sample: 2025-10-7 14:16:23, temp: 28.2, humid: 91%
+[411520.000] watchdog_feed>>>
+
+[411525.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411525.011] [ADC]: voltage(4039),ntc_temper(37),online(1)
+[411525.017] charger(1), level(83)
+[411528.100] thd_detect_write_handler last_sample_time = 411528
+[411528.203] temp_humid_sample: 2025-10-7 14:16:34, temp: 28.2, humid: 91%
+[411530.000] watchdog_feed>>>
+
+[411537.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411537.011] [ADC]: voltage(4041),ntc_temper(37),online(1)
+[411537.017] charger(1), level(83)
+[411538.100] thd_detect_write_handler last_sample_time = 411538
+[411538.203] temp_humid_sample: 2025-10-7 14:16:44, temp: 28.2, humid: 91%
+[411540.001] watchdog_feed>>>
+
+[411548.100] thd_detect_write_handler last_sample_time = 411548
+[411548.203] temp_humid_sample: 2025-10-7 14:16:55, temp: 28.2, humid: 91%
+[411549.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411549.011] [ADC]: voltage(4041),ntc_temper(37),online(1)
+[411549.017] charger(1), level(84)
+[411550.000] watchdog_feed>>>
+
+[411558.100] thd_detect_write_handler last_sample_time = 411558
+[411558.203] temp_humid_sample: 2025-10-7 14:17:5, temp: 28.2, humid: 91%
+[411560.000] watchdog_feed>>>
+
+[411561.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411561.011] [ADC]: voltage(4043),ntc_temper(37),online(1)
+[411561.017] charger(1), level(84)
+[411568.100] thd_detect_write_handler last_sample_time = 411568
+[411568.203] temp_humid_sample: 2025-10-7 14:17:16, temp: 28.2, humid: 91%
+[411570.001] watchdog_feed>>>
+
+[411573.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411573.011] [ADC]: voltage(4046),ntc_temper(37),online(1)
+[411573.017] charger(1), level(84)
+[411578.100] thd_detect_write_handler last_sample_time = 411578
+[411578.203] temp_humid_sample: 2025-10-7 14:17:27, temp: 28.2, humid: 90%
+[411580.000] watchdog_feed>>>
+
+[411585.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411585.011] [ADC]: voltage(4046),ntc_temper(37),online(1)
+[411585.017] charger(1), level(84)
+[411588.100] thd_detect_write_handler last_sample_time = 411588
+[411588.203] temp_humid_sample: 2025-10-7 14:17:37, temp: 28.2, humid: 91%
+[411590.000] watchdog_feed>>>
+
+[411597.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411597.011] [ADC]: voltage(4048),ntc_temper(37),online(1)
+[411597.017] charger(1), level(85)
+[411598.100] thd_detect_write_handler last_sample_time = 411598
+[411598.203] temp_humid_sample: 2025-10-7 14:17:48, temp: 28.2, humid: 91%
+[411598.211] event EVT_HUMID_EXCEED notify failed
+[411600.001] watchdog_feed>>>
+
+[411608.100] thd_detect_write_handler last_sample_time = 411608
+[411608.203] temp_humid_sample: 2025-10-7 14:17:58, temp: 28.2, humid: 90%
+[411609.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411609.011] [ADC]: voltage(4050),ntc_temper(37),online(1)
+[411609.017] charger(1), level(85)
+[411610.000] watchdog_feed>>>
+
+[411618.100] thd_detect_write_handler last_sample_time = 411618
+[411618.203] temp_humid_sample: 2025-10-7 14:18:9, temp: 28.2, humid: 90%
+[411620.000] watchdog_feed>>>
+
+[411621.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411621.011] [ADC]: voltage(4052),ntc_temper(37),online(1)
+[411621.017] charger(1), level(85)
+[411628.100] thd_detect_write_handler last_sample_time = 411628
+[411628.203] temp_humid_sample: 2025-10-7 14:18:20, temp: 28.2, humid: 90%
+[411630.001] watchdog_feed>>>
+
+[411633.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411633.011] [ADC]: voltage(4052),ntc_temper(37),online(1)
+[411633.017] charger(1), level(85)
+[411638.100] thd_detect_write_handler last_sample_time = 411638
+[411638.203] temp_humid_sample: 2025-10-7 14:18:30, temp: 28.2, humid: 90%
+[411638.211] event EVT_HUMID_EXCEED notify failed
+[411640.000] watchdog_feed>>>
+
+[411645.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411645.011] [ADC]: voltage(4054),ntc_temper(37),online(1)
+[411645.017] charger(1), level(86)
+[411648.100] thd_detect_write_handler last_sample_time = 411648
+[411648.203] temp_humid_sample: 2025-10-7 14:18:41, temp: 28.2, humid: 90%
+[411650.000] watchdog_feed>>>
+
+[411657.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411657.011] [ADC]: voltage(4057),ntc_temper(37),online(1)
+[411657.017] charger(1), level(86)
+[411658.100] thd_detect_write_handler last_sample_time = 411658
+[411658.203] temp_humid_sample: 2025-10-7 14:18:51, temp: 28.2, humid: 90%
+[411660.001] watchdog_feed>>>
+
+[411668.100] thd_detect_write_handler last_sample_time = 411668
+[411668.203] temp_humid_sample: 2025-10-7 14:19:2, temp: 28.2, humid: 90%
+[411668.211] event EVT_HUMID_EXCEED notify failed
+[411669.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411669.011] [ADC]: voltage(4059),ntc_temper(37),online(1)
+[411669.017] charger(1), level(87)
+[411670.000] watchdog_feed>>>
+
+[411678.100] thd_detect_write_handler last_sample_time = 411678
+[411678.203] temp_humid_sample: 2025-10-7 14:19:13, temp: 28.2, humid: 90%
+[411680.000] watchdog_feed>>>
+
+[411681.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411681.011] [ADC]: voltage(4059),ntc_temper(37),online(1)
+[411681.017] charger(1), level(87)
+[411688.100] thd_detect_write_handler last_sample_time = 411688
+[411688.203] temp_humid_sample: 2025-10-7 14:19:23, temp: 28.2, humid: 90%
+[411690.001] watchdog_feed>>>
+
+[411693.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411693.011] [ADC]: voltage(4061),ntc_temper(37),online(1)
+[411693.017] charger(1), level(87)
+[411698.100] thd_detect_write_handler last_sample_time = 411698
+[411698.203] temp_humid_sample: 2025-10-7 14:19:34, temp: 28.1, humid: 90%
+[411700.000] watchdog_feed>>>
+
+[411705.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411705.011] [ADC]: voltage(4063),ntc_temper(37),online(1)
+[411705.017] charger(1), level(87)
+[411708.100] thd_detect_write_handler last_sample_time = 411708
+[411708.203] temp_humid_sample: 2025-10-7 14:19:44, temp: 28.2, humid: 90%
+[411710.000] watchdog_feed>>>
+
+[411717.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411717.011] [ADC]: voltage(4065),ntc_temper(37),online(1)
+[411717.017] charger(1), level(88)
+[411718.100] thd_detect_write_handler last_sample_time = 411718
+[411718.203] temp_humid_sample: 2025-10-7 14:19:55, temp: 28.1, humid: 90%
+[411720.001] watchdog_feed>>>
+
+[411728.100] thd_detect_write_handler last_sample_time = 411728
+[411728.203] temp_humid_sample: 2025-10-7 14:20:6, temp: 28.1, humid: 90%
+[411729.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411729.011] [ADC]: voltage(4068),ntc_temper(37),online(1)
+[411729.017] charger(1), level(88)
+[411730.000] watchdog_feed>>>
+
+[411738.100] thd_detect_write_handler last_sample_time = 411738
+[411738.203] temp_humid_sample: 2025-10-7 14:20:16, temp: 28.1, humid: 90%
+[411740.000] watchdog_feed>>>
+
+[411741.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411741.011] [ADC]: voltage(4068),ntc_temper(37),online(1)
+[411741.017] charger(1), level(88)
+[411748.100] thd_detect_write_handler last_sample_time = 411748
+[411748.203] temp_humid_sample: 2025-10-7 14:20:27, temp: 28.1, humid: 90%
+[411750.001] watchdog_feed>>>
+
+[411753.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411753.011] [ADC]: voltage(4070),ntc_temper(37),online(1)
+[411753.017] charger(1), level(88)
+[411758.100] thd_detect_write_handler last_sample_time = 411758
+[411758.203] temp_humid_sample: 2025-10-7 14:20:38, temp: 28.1, humid: 90%
+[411760.000] watchdog_feed>>>
+
+[411765.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411765.011] [ADC]: voltage(4072),ntc_temper(37),online(1)
+[411765.017] charger(1), level(89)
+[411768.100] thd_detect_write_handler last_sample_time = 411768
+[411768.203] temp_humid_sample: 2025-10-7 14:20:48, temp: 28.1, humid: 90%
+[411768.211] event EVT_HUMID_EXCEED notify failed
+[411770.000] watchdog_feed>>>
+
+[411777.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411777.011] [ADC]: voltage(4074),ntc_temper(37),online(1)
+[411777.017] charger(1), level(89)
+[411778.100] thd_detect_write_handler last_sample_time = 411778
+[411778.204] temp_humid_sample: 2025-10-7 14:20:59, temp: 28.1, humid: 90%
+[411778.212] event EVT_HUMID_EXCEED notify failed
+[411780.000] watchdog_feed>>>
+
+[411788.100] thd_detect_write_handler last_sample_time = 411788
+[411788.203] temp_humid_sample: 2025-10-7 14:21:9, temp: 28.1, humid: 90%
+[411789.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411789.011] [ADC]: voltage(4076),ntc_temper(37),online(1)
+[411789.017] charger(1), level(89)
+[411790.000] watchdog_feed>>>
+
+[411798.100] thd_detect_write_handler last_sample_time = 411798
+[411798.203] temp_humid_sample: 2025-10-7 14:21:20, temp: 28.1, humid: 90%
+[411798.211] event EVT_HUMID_EXCEED notify failed
+[411800.000] watchdog_feed>>>
+
+[411801.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411801.011] [ADC]: voltage(4079),ntc_temper(37),online(1)
+[411801.017] charger(1), level(90)
+[411808.100] thd_detect_write_handler last_sample_time = 411808
+[411808.203] temp_humid_sample: 2025-10-7 14:21:31, temp: 28.1, humid: 90%
+[411810.001] watchdog_feed>>>
+
+[411813.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411813.011] [ADC]: voltage(4081),ntc_temper(37),online(1)
+[411813.017] charger(1), level(90)
+[411818.100] thd_detect_write_handler last_sample_time = 411818
+[411818.203] temp_humid_sample: 2025-10-7 14:21:41, temp: 28.0, humid: 90%
+[411820.000] watchdog_feed>>>
+
+[411825.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411825.011] [ADC]: voltage(4083),ntc_temper(37),online(1)
+[411825.017] charger(1), level(90)
+[411828.100] thd_detect_write_handler last_sample_time = 411828
+[411828.203] temp_humid_sample: 2025-10-7 14:21:52, temp: 28.0, humid: 90%
+[411830.000] watchdog_feed>>>
+
+[411837.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411837.011] [ADC]: voltage(4085),ntc_temper(37),online(1)
+[411837.017] charger(1), level(90)
+[411838.100] thd_detect_write_handler last_sample_time = 411838
+[411838.203] temp_humid_sample: 2025-10-7 14:22:2, temp: 28.0, humid: 90%
+[411840.001] watchdog_feed>>>
+
+[411848.100] thd_detect_write_handler last_sample_time = 411848
+[411848.203] temp_humid_sample: 2025-10-7 14:22:13, temp: 28.0, humid: 90%
+[411849.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411849.011] [ADC]: voltage(4085),ntc_temper(37),online(1)
+[411849.017] charger(1), level(91)
+[411850.000] watchdog_feed>>>
+
+[411858.100] thd_detect_write_handler last_sample_time = 411858
+[411858.203] temp_humid_sample: 2025-10-7 14:22:24, temp: 28.0, humid: 90%
+[411860.000] watchdog_feed>>>
+
+[411861.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411861.011] [ADC]: voltage(4087),ntc_temper(37),online(1)
+[411861.017] charger(1), level(91)
+[411868.100] thd_detect_write_handler last_sample_time = 411868
+[411868.204] temp_humid_sample: 2025-10-7 14:22:34, temp: 28.0, humid: 90%
+[411870.001] watchdog_feed>>>
+
+[411873.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411873.011] [ADC]: voltage(4090),ntc_temper(37),online(1)
+[411873.017] charger(1), level(91)
+[411878.100] thd_detect_write_handler last_sample_time = 411878
+[411878.203] temp_humid_sample: 2025-10-7 14:22:45, temp: 28.0, humid: 89%
+[411880.000] watchdog_feed>>>
+
+[411885.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411885.011] [ADC]: voltage(4092),ntc_temper(37),online(1)
+[411885.017] charger(1), level(92)
+[411888.100] thd_detect_write_handler last_sample_time = 411888
+[411888.203] temp_humid_sample: 2025-10-7 14:22:55, temp: 28.0, humid: 89%
+[411890.000] watchdog_feed>>>
+
+[411897.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411897.011] [ADC]: voltage(4094),ntc_temper(37),online(1)
+[411897.017] charger(1), level(92)
+[411898.100] thd_detect_write_handler last_sample_time = 411898
+[411898.203] temp_humid_sample: 2025-10-7 14:23:6, temp: 27.9, humid: 89%
+[411900.000] watchdog_feed>>>
+
+[411908.100] thd_detect_write_handler last_sample_time = 411908
+[411908.203] temp_humid_sample: 2025-10-7 14:23:17, temp: 27.9, humid: 89%
+[411909.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411909.011] [ADC]: voltage(4096),ntc_temper(37),online(1)
+[411909.017] charger(1), level(92)
+[411910.000] watchdog_feed>>>
+
+[411918.100] thd_detect_write_handler last_sample_time = 411918
+[411918.203] temp_humid_sample: 2025-10-7 14:23:27, temp: 27.9, humid: 89%
+[411920.000] watchdog_feed>>>
+
+[411921.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411921.011] [ADC]: voltage(4098),ntc_temper(37),online(1)
+[411921.017] charger(1), level(92)
+[411928.100] thd_detect_write_handler last_sample_time = 411928
+[411928.203] temp_humid_sample: 2025-10-7 14:23:38, temp: 27.9, humid: 89%
+[411930.000] watchdog_feed>>>
+
+[411933.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411933.011] [ADC]: voltage(4101),ntc_temper(37),online(1)
+[411933.017] charger(1), level(93)
+[411938.100] thd_detect_write_handler last_sample_time = 411938
+[411938.203] temp_humid_sample: 2025-10-7 14:23:48, temp: 27.9, humid: 89%
+[411940.000] watchdog_feed>>>
+
+[411945.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411945.011] [ADC]: voltage(4103),ntc_temper(37),online(1)
+[411945.017] charger(1), level(93)
+[411948.100] thd_detect_write_handler last_sample_time = 411948
+[411948.203] temp_humid_sample: 2025-10-7 14:23:59, temp: 27.9, humid: 89%
+[411950.000] watchdog_feed>>>
+
+[411957.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411957.011] [ADC]: voltage(4105),ntc_temper(37),online(1)
+[411957.017] charger(1), level(93)
+[411958.100] thd_detect_write_handler last_sample_time = 411958
+[411958.203] temp_humid_sample: 2025-10-7 14:24:10, temp: 27.9, humid: 89%
+[411960.001] watchdog_feed>>>
+
+[411968.100] thd_detect_write_handler last_sample_time = 411968
+[411968.203] temp_humid_sample: 2025-10-7 14:24:20, temp: 27.9, humid: 89%
+[411969.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411969.011] [ADC]: voltage(4105),ntc_temper(37),online(1)
+[411969.017] charger(1), level(93)
+[411970.000] watchdog_feed>>>
+
+[411978.100] thd_detect_write_handler last_sample_time = 411978
+[411978.203] temp_humid_sample: 2025-10-7 14:24:31, temp: 27.8, humid: 89%
+[411980.000] watchdog_feed>>>
+
+[411981.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411981.011] [ADC]: voltage(4107),ntc_temper(37),online(1)
+[411981.017] charger(1), level(93)
+[411988.100] thd_detect_write_handler last_sample_time = 411988
+[411988.203] temp_humid_sample: 2025-10-7 14:24:41, temp: 27.8, humid: 89%
+[411990.001] watchdog_feed>>>
+
+[411993.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[411993.011] [ADC]: voltage(4109),ntc_temper(37),online(1)
+[411993.017] charger(1), level(94)
+[411998.100] thd_detect_write_handler last_sample_time = 411998
+[411998.203] temp_humid_sample: 2025-10-7 14:24:52, temp: 27.8, humid: 89%
+[412000.000] watchdog_feed>>>
+
+[412005.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412005.011] [ADC]: voltage(4112),ntc_temper(37),online(1)
+[412005.017] charger(1), level(94)
+[412008.100] thd_detect_write_handler last_sample_time = 412008
+[412008.203] temp_humid_sample: 2025-10-7 14:25:3, temp: 27.8, humid: 89%
+[412010.000] watchdog_feed>>>
+
+[412017.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412017.011] [ADC]: voltage(4114),ntc_temper(37),online(1)
+[412017.017] charger(1), level(94)
+[412018.100] thd_detect_write_handler last_sample_time = 412018
+[412018.203] temp_humid_sample: 2025-10-7 14:25:13, temp: 27.8, humid: 89%
+[412020.001] watchdog_feed>>>
+
+[412028.100] thd_detect_write_handler last_sample_time = 412028
+[412028.203] temp_humid_sample: 2025-10-7 14:25:24, temp: 27.7, humid: 90%
+[412029.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412029.011] [ADC]: voltage(4116),ntc_temper(37),online(1)
+[412029.017] charger(1), level(95)
+[412030.000] watchdog_feed>>>
+
+[412038.100] thd_detect_write_handler last_sample_time = 412038
+[412038.203] temp_humid_sample: 2025-10-7 14:25:34, temp: 27.7, humid: 67%
+[412040.000] watchdog_feed>>>
+
+[412041.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412041.011] [ADC]: voltage(4118),ntc_temper(37),online(1)
+[412041.017] charger(1), level(95)
+[412048.100] thd_detect_write_handler last_sample_time = 412048
+[412048.204] temp_humid_sample: 2025-10-7 14:25:45, temp: 27.5, humid: 47%
+[412050.001] watchdog_feed>>>
+
+[412053.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412053.011] [ADC]: voltage(4120),ntc_temper(37),online(1)
+[412053.017] charger(1), level(95)
+[412058.100] thd_detect_write_handler last_sample_time = 412058
+[412058.203] temp_humid_sample: 2025-10-7 14:25:56, temp: 27.3, humid: 42%
+[412060.000] watchdog_feed>>>
+
+[412065.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412065.011] [ADC]: voltage(4123),ntc_temper(37),online(1)
+[412065.017] charger(1), level(95)
+[412068.100] thd_detect_write_handler last_sample_time = 412068
+[412068.203] temp_humid_sample: 2025-10-7 14:26:6, temp: 27.1, humid: 41%
+[412070.000] watchdog_feed>>>
+
+[412077.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412077.011] [ADC]: voltage(4125),ntc_temper(37),online(1)
+[412077.017] charger(1), level(95)
+[412078.100] thd_detect_write_handler last_sample_time = 412078
+[412078.203] temp_humid_sample: 2025-10-7 14:26:17, temp: 27.0, humid: 40%
+[412080.000] watchdog_feed>>>
+
+[412088.100] thd_detect_write_handler last_sample_time = 412088
+[412088.203] temp_humid_sample: 2025-10-7 14:26:27, temp: 26.8, humid: 39%
+[412089.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412089.011] [ADC]: voltage(4127),ntc_temper(37),online(1)
+[412089.017] charger(1), level(96)
+[412090.000] watchdog_feed>>>
+
+[412098.100] thd_detect_write_handler last_sample_time = 412098
+[412098.203] temp_humid_sample: 2025-10-7 14:26:38, temp: 26.7, humid: 41%
+[412100.000] watchdog_feed>>>
+
+[412101.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412101.011] [ADC]: voltage(4129),ntc_temper(37),online(1)
+[412101.017] charger(1), level(96)
+[412108.100] thd_detect_write_handler last_sample_time = 412108
+[412108.203] temp_humid_sample: 2025-10-7 14:26:49, temp: 26.5, humid: 42%
+[412110.001] watchdog_feed>>>
+
+[412113.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412113.011] [ADC]: voltage(4131),ntc_temper(37),online(1)
+[412113.017] charger(1), level(96)
+[412118.100] thd_detect_write_handler last_sample_time = 412118
+[412118.203] temp_humid_sample: 2025-10-7 14:26:59, temp: 26.4, humid: 43%
+[412120.000] watchdog_feed>>>
+
+[412125.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412125.011] [ADC]: voltage(4134),ntc_temper(37),online(1)
+[412125.017] charger(1), level(96)
+[412128.100] thd_detect_write_handler last_sample_time = 412128
+[412128.203] temp_humid_sample: 2025-10-7 14:27:10, temp: 26.4, humid: 43%
+[412130.000] watchdog_feed>>>
+
+[412137.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412137.011] [ADC]: voltage(4136),ntc_temper(37),online(1)
+[412137.017] charger(1), level(96)
+[412138.100] thd_detect_write_handler last_sample_time = 412138
+[412138.204] temp_humid_sample: 2025-10-7 14:27:21, temp: 26.3, humid: 42%
+[412140.000] watchdog_feed>>>
+
+[412148.100] thd_detect_write_handler last_sample_time = 412148
+[412148.203] temp_humid_sample: 2025-10-7 14:27:31, temp: 26.2, humid: 42%
+[412149.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412149.011] [ADC]: voltage(4138),ntc_temper(37),online(1)
+[412149.017] charger(1), level(97)
+[412150.000] watchdog_feed>>>
+
+[412158.100] thd_detect_write_handler last_sample_time = 412158
+[412158.203] temp_humid_sample: 2025-10-7 14:27:42, temp: 26.1, humid: 43%
+[412160.000] watchdog_feed>>>
+
+[412161.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412161.011] [ADC]: voltage(4140),ntc_temper(37),online(1)
+[412161.017] charger(1), level(97)
+[412168.100] thd_detect_write_handler last_sample_time = 412168
+[412168.203] temp_humid_sample: 2025-10-7 14:27:52, temp: 26.1, humid: 42%
+[412170.001] watchdog_feed>>>
+
+[412173.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412173.011] [ADC]: voltage(4142),ntc_temper(37),online(1)
+[412173.017] charger(1), level(97)
+[412178.100] thd_detect_write_handler last_sample_time = 412178
+[412178.203] temp_humid_sample: 2025-10-7 14:28:3, temp: 26.0, humid: 42%
+[412180.000] watchdog_feed>>>
+
+[412185.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412185.011] [ADC]: voltage(4145),ntc_temper(37),online(1)
+[412185.017] charger(1), level(97)
+[412188.100] thd_detect_write_handler last_sample_time = 412188
+[412188.203] temp_humid_sample: 2025-10-7 14:28:14, temp: 25.9, humid: 43%
+[412190.000] watchdog_feed>>>
+
+[412197.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412197.011] [ADC]: voltage(4147),ntc_temper(37),online(1)
+[412197.017] charger(1), level(97)
+[412198.100] thd_detect_write_handler last_sample_time = 412198
+[412198.203] temp_humid_sample: 2025-10-7 14:28:24, temp: 25.9, humid: 42%
+[412200.001] watchdog_feed>>>
+
+[412208.100] thd_detect_write_handler last_sample_time = 412208
+[412208.203] temp_humid_sample: 2025-10-7 14:28:35, temp: 25.8, humid: 42%
+[412209.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412209.011] [ADC]: voltage(4149),ntc_temper(37),online(1)
+[412209.017] charger(1), level(97)
+[412210.000] watchdog_feed>>>
+
+[412214.401] [led_mask_set] mask(0000)
+[412214.405] >> Wakeon Led (3)
+[412218.100] thd_detect_write_handler last_sample_time = 412218
+[412218.203] temp_humid_sample: 2025-10-7 14:28:45, temp: 25.8, humid: 44%
+[412220.000] watchdog_feed>>>
+
+[412221.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412221.011] [ADC]: voltage(4151),ntc_temper(37),online(1)
+[412221.017] charger(4), level(98)
+[412228.100] thd_detect_write_handler last_sample_time = 412228
+[412228.203] temp_humid_sample: 2025-10-7 14:28:56, temp: 25.8, humid: 44%
+[412230.000] watchdog_feed>>>
+
+[412233.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412233.011] [ADC]: voltage(4153),ntc_temper(37),online(1)
+[412233.017] charger(4), level(98)
+[412238.100] thd_detect_write_handler last_sample_time = 412238
+[412238.203] temp_humid_sample: 2025-10-7 14:29:7, temp: 25.7, humid: 43%
+[412240.000] watchdog_feed>>>
+
+[412245.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412245.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412245.017] charger(4), level(98)
+[412248.100] thd_detect_write_handler last_sample_time = 412248
+[412248.203] temp_humid_sample: 2025-10-7 14:29:17, temp: 25.7, humid: 43%
+[412250.000] watchdog_feed>>>
+
+[412257.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412257.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412257.017] charger(4), level(98)
+[412258.100] thd_detect_write_handler last_sample_time = 412258
+[412258.203] temp_humid_sample: 2025-10-7 14:29:28, temp: 25.6, humid: 43%
+[412260.001] watchdog_feed>>>
+
+[412268.100] thd_detect_write_handler last_sample_time = 412268
+[412268.203] temp_humid_sample: 2025-10-7 14:29:38, temp: 25.6, humid: 42%
+[412269.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412269.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412269.017] charger(4), level(98)
+[412270.000] watchdog_feed>>>
+
+[412278.100] thd_detect_write_handler last_sample_time = 412278
+[412278.203] temp_humid_sample: 2025-10-7 14:29:49, temp: 25.6, humid: 41%
+[412280.000] watchdog_feed>>>
+
+[412281.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412281.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412281.017] charger(4), level(98)
+[412288.100] thd_detect_write_handler last_sample_time = 412288
+[412288.203] temp_humid_sample: 2025-10-7 14:30:0, temp: 25.5, humid: 41%
+[412290.000] watchdog_feed>>>
+
+[412293.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412293.011] [ADC]: voltage(4153),ntc_temper(36),online(1)
+[412293.017] charger(4), level(98)
+[412298.100] thd_detect_write_handler last_sample_time = 412298
+[412298.203] temp_humid_sample: 2025-10-7 14:30:10, temp: 25.5, humid: 42%
+[412300.000] watchdog_feed>>>
+
+[412305.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412305.011] [ADC]: voltage(4153),ntc_temper(36),online(1)
+[412305.017] charger(4), level(98)
+[412308.100] thd_detect_write_handler last_sample_time = 412308
+[412308.203] temp_humid_sample: 2025-10-7 14:30:21, temp: 25.4, humid: 42%
+[412310.000] watchdog_feed>>>
+
+[412317.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412317.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412317.017] charger(4), level(98)
+[412318.100] thd_detect_write_handler last_sample_time = 412318
+[412318.203] temp_humid_sample: 2025-10-7 14:30:31, temp: 25.4, humid: 41%
+[412320.001] watchdog_feed>>>
+
+[412328.100] thd_detect_write_handler last_sample_time = 412328
+[412328.203] temp_humid_sample: 2025-10-7 14:30:42, temp: 25.4, humid: 41%
+[412329.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412329.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412329.017] charger(4), level(98)
+[412330.000] watchdog_feed>>>
+
+[412338.100] thd_detect_write_handler last_sample_time = 412338
+[412338.203] temp_humid_sample: 2025-10-7 14:30:53, temp: 25.4, humid: 41%
+[412340.000] watchdog_feed>>>
+
+[412341.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412341.011] [ADC]: voltage(4153),ntc_temper(36),online(1)
+[412341.017] charger(4), level(98)
+[412348.100] thd_detect_write_handler last_sample_time = 412348
+[412348.203] temp_humid_sample: 2025-10-7 14:31:3, temp: 25.3, humid: 42%
+[412350.000] watchdog_feed>>>
+
+[412353.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412353.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412353.017] charger(4), level(98)
+[412358.100] thd_detect_write_handler last_sample_time = 412358
+[412358.203] temp_humid_sample: 2025-10-7 14:31:14, temp: 25.3, humid: 42%
+[412360.000] watchdog_feed>>>
+
+[412365.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412365.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412365.017] charger(4), level(98)
+[412368.100] thd_detect_write_handler last_sample_time = 412368
+[412368.203] temp_humid_sample: 2025-10-7 14:31:24, temp: 25.3, humid: 42%
+[412370.000] watchdog_feed>>>
+
+[412377.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412377.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412377.017] charger(4), level(98)
+[412378.100] thd_detect_write_handler last_sample_time = 412378
+[412378.203] temp_humid_sample: 2025-10-7 14:31:35, temp: 25.3, humid: 42%
+[412380.001] watchdog_feed>>>
+
+[412388.100] thd_detect_write_handler last_sample_time = 412388
+[412388.203] temp_humid_sample: 2025-10-7 14:31:46, temp: 25.2, humid: 42%
+[412389.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412389.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412389.017] charger(4), level(98)
+[412390.000] watchdog_feed>>>
+
+[412398.100] thd_detect_write_handler last_sample_time = 412398
+[412398.203] temp_humid_sample: 2025-10-7 14:31:56, temp: 25.2, humid: 42%
+[412400.000] watchdog_feed>>>
+
+[412401.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412401.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412401.017] charger(4), level(98)
+[412408.100] thd_detect_write_handler last_sample_time = 412408
+[412408.203] temp_humid_sample: 2025-10-7 14:32:7, temp: 25.2, humid: 42%
+[412410.001] watchdog_feed>>>
+
+[412413.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412413.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412413.017] charger(4), level(98)
+[412418.100] thd_detect_write_handler last_sample_time = 412418
+[412418.203] temp_humid_sample: 2025-10-7 14:32:17, temp: 25.2, humid: 43%
+[412420.000] watchdog_feed>>>
+
+[412425.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412425.011] [ADC]: voltage(4156),ntc_temper(36),online(1)
+[412425.017] charger(4), level(98)
+[412428.100] thd_detect_write_handler last_sample_time = 412428
+[412428.203] temp_humid_sample: 2025-10-7 14:32:28, temp: 25.2, humid: 43%
+[412430.000] watchdog_feed>>>
+
+[412437.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412437.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412437.017] charger(4), level(98)
+[412438.100] thd_detect_write_handler last_sample_time = 412438
+[412438.203] temp_humid_sample: 2025-10-7 14:32:39, temp: 25.2, humid: 43%
+[412440.001] watchdog_feed>>>
+
+[412448.100] thd_detect_write_handler last_sample_time = 412448
+[412448.203] temp_humid_sample: 2025-10-7 14:32:49, temp: 25.2, humid: 43%
+[412449.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412449.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412449.017] charger(4), level(98)
+[412450.000] watchdog_feed>>>
+
+[412458.100] thd_detect_write_handler last_sample_time = 412458
+[412458.203] temp_humid_sample: 2025-10-7 14:33:0, temp: 25.2, humid: 43%
+[412460.000] watchdog_feed>>>
+
+[412461.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412461.011] [ADC]: voltage(4153),ntc_temper(35),online(1)
+[412461.017] charger(4), level(98)
+[412468.100] thd_detect_write_handler last_sample_time = 412468
+[412468.203] temp_humid_sample: 2025-10-7 14:33:10, temp: 25.1, humid: 44%
+[412470.000] watchdog_feed>>>
+
+[412473.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412473.011] [ADC]: voltage(4153),ntc_temper(35),online(1)
+[412473.017] charger(4), level(98)
+[412478.100] thd_detect_write_handler last_sample_time = 412478
+[412478.203] temp_humid_sample: 2025-10-7 14:33:21, temp: 25.1, humid: 42%
+[412480.000] watchdog_feed>>>
+
+[412485.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412485.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412485.017] charger(4), level(98)
+[412488.100] thd_detect_write_handler last_sample_time = 412488
+[412488.203] temp_humid_sample: 2025-10-7 14:33:32, temp: 25.1, humid: 41%
+[412490.000] watchdog_feed>>>
+
+[412497.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412497.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412497.017] charger(4), level(98)
+[412498.100] thd_detect_write_handler last_sample_time = 412498
+[412498.203] temp_humid_sample: 2025-10-7 14:33:42, temp: 25.1, humid: 40%
+[412500.001] watchdog_feed>>>
+
+[412508.100] thd_detect_write_handler last_sample_time = 412508
+[412508.203] temp_humid_sample: 2025-10-7 14:33:53, temp: 25.1, humid: 40%
+[412509.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412509.011] [ADC]: voltage(4153),ntc_temper(35),online(1)
+[412509.017] charger(4), level(98)
+[412510.000] watchdog_feed>>>
+
+[412518.100] thd_detect_write_handler last_sample_time = 412518
+[412518.203] temp_humid_sample: 2025-10-7 14:34:3, temp: 25.1, humid: 40%
+[412520.000] watchdog_feed>>>
+
+[412521.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412521.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412521.017] charger(4), level(98)
+[412528.100] thd_detect_write_handler last_sample_time = 412528
+[412528.203] temp_humid_sample: 2025-10-7 14:34:14, temp: 25.1, humid: 40%
+[412530.000] watchdog_feed>>>
+
+[412533.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412533.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412533.017] charger(4), level(98)
+[412538.100] thd_detect_write_handler last_sample_time = 412538
+[412538.203] temp_humid_sample: 2025-10-7 14:34:25, temp: 25.1, humid: 40%
+[412540.000] watchdog_feed>>>
+
+[412545.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412545.011] [ADC]: voltage(4153),ntc_temper(35),online(1)
+[412545.017] charger(4), level(98)
+[412548.100] thd_detect_write_handler last_sample_time = 412548
+[412548.203] temp_humid_sample: 2025-10-7 14:34:35, temp: 25.0, humid: 40%
+[412550.000] watchdog_feed>>>
+
+[412557.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412557.011] [ADC]: voltage(4156),ntc_temper(35),online(1)
+[412557.017] charger(4), level(98)
+[412558.100] thd_detect_write_handler last_sample_time = 412558
+[412558.203] temp_humid_sample: 2025-10-7 14:34:46, temp: 25.0, humid: 40%
+[412560.001] watchdog_feed>>>
+
+[412568.100] thd_detect_write_handler last_sample_time = 412568
+[412568.203] temp_humid_sample: 2025-10-7 14:34:56, temp: 25.0, humid: 40%
+[412569.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412569.011] [ADC]: voltage(4156),ntc_temper(34),online(1)
+[412569.017] charger(4), level(98)
+[412570.000] watchdog_feed>>>
+
+[412578.100] thd_detect_write_handler last_sample_time = 412578
+[412578.203] temp_humid_sample: 2025-10-7 14:35:7, temp: 25.1, humid: 44%
+[412580.000] watchdog_feed>>>
+
+[412581.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412581.011] [ADC]: voltage(4156),ntc_temper(34),online(1)
+[412581.017] charger(4), level(98)
+[412588.100] thd_detect_write_handler last_sample_time = 412588
+[412588.203] temp_humid_sample: 2025-10-7 14:35:18, temp: 25.3, humid: 44%
+[412590.001] watchdog_feed>>>
+
+[412593.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412593.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412593.017] charger(4), level(98)
+[412598.100] thd_detect_write_handler last_sample_time = 412598
+[412598.203] temp_humid_sample: 2025-10-7 14:35:28, temp: 25.3, humid: 44%
+[412600.000] watchdog_feed>>>
+
+[412605.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412605.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412605.017] charger(4), level(98)
+[412608.100] thd_detect_write_handler last_sample_time = 412608
+[412608.203] temp_humid_sample: 2025-10-7 14:35:39, temp: 25.4, humid: 44%
+[412610.000] watchdog_feed>>>
+
+[412617.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412617.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412617.017] charger(4), level(98)
+[412618.100] thd_detect_write_handler last_sample_time = 412618
+[412618.203] temp_humid_sample: 2025-10-7 14:35:49, temp: 25.4, humid: 44%
+[412620.000] watchdog_feed>>>
+
+[412628.100] thd_detect_write_handler last_sample_time = 412628
+[412628.203] temp_humid_sample: 2025-10-7 14:36:0, temp: 25.4, humid: 44%
+[412629.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412629.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412629.017] charger(4), level(98)
+[412630.000] watchdog_feed>>>
+
+[412638.100] thd_detect_write_handler last_sample_time = 412638
+[412638.203] temp_humid_sample: 2025-10-7 14:36:11, temp: 25.4, humid: 44%
+[412640.000] watchdog_feed>>>
+
+[412641.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412641.011] [ADC]: voltage(4156),ntc_temper(34),online(1)
+[412641.017] charger(4), level(98)
+[412648.100] thd_detect_write_handler last_sample_time = 412648
+[412648.204] temp_humid_sample: 2025-10-7 14:36:21, temp: 25.5, humid: 43%
+[412650.001] watchdog_feed>>>
+
+[412653.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412653.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412653.017] charger(4), level(98)
+[412658.100] thd_detect_write_handler last_sample_time = 412658
+[412658.203] temp_humid_sample: 2025-10-7 14:36:32, temp: 25.4, humid: 43%
+[412660.000] watchdog_feed>>>
+
+[412665.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412665.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412665.017] charger(4), level(98)
+[412668.100] thd_detect_write_handler last_sample_time = 412668
+[412668.203] temp_humid_sample: 2025-10-7 14:36:42, temp: 25.5, humid: 51%
+[412670.000] watchdog_feed>>>
+
+[412677.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412677.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412677.017] charger(4), level(98)
+[412678.100] thd_detect_write_handler last_sample_time = 412678
+[412678.203] temp_humid_sample: 2025-10-7 14:36:53, temp: 25.9, humid: 73%
+[412680.001] watchdog_feed>>>
+
+[412688.100] thd_detect_write_handler last_sample_time = 412688
+[412688.203] temp_humid_sample: 2025-10-7 14:37:4, temp: 26.3, humid: 84%
+[412689.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412689.011] [ADC]: voltage(4153),ntc_temper(34),online(1)
+[412689.017] charger(4), level(98)
+[412690.000] watchdog_feed>>>
+
+[412698.100] thd_detect_write_handler last_sample_time = 412698
+[412698.203] temp_humid_sample: 2025-10-7 14:37:14, temp: 26.8, humid: 88%
+[412700.000] watchdog_feed>>>
+
+[412701.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412701.011] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412701.017] charger(4), level(98)
+[412708.100] thd_detect_write_handler last_sample_time = 412708
+[412708.203] temp_humid_sample: 2025-10-7 14:37:25, temp: 27.3, humid: 91%
+[412710.000] watchdog_feed>>>
+
+[412713.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412713.011] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412713.017] charger(4), level(98)
+[412718.100] thd_detect_write_handler last_sample_time = 412718
+[412718.203] temp_humid_sample: 2025-10-7 14:37:35, temp: 27.8, humid: 92%
+[412720.000] watchdog_feed>>>
+
+[412725.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412725.011] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412725.017] charger(4), level(98)
+[412728.100] thd_detect_write_handler last_sample_time = 412728
+[412728.203] temp_humid_sample: 2025-10-7 14:37:46, temp: 28.1, humid: 92%
+[412728.211] current_event.valid = true avg_humid=536 [latest_idx].humidity=920 [prev1_idx].humidity=920 
+[412728.221] [prev2_idx].humidity=910 start=1759819024 end=1759819066 rtcTS=1759819066
+[412728.231] change_last_prev1=0 change_prev1_prev2=10 refer_humid_stable=20
+[412728.239] msg mask:0x04, type:2
+[412728.242] Net_Event_Notify
+[412728.246] event EVT_URINE notify ok
+[412728.601] get msg_type(2)
+[412728.604] cmd=0111
+[412728.607] config_get type:0, addr:P(60), len:28
+[412728.612] >>>>stable_temp(251)
+[412728.616] >>>>stable_humid(440)
+[412728.620] >>>>>start(1759819024), end(1759819066)
+[412728.626] mid(20), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 14 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 B5 3B 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 FB 10 05 02 01 B8 10 12 08 68    
+0040: E4 B5 10 68 E4 B5 3A B2 54                         
+[412728.663] 
+List (size=5): 
+[412728.672] [T(0),L(73),F(16), 48004910011080011135313230323531313236303030383268E4AA4B081011010110010200001002013B10030101100
+[412728.690] [T(0),L(73),F(17), 48004910011180011135313230323531313236303030383268E4AA6B081011010110010200001002013B10030101100
+[412728.708] [T(0),L(73),F(18), 48004910011280011135313230323531313236303030383268E4AA8B081011010110010200001002013C10030101100
+[412728.726] [T(0),L(73),F(19), 48004910011380011135313230323531313236303030383268E4AAAA081011010110010200001002013C10030101100
+[412728.744] [T(0),L(73),F(20), 48004910011480011135313230323531313236303030383268E4B53B081011010110010200001002016210030104100
+[412728.756] NULL
+
+[412730.000] watchdog_feed>>>
+
+[412736.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412736.611] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412736.617] charger(4), level(98)
+[412738.100] thd_detect_write_handler last_sample_time = 412738
+[412738.203] temp_humid_sample: 2025-10-7 14:37:57, temp: 28.5, humid: 93%
+[412740.000] watchdog_feed>>>
+
+[412748.100] thd_detect_write_handler last_sample_time = 412748
+[412748.203] temp_humid_sample: 2025-10-7 14:38:7, temp: 28.8, humid: 92%
+[412748.601] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412748.611] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412748.617] charger(4), level(98)
+[412750.000] watchdog_feed>>>
+
+[412758.100] thd_detect_write_handler last_sample_time = 412758
+[412758.203] temp_humid_sample: 2025-10-7 14:38:18, temp: 29.1, humid: 92%
+[412758.211] current_event.valid = true avg_humid=615 [latest_idx].humidity=920 [prev1_idx].humidity=920 
+[412758.221] [prev2_idx].humidity=930 start=1759819077 end=1759819098 rtcTS=1759819098
+[412758.231] change_last_prev1=0 change_prev1_prev2=-10 refer_humid_stable=20
+[412758.239] msg mask:0x04, type:2
+[412758.243] Net_Event_Notify
+[412758.246] event EVT_URINE notify ok
+[412758.251] get msg_type(2)
+[412758.254] cmd=0111
+[412758.257] config_get type:0, addr:P(60), len:28
+[412758.263] >>>>stable_temp(251)
+[412758.266] >>>>stable_humid(440)
+[412758.270] >>>>>start(1759819077), end(1759819098)
+[412758.277] mid(21), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 15 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 B5 5A 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 FB 10 05 02 01 B8 10 12 08 68    
+0040: E4 B5 45 68 E4 B5 5A 27 54                         
+[412758.314] 
+List (size=5): 
+[412758.323] [T(0),L(73),F(17), 48004910011180011135313230323531313236303030383268E4AA6B081011010110010200001002013B10030101100
+[412758.340] [T(0),L(73),F(18), 48004910011280011135313230323531313236303030383268E4AA8B081011010110010200001002013C10030101100
+[412758.358] [T(0),L(73),F(19), 48004910011380011135313230323531313236303030383268E4AAAA081011010110010200001002013C10030101100
+[412758.376] [T(0),L(73),F(20), 48004910011480011135313230323531313236303030383268E4B53B081011010110010200001002016210030104100
+[412758.394] [T(0),L(73),F(21), 48004910011580011135313230323531313236303030383268E4B55A081011010110010200001002016210030104100
+[412758.406] NULL
+
+[412760.000] watchdog_feed>>>
+
+[412760.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412760.411] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412760.417] charger(4), level(98)
+[412768.100] thd_detect_write_handler last_sample_time = 412768
+[412768.203] temp_humid_sample: 2025-10-7 14:38:28, temp: 29.3, humid: 92%
+[412770.000] watchdog_feed>>>
+
+[412772.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412772.411] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412772.417] charger(4), level(98)
+[412778.100] thd_detect_write_handler last_sample_time = 412778
+[412778.203] temp_humid_sample: 2025-10-7 14:38:39, temp: 29.6, humid: 92%
+[412780.000] watchdog_feed>>>
+
+[412784.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412784.411] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412784.417] charger(4), level(98)
+[412788.100] thd_detect_write_handler last_sample_time = 412788
+[412788.203] temp_humid_sample: 2025-10-7 14:38:50, temp: 29.8, humid: 91%
+[412788.211] current_event.valid = true avg_humid=691 [latest_idx].humidity=910 [prev1_idx].humidity=920 
+[412788.221] [prev2_idx].humidity=920 start=1759819109 end=1759819130 rtcTS=1759819130
+[412788.231] change_last_prev1=-10 change_prev1_prev2=0 refer_humid_stable=20
+[412788.239] msg mask:0x04, type:2
+[412788.243] Net_Event_Notify
+[412788.246] event EVT_URINE notify ok
+[412788.601] get msg_type(2)
+[412788.604] cmd=0111
+[412788.607] config_get type:0, addr:P(60), len:28
+[412788.612] >>>>stable_temp(251)
+[412788.616] >>>>stable_humid(440)
+[412788.620] >>>>>start(1759819109), end(1759819130)
+[412788.626] mid(22), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 16 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 B5 7A 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 FB 10 05 02 01 B8 10 12 08 68    
+0040: E4 B5 65 68 E4 B5 7A 88 54                         
+[412788.663] 
+List (size=5): 
+[412788.673] [T(0),L(73),F(18), 48004910011280011135313230323531313236303030383268E4AA8B081011010110010200001002013C10030101100
+[412788.690] [T(0),L(73),F(19), 48004910011380011135313230323531313236303030383268E4AAAA081011010110010200001002013C10030101100
+[412788.708] [T(0),L(73),F(20), 48004910011480011135313230323531313236303030383268E4B53B081011010110010200001002016210030104100
+[412788.726] [T(0),L(73),F(21), 48004910011580011135313230323531313236303030383268E4B55A081011010110010200001002016210030104100
+[412788.744] [T(0),L(73),F(22), 48004910011680011135313230323531313236303030383268E4B57A081011010110010200001002016210030104100
+[412788.756] NULL
+
+[412790.001] watchdog_feed>>>
+
+[412796.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412796.011] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412796.017] charger(4), level(98)
+[412798.100] thd_detect_write_handler last_sample_time = 412798
+[412798.203] temp_humid_sample: 2025-10-7 14:39:0, temp: 30.0, humid: 90%
+[412800.000] watchdog_feed>>>
+
+[412808.001] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412808.011] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412808.017] charger(4), level(98)
+[412808.100] thd_detect_write_handler last_sample_time = 412808
+[412808.203] temp_humid_sample: 2025-10-7 14:39:11, temp: 30.1, humid: 90%
+[412810.000] watchdog_feed>>>
+
+[412818.100] thd_detect_write_handler last_sample_time = 412818
+[412818.203] temp_humid_sample: 2025-10-7 14:39:21, temp: 30.3, humid: 89%
+[412818.211] current_event.valid = true avg_humid=760 [latest_idx].humidity=890 [prev1_idx].humidity=900 
+[412818.221] [prev2_idx].humidity=900 start=1759819140 end=1759819161 rtcTS=1759819162
+[412818.231] change_last_prev1=-10 change_prev1_prev2=0 refer_humid_stable=20
+[412818.239] msg mask:0x04, type:2
+[412818.242] Net_Event_Notify
+[412818.246] event EVT_URINE notify ok
+[412818.251] get msg_type(2)
+[412818.254] cmd=0111
+[412818.257] config_get type:0, addr:P(60), len:28
+[412818.263] >>>>stable_temp(251)
+[412818.266] >>>>stable_humid(440)
+[412818.270] >>>>>start(1759819140), end(1759819161)
+[412818.276] mid(23), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 17 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 B5 9A 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 FB 10 05 02 01 B8 10 12 08 68    
+0040: E4 B5 84 68 E4 B5 99 E7 54                         
+[412818.314] 
+List (size=5): 
+[412818.323] [T(0),L(73),F(19), 48004910011380011135313230323531313236303030383268E4AAAA081011010110010200001002013C10030101100
+[412818.340] [T(0),L(73),F(20), 48004910011480011135313230323531313236303030383268E4B53B081011010110010200001002016210030104100
+[412818.358] [T(0),L(73),F(21), 48004910011580011135313230323531313236303030383268E4B55A081011010110010200001002016210030104100
+[412818.376] [T(0),L(73),F(22), 48004910011680011135313230323531313236303030383268E4B57A081011010110010200001002016210030104100
+[412818.394] [T(0),L(73),F(23), 48004910011780011135313230323531313236303030383268E4B59A081011010110010200001002016210030104100
+[412818.406] NULL
+
+[412819.801] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412819.811] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412819.817] charger(4), level(98)
+[412820.000] watchdog_feed>>>
+
+[412828.100] thd_detect_write_handler last_sample_time = 412828
+[412828.203] temp_humid_sample: 2025-10-7 14:39:32, temp: 30.4, humid: 89%
+[412830.001] watchdog_feed>>>
+
+[412831.801] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412831.811] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412831.817] charger(4), level(98)
+[412838.100] thd_detect_write_handler last_sample_time = 412838
+[412838.203] temp_humid_sample: 2025-10-7 14:39:43, temp: 30.5, humid: 88%
+[412840.000] watchdog_feed>>>
+
+[412843.801] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412843.811] [ADC]: voltage(4153),ntc_temper(33),online(1)
+[412843.817] charger(4), level(98)
+[412848.100] thd_detect_write_handler last_sample_time = 412848
+[412848.203] temp_humid_sample: 2025-10-7 14:39:53, temp: 30.6, humid: 88%
+[412848.211] current_event.valid = true avg_humid=827 [latest_idx].humidity=880 [prev1_idx].humidity=880 
+[412848.221] [prev2_idx].humidity=890 start=1759819172 end=1759819193 rtcTS=1759819193
+[412848.231] change_last_prev1=0 change_prev1_prev2=-10 refer_humid_stable=20
+[412848.239] msg mask:0x04, type:2
+[412848.242] Net_Event_Notify
+[412848.246] event EVT_URINE notify ok
+[412848.601] get msg_type(2)
+[412848.604] cmd=0111
+[412848.607] config_get type:0, addr:P(60), len:28
+[412848.612] >>>>stable_temp(251)
+[412848.616] >>>>stable_humid(440)
+[412848.620] >>>>>start(1759819172), end(1759819193)
+[412848.626] mid(24), dlen(43), ctrl(128)
+0000: 48 00 49 10 01 18 80 01 11 35 31 32 30 32 35 31    
+0010: 31 32 36 30 30 30 38 32 68 E4 B5 BA 08 10 11 01    
+0020: 01 10 01 02 00 00 10 02 01 62 10 03 01 04 10 08    
+0030: 01 00 10 04 02 00 FB 10 05 02 01 B8 10 12 08 68    
+0040: E4 B5 A4 68 E4 B5 B9 48 54                         
+[412848.663] 
+List (size=5): 
+[412848.672] [T(0),L(73),F(20), 48004910011480011135313230323531313236303030383268E4B53B081011010110010200001002016210030104100
+[412848.690] [T(0),L(73),F(21), 48004910011580011135313230323531313236303030383268E4B55A081011010110010200001002016210030104100
+[412848.708] [T(0),L(73),F(22), 48004910011680011135313230323531313236303030383268E4B57A081011010110010200001002016210030104100
+[412848.726] [T(0),L(73),F(23), 48004910011780011135313230323531313236303030383268E4B59A081011010110010200001002016210030104100
+[412848.744] [T(0),L(73),F(24), 48004910011880011135313230323531313236303030383268E4B5BA081011010110010200001002016210030104100
+[412848.756] NULL
+
+[412850.001] watchdog_feed>>>
+
+[412855.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412855.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412855.417] charger(4), level(98)
+[412858.100] thd_detect_write_handler last_sample_time = 412858
+[412858.203] temp_humid_sample: 2025-10-7 14:40:4, temp: 30.7, humid: 87%
+[412860.000] watchdog_feed>>>
+
+[412867.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412867.411] [ADC]: voltage(4156),ntc_temper(32),online(1)
+[412867.417] charger(4), level(98)
+[412868.100] thd_detect_write_handler last_sample_time = 412868
+[412868.203] temp_humid_sample: 2025-10-7 14:40:15, temp: 30.8, humid: 87%
+[412870.000] watchdog_feed>>>
+
+[412878.100] thd_detect_write_handler last_sample_time = 412878
+[412878.203] temp_humid_sample: 2025-10-7 14:40:25, temp: 30.9, humid: 86%
+[412878.211] stable_humid reduce 15lear event_reported_humid_exceed
+[412878.217] event EVT_HUMID_EXCEED notify failed
+[412879.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412879.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412879.417] charger(4), level(98)
+[412880.001] watchdog_feed>>>
+
+[412888.100] thd_detect_write_handler last_sample_time = 412888
+[412888.203] temp_humid_sample: 2025-10-7 14:40:36, temp: 30.9, humid: 86%
+[412888.211] event EVT_HUMID_EXCEED notify failed
+[412890.000] watchdog_feed>>>
+
+[412891.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412891.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412891.417] charger(4), level(98)
+[412898.100] thd_detect_write_handler last_sample_time = 412898
+[412898.203] temp_humid_sample: 2025-10-7 14:40:46, temp: 31.0, humid: 85%
+[412900.000] watchdog_feed>>>
+
+[412903.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412903.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412903.417] charger(4), level(98)
+[412908.100] thd_detect_write_handler last_sample_time = 412908
+[412908.203] temp_humid_sample: 2025-10-7 14:40:57, temp: 31.0, humid: 85%
+[412910.001] watchdog_feed>>>
+
+[412915.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412915.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412915.417] charger(4), level(98)
+[412918.100] thd_detect_write_handler last_sample_time = 412918
+[412918.203] temp_humid_sample: 2025-10-7 14:41:8, temp: 31.1, humid: 85%
+[412920.000] watchdog_feed>>>
+
+[412927.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412927.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412927.417] charger(4), level(98)
+[412928.100] thd_detect_write_handler last_sample_time = 412928
+[412928.203] temp_humid_sample: 2025-10-7 14:41:18, temp: 31.1, humid: 84%
+[412930.000] watchdog_feed>>>
+
+[412938.100] thd_detect_write_handler last_sample_time = 412938
+[412938.203] temp_humid_sample: 2025-10-7 14:41:29, temp: 31.1, humid: 84%
+[412939.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412939.411] [ADC]: voltage(4156),ntc_temper(32),online(1)
+[412939.417] charger(4), level(98)
+[412940.001] watchdog_feed>>>
+
+[412948.100] thd_detect_write_handler last_sample_time = 412948
+[412948.203] temp_humid_sample: 2025-10-7 14:41:39, temp: 31.1, humid: 83%
+[412950.000] watchdog_feed>>>
+
+[412951.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412951.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412951.417] charger(4), level(98)
+[412958.100] thd_detect_write_handler last_sample_time = 412958
+[412958.203] temp_humid_sample: 2025-10-7 14:41:50, temp: 31.1, humid: 83%
+[412960.000] watchdog_feed>>>
+
+[412963.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412963.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412963.417] charger(4), level(98)
+[412968.100] thd_detect_write_handler last_sample_time = 412968
+[412968.203] temp_humid_sample: 2025-10-7 14:42:1, temp: 31.2, humid: 83%
+[412970.000] watchdog_feed>>>
+
+[412975.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412975.411] [ADC]: voltage(4156),ntc_temper(32),online(1)
+[412975.417] charger(4), level(98)
+[412978.100] thd_detect_write_handler last_sample_time = 412978
+[412978.203] temp_humid_sample: 2025-10-7 14:42:11, temp: 31.2, humid: 82%
+[412980.000] watchdog_feed>>>
+
+[412987.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412987.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412987.417] charger(4), level(98)
+[412988.100] thd_detect_write_handler last_sample_time = 412988
+[412988.203] temp_humid_sample: 2025-10-7 14:42:22, temp: 31.1, humid: 82%
+[412990.000] watchdog_feed>>>
+
+[412998.100] thd_detect_write_handler last_sample_time = 412998
+[412998.203] temp_humid_sample: 2025-10-7 14:42:32, temp: 31.1, humid: 82%
+[412999.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[412999.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[412999.417] charger(4), level(98)
+[413000.000] watchdog_feed>>>
+
+[413008.100] thd_detect_write_handler last_sample_time = 413008
+[413008.203] temp_humid_sample: 2025-10-7 14:42:43, temp: 31.1, humid: 82%
+[413010.000] watchdog_feed>>>
+
+[413011.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413011.411] [ADC]: voltage(4153),ntc_temper(32),online(1)
+[413011.417] charger(4), level(98)
+[413018.100] thd_detect_write_handler last_sample_time = 413018
+[413018.203] temp_humid_sample: 2025-10-7 14:42:54, temp: 31.1, humid: 81%
+[413020.000] watchdog_feed>>>
+
+[413023.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413023.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413023.417] charger(4), level(98)
+[413028.100] thd_detect_write_handler last_sample_time = 413028
+[413028.203] temp_humid_sample: 2025-10-7 14:43:4, temp: 31.1, humid: 81%
+[413030.001] watchdog_feed>>>
+
+[413035.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413035.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413035.417] charger(4), level(98)
+[413038.100] thd_detect_write_handler last_sample_time = 413038
+[413038.203] temp_humid_sample: 2025-10-7 14:43:15, temp: 31.1, humid: 81%
+[413040.000] watchdog_feed>>>
+
+[413047.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413047.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413047.417] charger(4), level(98)
+[413048.100] thd_detect_write_handler last_sample_time = 413048
+[413048.203] temp_humid_sample: 2025-10-7 14:43:25, temp: 31.1, humid: 81%
+[413050.000] watchdog_feed>>>
+
+[413058.100] thd_detect_write_handler last_sample_time = 413058
+[413058.203] temp_humid_sample: 2025-10-7 14:43:36, temp: 31.1, humid: 81%
+[413059.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413059.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413059.417] charger(4), level(98)
+[413060.000] watchdog_feed>>>
+
+[413068.100] thd_detect_write_handler last_sample_time = 413068
+[413068.203] temp_humid_sample: 2025-10-7 14:43:46, temp: 31.0, humid: 81%
+[413070.000] watchdog_feed>>>
+
+[413071.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413071.411] [ADC]: voltage(4156),ntc_temper(31),online(1)
+[413071.417] charger(4), level(98)
+[413078.100] thd_detect_write_handler last_sample_time = 413078
+[413078.203] temp_humid_sample: 2025-10-7 14:43:57, temp: 31.0, humid: 80%
+[413080.000] watchdog_feed>>>
+
+[413083.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413083.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413083.417] charger(4), level(98)
+[413088.100] thd_detect_write_handler last_sample_time = 413088
+[413088.203] temp_humid_sample: 2025-10-7 14:44:8, temp: 31.0, humid: 81%
+[413090.001] watchdog_feed>>>
+
+[413095.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413095.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413095.417] charger(4), level(98)
+[413098.100] thd_detect_write_handler last_sample_time = 413098
+[413098.203] temp_humid_sample: 2025-10-7 14:44:18, temp: 31.0, humid: 80%
+[413100.000] watchdog_feed>>>
+
+[413107.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413107.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413107.417] charger(4), level(98)
+[413108.100] thd_detect_write_handler last_sample_time = 413108
+[413108.203] temp_humid_sample: 2025-10-7 14:44:29, temp: 30.9, humid: 80%
+[413110.000] watchdog_feed>>>
+
+[413118.100] thd_detect_write_handler last_sample_time = 413118
+[413118.203] temp_humid_sample: 2025-10-7 14:44:39, temp: 30.9, humid: 80%
+[413119.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413119.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413119.417] charger(4), level(98)
+[413120.001] watchdog_feed>>>
+
+[413128.100] thd_detect_write_handler last_sample_time = 413128
+[413128.203] temp_humid_sample: 2025-10-7 14:44:50, temp: 30.9, humid: 80%
+[413130.000] watchdog_feed>>>
+
+[413131.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413131.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413131.417] charger(4), level(98)
+[413138.100] thd_detect_write_handler last_sample_time = 413138
+[413138.203] temp_humid_sample: 2025-10-7 14:45:1, temp: 30.8, humid: 80%
+[413140.000] watchdog_feed>>>
+
+[413143.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413143.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413143.417] charger(4), level(98)
+[413148.100] thd_detect_write_handler last_sample_time = 413148
+[413148.203] temp_humid_sample: 2025-10-7 14:45:11, temp: 30.8, humid: 80%
+[413150.001] watchdog_feed>>>
+
+[413155.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413155.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413155.417] charger(4), level(98)
+[413158.100] thd_detect_write_handler last_sample_time = 413158
+[413158.203] temp_humid_sample: 2025-10-7 14:45:22, temp: 30.7, humid: 80%
+[413160.000] watchdog_feed>>>
+
+[413167.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413167.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413167.417] charger(4), level(98)
+[413168.100] thd_detect_write_handler last_sample_time = 413168
+[413168.203] temp_humid_sample: 2025-10-7 14:45:32, temp: 30.7, humid: 80%
+[413168.211] event EVT_HUMID_EXCEED notify failed
+[413170.000] watchdog_feed>>>
+
+[413178.100] thd_detect_write_handler last_sample_time = 413178
+[413178.204] temp_humid_sample: 2025-10-7 14:45:43, temp: 30.7, humid: 80%
+[413179.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413179.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413179.417] charger(4), level(98)
+[413180.000] watchdog_feed>>>
+
+[413188.100] thd_detect_write_handler last_sample_time = 413188
+[413188.203] temp_humid_sample: 2025-10-7 14:45:54, temp: 30.6, humid: 79%
+[413190.000] watchdog_feed>>>
+
+[413191.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413191.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413191.417] charger(4), level(98)
+[413198.100] thd_detect_write_handler last_sample_time = 413198
+[413198.203] temp_humid_sample: 2025-10-7 14:46:4, temp: 30.6, humid: 79%
+[413200.000] watchdog_feed>>>
+
+[413203.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413203.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413203.417] charger(4), level(98)
+[413208.100] thd_detect_write_handler last_sample_time = 413208
+[413208.203] temp_humid_sample: 2025-10-7 14:46:15, temp: 30.5, humid: 79%
+[413208.211] event EVT_HUMID_EXCEED notify failed
+[413210.001] watchdog_feed>>>
+
+[413215.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413215.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413215.417] charger(4), level(98)
+[413218.100] thd_detect_write_handler last_sample_time = 413218
+[413218.203] temp_humid_sample: 2025-10-7 14:46:25, temp: 30.5, humid: 79%
+[413220.000] watchdog_feed>>>
+
+[413227.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413227.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413227.417] charger(4), level(98)
+[413228.100] thd_detect_write_handler last_sample_time = 413228
+[413228.203] temp_humid_sample: 2025-10-7 14:46:36, temp: 30.5, humid: 80%
+[413230.000] watchdog_feed>>>
+
+[413238.100] thd_detect_write_handler last_sample_time = 413238
+[413238.203] temp_humid_sample: 2025-10-7 14:46:47, temp: 30.4, humid: 81%
+[413239.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413239.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413239.417] charger(4), level(98)
+[413240.001] watchdog_feed>>>
+
+[413248.100] thd_detect_write_handler last_sample_time = 413248
+[413248.203] temp_humid_sample: 2025-10-7 14:46:57, temp: 30.4, humid: 81%
+[413250.000] watchdog_feed>>>
+
+[413251.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413251.411] [ADC]: voltage(4153),ntc_temper(31),online(1)
+[413251.417] charger(4), level(98)
+[413258.100] thd_detect_write_handler last_sample_time = 413258
+[413258.203] temp_humid_sample: 2025-10-7 14:47:8, temp: 30.4, humid: 82%
+[413260.000] watchdog_feed>>>
+
+[413263.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413263.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413263.417] charger(4), level(98)
+[413268.100] thd_detect_write_handler last_sample_time = 413268
+[413268.203] temp_humid_sample: 2025-10-7 14:47:18, temp: 30.3, humid: 82%
+[413268.211] event EVT_HUMID_EXCEED notify failed
+[413270.001] watchdog_feed>>>
+
+[413275.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413275.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413275.417] charger(4), level(98)
+[413278.100] thd_detect_write_handler last_sample_time = 413278
+[413278.203] temp_humid_sample: 2025-10-7 14:47:29, temp: 30.3, humid: 82%
+[413278.211] event EVT_HUMID_EXCEED notify failed
+[413280.000] watchdog_feed>>>
+
+[413287.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413287.411] [ADC]: voltage(4156),ntc_temper(30),online(1)
+[413287.417] charger(4), level(98)
+[413288.100] thd_detect_write_handler last_sample_time = 413288
+[413288.203] temp_humid_sample: 2025-10-7 14:47:40, temp: 30.3, humid: 82%
+[413288.211] event EVT_HUMID_EXCEED notify failed
+[413290.000] watchdog_feed>>>
+
+[413298.100] thd_detect_write_handler last_sample_time = 413298
+[413298.203] temp_humid_sample: 2025-10-7 14:47:50, temp: 30.3, humid: 82%
+[413299.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413299.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413299.417] charger(4), level(98)
+[413300.000] watchdog_feed>>>
+
+[413308.100] thd_detect_write_handler last_sample_time = 413308
+[413308.203] temp_humid_sample: 2025-10-7 14:48:1, temp: 30.2, humid: 82%
+[413310.000] watchdog_feed>>>
+
+[413311.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413311.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413311.417] charger(4), level(98)
+[413318.100] thd_detect_write_handler last_sample_time = 413318
+[413318.203] temp_humid_sample: 2025-10-7 14:48:11, temp: 30.2, humid: 82%
+[413320.000] watchdog_feed>>>
+
+[413323.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413323.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413323.417] charger(4), level(98)
+[413328.100] thd_detect_write_handler last_sample_time = 413328
+[413328.204] temp_humid_sample: 2025-10-7 14:48:22, temp: 30.2, humid: 82%
+[413330.000] watchdog_feed>>>
+
+[413335.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413335.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413335.417] charger(4), level(98)
+[413338.100] thd_detect_write_handler last_sample_time = 413338
+[413338.203] temp_humid_sample: 2025-10-7 14:48:33, temp: 30.2, humid: 82%
+[413340.000] watchdog_feed>>>
+
+[413347.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413347.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413347.417] charger(4), level(98)
+[413348.100] thd_detect_write_handler last_sample_time = 413348
+[413348.203] temp_humid_sample: 2025-10-7 14:48:43, temp: 30.2, humid: 82%
+[413350.000] watchdog_feed>>>
+
+[413358.100] thd_detect_write_handler last_sample_time = 413358
+[413358.204] temp_humid_sample: 2025-10-7 14:48:54, temp: 30.1, humid: 82%
+[413359.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413359.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413359.417] charger(4), level(98)
+[413360.001] watchdog_feed>>>
+
+[413368.100] thd_detect_write_handler last_sample_time = 413368
+[413368.203] temp_humid_sample: 2025-10-7 14:49:4, temp: 30.1, humid: 82%
+[413370.000] watchdog_feed>>>
+
+[413371.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413371.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413371.417] charger(4), level(98)
+[413378.100] thd_detect_write_handler last_sample_time = 413378
+[413378.203] temp_humid_sample: 2025-10-7 14:49:15, temp: 30.1, humid: 82%
+[413380.000] watchdog_feed>>>
+
+[413383.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413383.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413383.417] charger(4), level(98)
+[413388.100] thd_detect_write_handler last_sample_time = 413388
+[413388.203] temp_humid_sample: 2025-10-7 14:49:26, temp: 30.1, humid: 82%
+[413390.001] watchdog_feed>>>
+
+[413395.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413395.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413395.417] charger(4), level(98)
+[413398.100] thd_detect_write_handler last_sample_time = 413398
+[413398.203] temp_humid_sample: 2025-10-7 14:49:36, temp: 30.0, humid: 82%
+[413400.000] watchdog_feed>>>
+
+[413407.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413407.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413407.417] charger(4), level(98)
+[413408.100] thd_detect_write_handler last_sample_time = 413408
+[413408.203] temp_humid_sample: 2025-10-7 14:49:47, temp: 30.0, humid: 82%
+[413410.000] watchdog_feed>>>
+
+[413418.100] thd_detect_write_handler last_sample_time = 413418
+[413418.204] temp_humid_sample: 2025-10-7 14:49:57, temp: 30.0, humid: 82%
+[413419.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413419.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413419.417] charger(4), level(98)
+[413420.001] watchdog_feed>>>
+
+[413428.100] thd_detect_write_handler last_sample_time = 413428
+[413428.203] temp_humid_sample: 2025-10-7 14:50:8, temp: 30.0, humid: 82%
+[413428.210] event EVT_HUMID_EXCEED notify failed
+[413430.000] watchdog_feed>>>
+
+[413431.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413431.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413431.417] charger(4), level(98)
+[413438.100] thd_detect_write_handler last_sample_time = 413438
+[413438.203] temp_humid_sample: 2025-10-7 14:50:19, temp: 29.9, humid: 82%
+[413440.000] watchdog_feed>>>
+
+[413443.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413443.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413443.417] charger(4), level(98)
+[413448.100] thd_detect_write_handler last_sample_time = 413448
+[413448.203] temp_humid_sample: 2025-10-7 14:50:29, temp: 29.9, humid: 82%
+[413448.211] event EVT_HUMID_EXCEED notify failed
+[413450.000] watchdog_feed>>>
+
+[413455.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413455.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413455.417] charger(4), level(98)
+[413458.100] thd_detect_write_handler last_sample_time = 413458
+[413458.203] temp_humid_sample: 2025-10-7 14:50:40, temp: 29.9, humid: 82%
+[413460.000] watchdog_feed>>>
+
+[413467.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413467.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413467.417] charger(4), level(98)
+[413468.100] thd_detect_write_handler last_sample_time = 413468
+[413468.203] temp_humid_sample: 2025-10-7 14:50:50, temp: 29.9, humid: 83%
+[413470.000] watchdog_feed>>>
+
+[413478.100] thd_detect_write_handler last_sample_time = 413478
+[413478.203] temp_humid_sample: 2025-10-7 14:51:1, temp: 29.9, humid: 83%
+[413479.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413479.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413479.417] charger(4), level(98)
+[413480.001] watchdog_feed>>>
+
+[413488.100] thd_detect_write_handler last_sample_time = 413488
+[413488.203] temp_humid_sample: 2025-10-7 14:51:12, temp: 29.8, humid: 82%
+[413490.000] watchdog_feed>>>
+
+[413491.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413491.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413491.417] charger(4), level(98)
+[413498.100] thd_detect_write_handler last_sample_time = 413498
+[413498.203] temp_humid_sample: 2025-10-7 14:51:22, temp: 29.8, humid: 82%
+[413500.000] watchdog_feed>>>
+
+[413503.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413503.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413503.417] charger(4), level(98)
+[413508.100] thd_detect_write_handler last_sample_time = 413508
+[413508.203] temp_humid_sample: 2025-10-7 14:51:33, temp: 29.8, humid: 82%
+[413510.001] watchdog_feed>>>
+
+[413515.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413515.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413515.417] charger(4), level(98)
+[413518.100] thd_detect_write_handler last_sample_time = 413518
+[413518.203] temp_humid_sample: 2025-10-7 14:51:43, temp: 29.8, humid: 82%
+[413520.000] watchdog_feed>>>
+
+[413527.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413527.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413527.417] charger(4), level(98)
+[413528.100] thd_detect_write_handler last_sample_time = 413528
+[413528.203] temp_humid_sample: 2025-10-7 14:51:54, temp: 29.7, humid: 82%
+[413530.000] watchdog_feed>>>
+
+[413538.100] thd_detect_write_handler last_sample_time = 413538
+[413538.203] temp_humid_sample: 2025-10-7 14:52:5, temp: 29.7, humid: 82%
+[413539.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413539.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413539.417] charger(4), level(98)
+[413540.001] watchdog_feed>>>
+
+[413548.100] thd_detect_write_handler last_sample_time = 413548
+[413548.203] temp_humid_sample: 2025-10-7 14:52:15, temp: 29.7, humid: 82%
+[413550.000] watchdog_feed>>>
+
+[413551.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413551.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413551.417] charger(4), level(98)
+[413558.100] thd_detect_write_handler last_sample_time = 413558
+[413558.203] temp_humid_sample: 2025-10-7 14:52:26, temp: 29.7, humid: 82%
+[413560.000] watchdog_feed>>>
+
+[413563.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413563.411] [ADC]: voltage(4153),ntc_temper(30),online(1)
+[413563.417] charger(4), level(98)
+[413568.100] thd_detect_write_handler last_sample_time = 413568
+[413568.203] temp_humid_sample: 2025-10-7 14:52:36, temp: 29.6, humid: 82%
+[413570.000] watchdog_feed>>>
+
+[413575.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413575.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413575.417] charger(4), level(98)
+[413578.100] thd_detect_write_handler last_sample_time = 413578
+[413578.203] temp_humid_sample: 2025-10-7 14:52:47, temp: 29.6, humid: 82%
+[413580.000] watchdog_feed>>>
+
+[413587.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413587.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413587.417] charger(4), level(98)
+[413588.100] thd_detect_write_handler last_sample_time = 413588
+[413588.203] temp_humid_sample: 2025-10-7 14:52:58, temp: 29.6, humid: 82%
+[413590.000] watchdog_feed>>>
+
+
+---------- 2026-02-02 11:20:57 +0100: Disconnected ----------
+
+
+---------- 2026-02-02 11:21:32 +0100: Connected ----------
+
+[413628.100] thd_detect_write_handler last_sample_time = 413628
+[413628.203] temp_humid_sample: 2025-10-7 14:53:40, temp: 29.5, humid: 82%
+[413630.001] watchdog_feed>>>
+
+[413635.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413635.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413635.417] charger(4), level(98)
+[413638.100] thd_detect_write_handler last_sample_time = 413638
+[413638.203] temp_humid_sample: 2025-10-7 14:53:51, temp: 29.5, humid: 82%
+[413640.000] watchdog_feed>>>
+
+[413647.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413647.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413647.417] charger(4), level(98)
+[413648.100] thd_detect_write_handler last_sample_time = 413648
+[413648.203] temp_humid_sample: 2025-10-7 14:54:1, temp: 29.4, humid: 82%
+[413650.000] watchdog_feed>>>
+
+[413658.100] thd_detect_write_handler last_sample_time = 413658
+[413658.203] temp_humid_sample: 2025-10-7 14:54:12, temp: 29.4, humid: 83%
+[413658.211] event EVT_HUMID_EXCEED notify failed
+[413659.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413659.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413659.417] charger(4), level(98)
+[413660.001] watchdog_feed>>>
+
+[413668.100] thd_detect_write_handler last_sample_time = 413668
+[413668.203] temp_humid_sample: 2025-10-7 14:54:22, temp: 29.4, humid: 83%
+[413670.000] watchdog_feed>>>
+
+[413671.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413671.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413671.417] charger(4), level(98)
+[413678.100] thd_detect_write_handler last_sample_time = 413678
+[413678.203] temp_humid_sample: 2025-10-7 14:54:33, temp: 29.4, humid: 83%
+[413678.211] event EVT_HUMID_EXCEED notify failed
+[413680.000] watchdog_feed>>>
+
+[413683.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413683.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413683.417] charger(4), level(98)
+[413688.100] thd_detect_write_handler last_sample_time = 413688
+[413688.203] temp_humid_sample: 2025-10-7 14:54:43, temp: 29.3, humid: 82%
+[413690.001] watchdog_feed>>>
+
+[413695.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413695.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413695.417] charger(4), level(98)
+[413698.100] thd_detect_write_handler last_sample_time = 413698
+[413698.203] temp_humid_sample: 2025-10-7 14:54:54, temp: 29.3, humid: 83%
+[413700.000] watchdog_feed>>>
+
+[413707.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413707.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413707.417] charger(4), level(98)
+[413708.100] thd_detect_write_handler last_sample_time = 413708
+[413708.203] temp_humid_sample: 2025-10-7 14:55:5, temp: 29.3, humid: 83%
+[413710.000] watchdog_feed>>>
+
+[413718.100] thd_detect_write_handler last_sample_time = 413718
+[413718.203] temp_humid_sample: 2025-10-7 14:55:15, temp: 29.3, humid: 83%
+[413719.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413719.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413719.417] charger(4), level(98)
+[413720.001] watchdog_feed>>>
+
+[413728.100] thd_detect_write_handler last_sample_time = 413728
+[413728.203] temp_humid_sample: 2025-10-7 14:55:26, temp: 29.2, humid: 83%
+[413730.000] watchdog_feed>>>
+
+[413731.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413731.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413731.417] charger(4), level(98)
+[413738.100] thd_detect_write_handler last_sample_time = 413738
+[413738.203] temp_humid_sample: 2025-10-7 14:55:36, temp: 29.2, humid: 83%
+[413740.000] watchdog_feed>>>
+
+[413743.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413743.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413743.417] charger(4), level(98)
+[413748.100] thd_detect_write_handler last_sample_time = 413748
+[413748.203] temp_humid_sample: 2025-10-7 14:55:47, temp: 29.2, humid: 83%
+[413750.001] watchdog_feed>>>
+
+[413755.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413755.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413755.417] charger(4), level(98)
+[413758.100] thd_detect_write_handler last_sample_time = 413758
+[413758.203] temp_humid_sample: 2025-10-7 14:55:58, temp: 29.1, humid: 83%
+[413760.000] watchdog_feed>>>
+
+[413767.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413767.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413767.417] charger(4), level(98)
+[413768.100] thd_detect_write_handler last_sample_time = 413768
+[413768.203] temp_humid_sample: 2025-10-7 14:56:8, temp: 29.1, humid: 83%
+[413770.000] watchdog_feed>>>
+
+[413778.100] thd_detect_write_handler last_sample_time = 413778
+[413778.203] temp_humid_sample: 2025-10-7 14:56:19, temp: 29.1, humid: 83%
+[413779.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413779.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413779.417] charger(4), level(98)
+[413780.001] watchdog_feed>>>
+
+[413788.100] thd_detect_write_handler last_sample_time = 413788
+[413788.203] temp_humid_sample: 2025-10-7 14:56:29, temp: 29.1, humid: 83%
+[413790.000] watchdog_feed>>>
+
+[413791.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413791.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413791.417] charger(4), level(98)
+[413798.100] thd_detect_write_handler last_sample_time = 413798
+[413798.203] temp_humid_sample: 2025-10-7 14:56:40, temp: 29.0, humid: 83%
+[413800.000] watchdog_feed>>>
+
+[413803.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413803.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413803.417] charger(4), level(98)
+[413808.100] thd_detect_write_handler last_sample_time = 413808
+[413808.203] temp_humid_sample: 2025-10-7 14:56:51, temp: 29.0, humid: 83%
+[413810.001] watchdog_feed>>>
+
+[413815.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413815.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413815.417] charger(4), level(98)
+[413818.100] thd_detect_write_handler last_sample_time = 413818
+[413818.203] temp_humid_sample: 2025-10-7 14:57:1, temp: 28.9, humid: 83%
+[413820.000] watchdog_feed>>>
+
+[413827.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413827.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413827.417] charger(4), level(98)
+[413828.100] thd_detect_write_handler last_sample_time = 413828
+[413828.203] temp_humid_sample: 2025-10-7 14:57:12, temp: 28.9, humid: 82%
+[413830.000] watchdog_feed>>>
+
+[413838.100] thd_detect_write_handler last_sample_time = 413838
+[413838.203] temp_humid_sample: 2025-10-7 14:57:22, temp: 28.9, humid: 83%
+[413839.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413839.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413839.417] charger(4), level(98)
+[413840.001] watchdog_feed>>>
+
+[413848.100] thd_detect_write_handler last_sample_time = 413848
+[413848.203] temp_humid_sample: 2025-10-7 14:57:33, temp: 28.9, humid: 84%
+[413848.211] event EVT_HUMID_EXCEED notify failed
+[413850.000] watchdog_feed>>>
+
+[413851.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413851.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413851.417] charger(4), level(98)
+[413858.100] thd_detect_write_handler last_sample_time = 413858
+[413858.203] temp_humid_sample: 2025-10-7 14:57:44, temp: 28.9, humid: 85%
+[413860.000] watchdog_feed>>>
+
+[413863.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413863.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413863.417] charger(4), level(98)
+[413868.100] thd_detect_write_handler last_sample_time = 413868
+[413868.203] temp_humid_sample: 2025-10-7 14:57:54, temp: 28.9, humid: 86%
+[413870.000] watchdog_feed>>>
+
+[413875.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413875.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413875.417] charger(4), level(98)
+[413878.100] thd_detect_write_handler last_sample_time = 413878
+[413878.203] temp_humid_sample: 2025-10-7 14:58:5, temp: 29.0, humid: 86%
+[413880.000] watchdog_feed>>>
+
+[413887.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413887.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413887.417] charger(4), level(98)
+[413888.100] thd_detect_write_handler last_sample_time = 413888
+[413888.203] temp_humid_sample: 2025-10-7 14:58:15, temp: 29.0, humid: 86%
+[413890.000] watchdog_feed>>>
+
+[413898.100] thd_detect_write_handler last_sample_time = 413898
+[413898.203] temp_humid_sample: 2025-10-7 14:58:26, temp: 29.0, humid: 87%
+[413899.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413899.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413899.417] charger(4), level(98)
+[413900.001] watchdog_feed>>>
+
+[413908.100] thd_detect_write_handler last_sample_time = 413908
+[413908.203] temp_humid_sample: 2025-10-7 14:58:37, temp: 29.0, humid: 87%
+[413910.000] watchdog_feed>>>
+
+[413911.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413911.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413911.417] charger(4), level(98)
+[413918.100] thd_detect_write_handler last_sample_time = 413918
+[413918.203] temp_humid_sample: 2025-10-7 14:58:47, temp: 29.0, humid: 87%
+[413920.000] watchdog_feed>>>
+
+[413923.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413923.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413923.417] charger(4), level(98)
+[413928.100] thd_detect_write_handler last_sample_time = 413928
+[413928.203] temp_humid_sample: 2025-10-7 14:58:58, temp: 29.0, humid: 87%
+[413930.001] watchdog_feed>>>
+
+[413935.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413935.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413935.417] charger(4), level(98)
+[413938.100] thd_detect_write_handler last_sample_time = 413938
+[413938.203] temp_humid_sample: 2025-10-7 14:59:8, temp: 29.0, humid: 87%
+[413940.000] watchdog_feed>>>
+
+[413947.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413947.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413947.417] charger(4), level(98)
+[413948.100] thd_detect_write_handler last_sample_time = 413948
+[413948.203] temp_humid_sample: 2025-10-7 14:59:19, temp: 29.0, humid: 87%
+[413950.000] watchdog_feed>>>
+
+[413958.100] thd_detect_write_handler last_sample_time = 413958
+[413958.203] temp_humid_sample: 2025-10-7 14:59:30, temp: 29.0, humid: 87%
+[413959.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413959.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413959.417] charger(4), level(98)
+[413960.001] watchdog_feed>>>
+
+[413968.100] thd_detect_write_handler last_sample_time = 413968
+[413968.203] temp_humid_sample: 2025-10-7 14:59:40, temp: 29.0, humid: 87%
+[413970.000] watchdog_feed>>>
+
+[413971.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413971.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413971.417] charger(4), level(98)
+[413978.100] thd_detect_write_handler last_sample_time = 413978
+[413978.203] temp_humid_sample: 2025-10-7 14:59:51, temp: 29.0, humid: 87%
+[413980.000] watchdog_feed>>>
+
+[413983.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413983.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413983.417] charger(4), level(98)
+[413988.100] thd_detect_write_handler last_sample_time = 413988
+[413988.203] temp_humid_sample: 2025-10-7 15:0:1, temp: 28.9, humid: 88%
+[413990.001] watchdog_feed>>>
+
+[413995.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[413995.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[413995.417] charger(4), level(98)
+[413998.100] thd_detect_write_handler last_sample_time = 413998
+[413998.203] temp_humid_sample: 2025-10-7 15:0:12, temp: 29.0, humid: 88%
+[414000.000] watchdog_feed>>>
+
+[414007.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414007.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[414007.417] charger(4), level(98)
+[414008.100] thd_detect_write_handler last_sample_time = 414008
+[414008.203] temp_humid_sample: 2025-10-7 15:0:23, temp: 28.9, humid: 88%
+[414010.000] watchdog_feed>>>
+
+[414018.100] thd_detect_write_handler last_sample_time = 414018
+[414018.203] temp_humid_sample: 2025-10-7 15:0:33, temp: 28.9, humid: 88%
+[414019.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414019.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[414019.417] charger(4), level(98)
+[414020.000] watchdog_feed>>>
+
+[414028.100] thd_detect_write_handler last_sample_time = 414028
+[414028.203] temp_humid_sample: 2025-10-7 15:0:44, temp: 28.9, humid: 88%
+[414030.000] watchdog_feed>>>
+
+[414031.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414031.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[414031.417] charger(4), level(98)
+[414038.100] thd_detect_write_handler last_sample_time = 414038
+[414038.203] temp_humid_sample: 2025-10-7 15:0:54, temp: 28.9, humid: 88%
+[414040.000] watchdog_feed>>>
+
+[414043.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414043.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[414043.417] charger(4), level(98)
+[414048.100] thd_detect_write_handler last_sample_time = 414048
+[414048.204] temp_humid_sample: 2025-10-7 15:1:5, temp: 28.9, humid: 88%
+[414050.001] watchdog_feed>>>
+
+[414055.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414055.411] [ADC]: voltage(4153),ntc_temper(29),online(1)
+[414055.417] charger(4), level(98)
+[414058.100] thd_detect_write_handler last_sample_time = 414058
+[414058.203] temp_humid_sample: 2025-10-7 15:1:16, temp: 28.9, humid: 88%
+[414058.211] event EVT_HUMID_EXCEED notify failed
+[414060.000] watchdog_feed>>>
+
+[414067.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414067.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414067.417] charger(4), level(98)
+[414068.100] thd_detect_write_handler last_sample_time = 414068
+[414068.203] temp_humid_sample: 2025-10-7 15:1:26, temp: 28.9, humid: 88%
+[414070.000] watchdog_feed>>>
+
+[414078.100] thd_detect_write_handler last_sample_time = 414078
+[414078.203] temp_humid_sample: 2025-10-7 15:1:37, temp: 28.9, humid: 88%
+[414079.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414079.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414079.417] charger(4), level(98)
+[414080.001] watchdog_feed>>>
+
+[414088.100] thd_detect_write_handler last_sample_time = 414088
+[414088.203] temp_humid_sample: 2025-10-7 15:1:47, temp: 28.9, humid: 88%
+[414088.211] event EVT_HUMID_EXCEED notify failed
+[414090.000] watchdog_feed>>>
+
+[414091.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414091.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414091.417] charger(4), level(98)
+[414098.100] thd_detect_write_handler last_sample_time = 414098
+[414098.203] temp_humid_sample: 2025-10-7 15:1:58, temp: 28.9, humid: 88%
+[414100.000] watchdog_feed>>>
+
+[414103.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414103.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414103.417] charger(4), level(98)
+[414108.100] thd_detect_write_handler last_sample_time = 414108
+[414108.203] temp_humid_sample: 2025-10-7 15:2:9, temp: 28.8, humid: 88%
+[414110.001] watchdog_feed>>>
+
+[414115.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414115.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414115.417] charger(4), level(98)
+[414118.100] thd_detect_write_handler last_sample_time = 414118
+[414118.203] temp_humid_sample: 2025-10-7 15:2:19, temp: 28.8, humid: 88%
+[414120.000] watchdog_feed>>>
+
+[414127.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414127.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414127.417] charger(4), level(98)
+[414128.100] thd_detect_write_handler last_sample_time = 414128
+[414128.203] temp_humid_sample: 2025-10-7 15:2:30, temp: 28.8, humid: 88%
+[414130.000] watchdog_feed>>>
+
+[414138.100] thd_detect_write_handler last_sample_time = 414138
+[414138.203] temp_humid_sample: 2025-10-7 15:2:40, temp: 28.8, humid: 88%
+[414139.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414139.411] [ADC]: voltage(4153),ntc_temper(28),online(1)
+[414139.417] charger(4), level(98)
+[414140.001] watchdog_feed>>>
+
+[414148.100] thd_detect_write_handler last_sample_time = 414148
+[414148.203] temp_humid_sample: 2025-10-7 15:2:51, temp: 28.8, humid: 88%
+[414150.000] watchdog_feed>>>
+
+[414151.401] [PMIC]: charge_state(0),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](12)
+[414151.411] [ADC]: voltage(4156),ntc_temper(28),online(1)
+[414151.417] charger(4), level(98)
+[414154.060] key irq (64)
+[414154.063] key irq (65)
+[414157.401] [led_mask_set] mask(0010)
+[414157.405] >> Wakeon Led (3)
+[414158.100] thd_detect_write_handler last_sample_time = 414158
+[414158.203] temp_humid_sample: 2025-10-7 15:3:1, temp: 28.8, humid: 88%
+[414159.000] Mask changed:(0000)-> (0010)
+[414160.000] watchdog_feed>>>
+
+[414163.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414163.411] [ADC]: voltage(4149),ntc_temper(28),online(1)
+[414163.417] charger(2), level(97)
+[414168.100] thd_detect_write_handler last_sample_time = 414168
+[414168.203] temp_humid_sample: 2025-10-7 15:3:12, temp: 28.8, humid: 88%
+[414170.001] watchdog_feed>>>
+
+[414175.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414175.411] [ADC]: voltage(4149),ntc_temper(28),online(1)
+[414175.417] charger(2), level(97)
+[414178.100] thd_detect_write_handler last_sample_time = 414178
+[414178.203] temp_humid_sample: 2025-10-7 15:3:23, temp: 28.8, humid: 88%
+[414178.211] event EVT_HUMID_EXCEED notify failed
+[414180.000] watchdog_feed>>>
+
+[414187.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414187.411] [ADC]: voltage(4149),ntc_temper(28),online(1)
+[414187.417] charger(2), level(97)
+[414188.100] thd_detect_write_handler last_sample_time = 414188
+[414188.203] temp_humid_sample: 2025-10-7 15:3:33, temp: 28.8, humid: 88%
+[414190.000] watchdog_feed>>>
+
+[414198.100] thd_detect_write_handler last_sample_time = 414198
+[414198.204] temp_humid_sample: 2025-10-7 15:3:44, temp: 28.7, humid: 88%
+[414199.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414199.411] [ADC]: voltage(4149),ntc_temper(28),online(1)
+[414199.417] charger(2), level(97)
+[414200.001] watchdog_feed>>>
+
+[414208.100] thd_detect_write_handler last_sample_time = 414208
+[414208.203] temp_humid_sample: 2025-10-7 15:3:54, temp: 28.7, humid: 88%
+[414210.000] watchdog_feed>>>
+
+[414211.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414211.411] [ADC]: voltage(4149),ntc_temper(28),online(1)
+[414211.417] charger(2), level(97)
+[414218.100] thd_detect_write_handler last_sample_time = 414218
+[414218.203] temp_humid_sample: 2025-10-7 15:4:5, temp: 28.7, humid: 88%
+[414220.000] watchdog_feed>>>
+
+[414223.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414223.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414223.417] charger(2), level(97)
+[414228.100] thd_detect_write_handler last_sample_time = 414228
+[414228.204] temp_humid_sample: 2025-10-7 15:4:16, temp: 28.7, humid: 88%
+[414230.001] watchdog_feed>>>
+
+[414235.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414235.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414235.417] charger(2), level(97)
+[414238.100] thd_detect_write_handler last_sample_time = 414238
+[414238.203] temp_humid_sample: 2025-10-7 15:4:26, temp: 28.7, humid: 88%
+[414240.000] watchdog_feed>>>
+
+[414247.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414247.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414247.417] charger(2), level(97)
+[414248.100] thd_detect_write_handler last_sample_time = 414248
+[414248.203] temp_humid_sample: 2025-10-7 15:4:37, temp: 28.7, humid: 88%
+[414250.000] watchdog_feed>>>
+
+[414258.100] thd_detect_write_handler last_sample_time = 414258
+[414258.203] temp_humid_sample: 2025-10-7 15:4:47, temp: 28.6, humid: 88%
+[414259.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414259.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414259.417] charger(2), level(97)
+[414260.001] watchdog_feed>>>
+
+[414268.100] thd_detect_write_handler last_sample_time = 414268
+[414268.203] temp_humid_sample: 2025-10-7 15:4:58, temp: 28.6, humid: 88%
+[414270.000] watchdog_feed>>>
+
+[414271.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414271.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414271.417] charger(2), level(97)
+[414278.100] thd_detect_write_handler last_sample_time = 414278
+[414278.203] temp_humid_sample: 2025-10-7 15:5:9, temp: 28.6, humid: 88%
+[414280.000] watchdog_feed>>>
+
+[414283.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414283.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414283.417] charger(2), level(97)
+[414288.100] thd_detect_write_handler last_sample_time = 414288
+[414288.203] temp_humid_sample: 2025-10-7 15:5:19, temp: 28.6, humid: 88%
+[414290.000] watchdog_feed>>>
+
+[414295.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414295.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414295.417] charger(2), level(97)
+[414298.100] thd_detect_write_handler last_sample_time = 414298
+[414298.203] temp_humid_sample: 2025-10-7 15:5:30, temp: 28.6, humid: 88%
+[414300.000] watchdog_feed>>>
+
+[414307.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414307.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414307.417] charger(2), level(97)
+[414308.100] thd_detect_write_handler last_sample_time = 414308
+[414308.203] temp_humid_sample: 2025-10-7 15:5:40, temp: 28.6, humid: 88%
+[414310.000] watchdog_feed>>>
+
+[414318.100] thd_detect_write_handler last_sample_time = 414318
+[414318.203] temp_humid_sample: 2025-10-7 15:5:51, temp: 28.6, humid: 88%
+[414319.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414319.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414319.417] charger(2), level(97)
+[414320.001] watchdog_feed>>>
+
+[414328.100] thd_detect_write_handler last_sample_time = 414328
+[414328.203] temp_humid_sample: 2025-10-7 15:6:2, temp: 28.5, humid: 88%
+[414330.000] watchdog_feed>>>
+
+[414331.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414331.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414331.417] charger(2), level(97)
+[414338.100] thd_detect_write_handler last_sample_time = 414338
+[414338.203] temp_humid_sample: 2025-10-7 15:6:12, temp: 28.5, humid: 88%
+[414340.000] watchdog_feed>>>
+
+[414343.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414343.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414343.417] charger(2), level(97)
+[414348.100] thd_detect_write_handler last_sample_time = 414348
+[414348.203] temp_humid_sample: 2025-10-7 15:6:23, temp: 28.5, humid: 88%
+[414350.001] watchdog_feed>>>
+
+[414355.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414355.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414355.417] charger(2), level(97)
+[414358.100] thd_detect_write_handler last_sample_time = 414358
+[414358.203] temp_humid_sample: 2025-10-7 15:6:33, temp: 28.5, humid: 88%
+[414360.000] watchdog_feed>>>
+
+[414367.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414367.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414367.417] charger(2), level(97)
+[414368.100] thd_detect_write_handler last_sample_time = 414368
+[414368.203] temp_humid_sample: 2025-10-7 15:6:44, temp: 28.5, humid: 88%
+[414370.000] watchdog_feed>>>
+
+[414378.100] thd_detect_write_handler last_sample_time = 414378
+[414378.203] temp_humid_sample: 2025-10-7 15:6:55, temp: 28.5, humid: 88%
+[414379.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414379.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414379.417] charger(2), level(97)
+[414380.000] watchdog_feed>>>
+
+[414388.100] thd_detect_write_handler last_sample_time = 414388
+[414388.203] temp_humid_sample: 2025-10-7 15:7:5, temp: 28.4, humid: 88%
+[414390.000] watchdog_feed>>>
+
+[414391.401] [PMIC]: charge_state(2),usb_plugged(0),charge_terminated(0),fault_present(1),[REG08H](1A)
+[414391.411] [ADC]: voltage(4147),ntc_temper(28),online(1)
+[414391.417] charger(2), level(97)
+
+
+---------- 2026-02-02 11:34:24 +0100: Logging Stopped ----------
+

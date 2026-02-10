@@ -1,0 +1,3 @@
+runID,test status,timestamp,test device,sensor cap,diaper type,findings / comments,test protocol,test result,log file
+T20001,Done,2026-02-03 13:37,LD002, SC003,DT-TODI-001,repeat run,d=0cm 20ml x3,plot.png,2026-02-03 13-37-48.log
+T20002,Backlog,,LD003,SC004,DT-TODI-001,pending,d=0cm 50ml x3,,

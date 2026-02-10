@@ -33,8 +33,23 @@ Build a program that:
 - **AH (absolute humidity):** Water vapor mass per volume (g/m³)  
 - **Load:** Baseline-corrected moisture proxy (e.g., AH − baseline_AH)  
 - **Run:** One continuous test recording session (a time series).  
-- **Label/Event:** Ground-truth timestamp(s) for known wetting actions (e.g., lab additions).  
+- **Label/Event:** Ground-truth timestamp(s) for known wetting actions (e.g., lab additions) with context such as volume, location, distance to sensor, and water temperature.  
 - **Algorithm:** A detection method producing event timestamps + continuous estimates (e.g., load/headroom).
+
+---
+
+## 2.1 Event taxonomy
+
+The event types distinguish controlled lab inputs from real-world outcomes.
+
+- **ADDITION:** A controlled lab water addition with known metadata (volume, location, distance to sensor, water temperature). High-confidence ground truth for calibration and algorithm verification.
+- **WETTING:** A real-world wetting/voiding episode, typically patient-reported or observed, with lower certainty and often limited metadata.
+- **LEAK_OBSERVED:** A visually observed leakage event, independent of whether the algorithm detected a wetting event.
+
+Event metadata expectations:
+- `ADDITION`: requires `volume_ml`, `location_label`, `distance_cm`, `water_temp_c`.
+- `WETTING`: optional metadata (notes, confidence, source).
+- `LEAK_OBSERVED`: optional metadata (notes, confidence, source).
 
 ---
 
@@ -49,12 +64,13 @@ Build a program that:
 ## 4. System overview
 
 ### 4.1 High-level workflow
-1. **Ingest** raw LUNA log files into a canonical dataset (SQLite/DuckDB).
-2. **Derive** physical features (VP, AH, Load, etc.).
-3. **Label** events (protocol markers or manual annotation).
-4. **Simulate** variants (noise/drift/delay/saturation/missing data; multi-sensor scenarios).
-5. **Run** algorithms across the dataset grid (algorithm params × simulation params).
-6. **Evaluate** and generate reports (metrics + plots + artifacts).
+1. **Import run registry** from lab tracking sheet (Excel/CSV export) into canonical metadata tables.
+2. **Ingest** raw LUNA log files into a canonical dataset (SQLite/DuckDB).
+3. **Derive** physical features (VP, AH, Load, etc.).
+4. **Label** events (protocol markers or manual annotation).
+5. **Simulate** variants (noise/drift/delay/saturation/missing data; multi-sensor scenarios).
+6. **Run** algorithms across the dataset grid (algorithm params × simulation params).
+7. **Evaluate** and generate reports (metrics + plots + artifacts).
 
 ### 4.2 Key outputs
 - Ranked algorithm comparison summary.
@@ -71,9 +87,30 @@ Build a program that:
   - temperature, RH
 - Support datasets with 1–4 sensors (future-proof).
 - Store raw and cleaned readings.
+- Capture run metadata: device id, diaper type, sensor layout.
 
 **Acceptance criteria:**
 - Given a set of log files, the tool builds a canonical DB with ≥ 99% correct sample parsing (excluding corrupted lines).
+
+### FR1b — Test run registry import (lab sheet)
+- Import lab run metadata from spreadsheet export (`.xlsx` and/or `.csv`) from the `test runs` tab.
+- Parse and persist at minimum:
+  - `runID` (external run identifier, e.g. `T00007`)
+  - `test status` (e.g. Backlog, Done)
+  - `timestamp`
+  - `test device`
+  - `sensor cap`
+  - `diaper type`
+  - `findings / comments`
+  - `test protocol`
+  - `test result` (image file reference)
+  - `log file`
+- Support rows with missing log file (planned/backlog runs) without failing import.
+- Support linkage between spreadsheet row and canonical run when a matching log file is ingested.
+
+**Acceptance criteria:**
+- Import is idempotent: re-importing the same sheet updates existing rows by `runID` instead of duplicating.
+- Imported registry rows are queryable independently of whether sensor data has been ingested.
 
 ### FR2 — Derived measurements
 Compute and store derived signals for each sample:
@@ -89,6 +126,7 @@ Compute and store derived signals for each sample:
 - Import labels from:
   - protocol definitions (e.g., Add1/Add2/Add3)
   - manual edits (timestamp + metadata)
+- For lab additions, store volume, location, distance to sensor, and water temperature.
 - Permit label corrections and versioning.
 
 **Acceptance criteria:**
@@ -177,12 +215,33 @@ Outputs:
 
 ### 7.1 Tables
 **runs**
+Represents a single raw data capture session and its baseline calibration context.
 - `run_id` (PK)
 - metadata: file name, start/end timestamps, sampling interval
 - baseline fields: `baseline_temp_c`, `baseline_rh_pct`, `baseline_vp_hpa`, `baseline_ah_g_m3`, `baseline_n`
-- optional: diaper_type, sensor_layout, notes
+- required: `device_id`, `diaper_type`, `sensor_layout`
+- optional: notes
+- optional linkage: `external_run_id` (from lab registry)
+
+**run_registry**
+Represents imported rows from lab run tracking sheets (planning + execution metadata).
+- `registry_id` (PK)
+- `external_run_id` (unique, e.g. `T00007`)
+- `status`
+- `planned_or_recorded_ts`
+- `test_device`
+- `sensor_cap`
+- `diaper_type`
+- `test_protocol`
+- `findings_comments`
+- `test_result_ref` (image filename/path)
+- `log_file_ref` (log filename/path)
+- `source_file` (imported workbook/csv filename)
+- `source_row_number`
+- optional link: `run_id` (FK to `runs`, nullable until log is ingested)
 
 **readings**
+Represents time-series sensor samples and their derived quantities for a run.
 - `run_id` (FK)
 - `timestamp`, `t_elapsed_s`, `sensor_id` (nullable)
 - `temp_c`, `rh_pct`
@@ -190,22 +249,27 @@ Outputs:
 - markers: `is_addition`, `addition_index`
 
 **labels**
+Represents human or synthetic annotations of events within a run.
 - `label_id` (PK)
 - `run_id` (FK)
 - `event_type` (e.g., WETTING, ADDITION, LEAK_OBSERVED)
 - `event_time_s` (elapsed) + optional absolute timestamp
+- lab additions: `volume_ml`, `location_label`, `distance_cm`, `water_temp_c`
 - `confidence`, `source`, `notes`
 
 **simulations**
+Represents a parametrized simulation definition used to synthesize or augment data.
 - `sim_id` (PK)
 - `name`, `seed`, `params_json`
 
 **experiments**
+Represents an execution of an algorithm over runs and/or simulations with full provenance.
 - `exp_id` (PK)
 - `created_at`, `description`, `git_commit`, `runner_version`, `seed`
 - links: `algorithm_id`, `sim_id`
 
 **results**
+Represents per-run outputs and metrics produced by a specific experiment.
 - `exp_id` (FK), `run_id` (FK)
 - `metrics_json`, `events_json`, `artifacts_path`
 
@@ -238,6 +302,7 @@ Outputs:
 Provide a single entrypoint, e.g. `luna-testbench`:
 
 - `ingest <logs...> --out dataset.sqlite`
+- `registry import --db dataset.sqlite --file test_runs.xlsx --sheet "test runs"`
 - `derive --db dataset.sqlite`
 - `label import --db dataset.sqlite --file labels.csv`
 - `simulate --db dataset.sqlite --sim-config sim.yaml`
@@ -290,3 +355,4 @@ luna-algo-testbench/
 - Define leakage “ground truth” for calibration (visual leak, weight, cuff leak, etc.).
 - Standardize sensor placement taxonomy (front/back/cuff) for multi-sensor experiments.
 - Decide whether to store artifacts in DB (BLOB) or filesystem (paths in DB).
+- Keep lab spreadsheet workflow as source-of-truth vs move to direct application UI entry in a later hosted version.

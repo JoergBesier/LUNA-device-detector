@@ -1,0 +1,3 @@
+event_type,event_time_s,volume_ml,location_label,distance_cm,water_temp_c,confidence,source,notes
+ADDITION,1.0,10.0,front,3.5,25.0,0.95,lab,first addition
+WETTING,2.0,,,,,0.6,manual,
